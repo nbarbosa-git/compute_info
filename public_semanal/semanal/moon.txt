@@ -1,0 +1,87 @@
+
+
+Conta: Moon
+
+round 265 (late):
+
+01. titan: w27, 
+2. rhea: i8
+3. iapetus: pair -dex7 -w27
+4. dione: medellin vanilla
+5. tethys: linear_tree
+6. enceladus: OMP
+7. mimas: ridge
+8. phoebe: sydney linear
+9. hyperion: sydney vanilla
+10. janus: sydney FN after
+11. epimetheus: charisma + dex (uki)
+12. prometheus: xgbranker(banga)
+13. pandora: short bb7
+14. siarnaq: xgbranker +100FN (alavancagem)
+15. helene: xgbranker +200FN (alavancagem)
+
+
+Data: 28/05/2021
+
+================================================================================================
+================================================================================================
+================================================================================================
+
+
+
+
+round 267 :
+
+01. titan: w27, 
+2. rhea: anti vegas
+3. iapetus: pair -dex7 -w27
+4. dione: medellin vanilla
+5. tethys: linear_tree
+6. enceladus: OMP
+7. mimas: ridge
+8. phoebe: LGBM SFI selected pipe
+9. hyperion: shap/ebm_reg feature selection
+10. janus: sydney FN after
+11. epimetheus: Ols test 12 sem dex7 
+12. prometheus: xgbranker(bb7)
+13. pandora: short bb7
+14. siarnaq: xgbranker +100FN (alavancagem)
+15. helene: xgbranker +200FN (alavancagem)
+
+
+Data: 06/06/2021
+
+================================================================================================
+================================================================================================
+================================================================================================
+
+
+
+
+round 268:
+
+1.  titan: w27,                                                || vs. iapetus
+2.  rhea: ols antivegas                                        || vs. pandora & nr_vegas
+3.  iapetus: -dex7 -w27                                        || vs. uki_monitor1
+4.  dione: lgbm slider20 vanilla                               || vs. nr_home & vanilla GBM
+5.  tethys: linear_tree                                        || vs. tolsnr_15 & vanilla GBM
+6.  enceladus: lgbm +  short FN shap/ebm_reg 				   || vs. banga & hyperion
+7.  mimas: ridge                                               || vs. tolsnr_15
+8.  phoebe: LGBM SFI feature remove                            || vs. johann
+9.  hyperion: lgbm + FN shap/ebm_reg                           || vs. banga & enceladus
+10. janus: Fn pré treino + bb7                                 || vs. sydney & bb_test15/ bb7 orig
+11. epimetheus: Ols em dex sem dex7                            || vs. nr_test12
+12. prometheus: xgbranker(FN bb7) (272 FN SP)                  || vs. nr_sao_paulo, nr_rio_de_janeiro
+13. pandora: ols vegas                                         || vs. rhea & nr_vegas
+14. siarnaq: xgbranker -100FN (alavancagem)                    || vs. nr_home & nr_medellin
+15. helene: xgbranker -200FN (alavancagem)                     || vs. nr_home
+
+
+
+Data: 11/06/2021
+
+
+
+
+
+

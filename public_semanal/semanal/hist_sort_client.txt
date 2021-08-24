@@ -1,0 +1,234 @@
+sort 267
+nick_richers
+nrichers
+nr__san_francisco
+nr__sydney
+nr_rio
+nr__guadalajara
+nr__hanoi
+nr__rio
+nr__sao_paulo
+nr__medellin
+nr__bangalore
+nr__shanghai
+nr_johannesburg
+
+=========================
+
+sort 268
+nr__sydney
+nick_richers
+nrichers
+nr__bangalore
+nr_rio
+nr__guadalajara
+nr__san_francisco
+nr__hanoi
+nr__rio
+nr__sao_paulo
+nr__medellin
+nr__shanghai
+nr_johannesburg
+
+
+=========================
+
+sort 269
+nr__sydney
+nick_richers
+nrichers
+nr__bangalore
+nr__guadalajara
+nr__sao_paulo
+nr_rio
+nr__san_francisco
+nr__hanoi
+nr__rio
+nr__medellin
+nr__shanghai
+nr_johannesburg
+
+
+=========================
+
+sort 270
+nr_sydney
+nr_home
+nr_vegas
+nr_bangalore
+nr_guadalajara
+nr_sao_paulo
+nr_rio_de_janeiro
+nr_san_francisco
+nr_hanoi
+nr_buenos_aires
+nr_medellin
+nr_shanghai
+nr_johannesburg
+
+
+
+=========================
+
+sort 271
+01. nr_home (12)
+02. nr_vegas (6)
+03. nr_johannesburg (8)
+04. nr_sao_paulo (3)
+05. nr_bangalore (7)
+06. nr_guadalajara (5)
+07. nr_rio_de_janeiro (13)
+08. nr_san_francisco (2)
+09. nr_hanoi (10)
+10. nr_buenos_aires (9)
+11. nr_medellin (4)
+12. nr_shanghai (1)
+13. nr_sydney (11)
+
+
+=========================
+
+sort 272
+nr_sao_paulo (4)
+nr_shanghai (1)
+nr_vegas (2)
+nr_rio_de_janeiro (3)
+nr_guadalajara (7)
+nr_johannesburg (6)
+nr_bangalore (8)
+nr_san_francisco (5)
+nr_hanoi (9)
+nr_buenos_aires (10)
+nr_medellin (13)
+nr_sydney (12)
+nr_home (11)
+
+
+=========================
+
+sort 273
+nr_sao_paulo (8)
+nr_buenos_aires (10)
+nr_shanghai (2)
+nr_rio_de_janeiro (6)
+nr_johannesburg (9)
+nr_guadalajara (3)
+nr_vegas (5)
+nr_bangalore (4)
+nr_san_francisco (1)
+nr_hanoi (12)
+nr_medellin (14)
+nr_sydney (13)
+nr_home (11)
+nr_lagos (7)
+
+=========================
+
+sort 274
+nr_sydney
+nr_home
+nr_vegas
+nr_medellin
+nr_lagos
+nr_bangalore
+nr_san_francisco
+nr_johannesburg
+nr_guadalajara
+nr_buenos_aires
+nr_shanghai
+nr_sao_paulo
+nr_rio_de_janeiro
+nr_hanoi
+
+
+=========================
+
+sort 275
+nr_sydney
+nr_guadalajara
+nr_vegas
+nr_lagos
+nr_san_francisco
+nr_home
+nr_bangalore
+nr_johannesburg
+nr_medellin
+nr_buenos_aires
+nr_shanghai
+nr_sao_paulo
+nr_rio_de_janeiro
+nr_hanoi
+
+
+
+=========================
+
+sort 276
+nr_bangalore
+nr_johannesburg
+nr_lagos
+nr_buenos_aires
+nr_guadalajara
+nr_sao_paulo
+nr_vegas
+nr_home
+nr_shanghai
+nr_san_francisco
+nr_sydney
+nr_medellin
+nr_rio_de_janeiro
+nr_hanoi
+
+
+=========================
+
+sort 277 (1-4 MMC)
+nr_bangalore
+nr_johannesburg
+nr_lagos
+nr_home
+nr_shanghai
+nr_buenos_aires
+nr_sao_paulo
+nr_vegas
+nr_guadalajara
+nr_san_francisco
+nr_rio_de_janeiro
+nr_sydney
+nr_medellin
+nr_hanoi
+
+
+
+
+=========================
+
+sort 278 (1-4 MMC)
+nr_bangalore
+nr_johannesburg
+nr_shanghai
+nr_hanoi
+nr_vegas
+nr_rio_de_janeiro
+nr_guadalajara
+nr_buenos_aires
+nr_sydney
+nr_san_francisco
+nr_sao_paulo
+nr_medellin
+nr_lagos
+nr_home
+
+
+
+
+
+
+
+
+
+
+
+
+
+
