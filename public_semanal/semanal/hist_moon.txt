@@ -1,0 +1,157 @@
+
+
+Conta: Moon
+
+round 265 (late):
+
+01. titan: w27, 
+2. rhea: i8
+3. iapetus: pair -dex7 -w27
+4. dione: medellin vanilla
+5. tethys: linear_tree
+6. enceladus: OMP
+7. mimas: ridge
+8. phoebe: sydney linear
+9. hyperion: sydney vanilla
+10. janus: sydney FN after
+11. epimetheus: charisma + dex (uki)
+12. prometheus: xgbranker(banga)
+13. pandora: short bb7
+14. siarnaq: xgbranker +100FN (alavancagem)
+15. helene: xgbranker +200FN (alavancagem)
+
+
+Data: 28/05/2021
+
+================================================================================================
+================================================================================================
+================================================================================================
+
+
+
+
+round 267 :
+
+01. titan: w27, 
+2. rhea: anti vegas
+3. iapetus: pair -dex7 -w27
+4. dione: medellin vanilla
+5. tethys: linear_tree
+6. enceladus: OMP
+7. mimas: ridge
+8. phoebe: LGBM SFI selected pipe
+9. hyperion: shap/ebm_reg feature selection
+10. janus: sydney FN after
+11. epimetheus: Ols test 12 sem dex7 
+12. prometheus: xgbranker(bb7)
+13. pandora: short bb7
+14. siarnaq: xgbranker +100FN (alavancagem)
+15. helene: xgbranker +200FN (alavancagem)
+
+
+Data: 06/06/2021
+
+================================================================================================
+================================================================================================
+================================================================================================
+
+
+Smoon
+
+round 268:
+
+1.  titan: w27,                                                || vs. iapetus
+2.  rhea: ols antivegas                                        || vs. pandora & nr_vegas
+3.  iapetus: -dex7 -w27                                        || vs. uki_monitor1
+4.  dione: lgbm slider20 vanilla                               || vs. nr_home & vanilla GBM
+5.  tethys: linear_tree                                        || vs. tolsnr_15 & vanilla GBM
+6.  enceladus: lgbm +  short FN shap/ebm_reg 				   || vs. banga & hyperion
+7.  mimas: ridge                                               || vs. tolsnr_15
+8.  phoebe: LGBM SFI feature remove                            || vs. johann
+9.  hyperion: lgbm + FN shap/ebm_reg                           || vs. banga & enceladus
+10. janus: Fn pré treino + bb7                                 || vs. sydney & bb_test15/ bb7 orig
+11. epimetheus: Ols em dex sem dex7                            || vs. nr_test12
+12. prometheus: xgbranker(FN bb7) (272 FN SP)                  || vs. nr_sao_paulo, nr_rio_de_janeiro
+13. pandora: ols vegas                                         || vs. rhea & nr_vegas
+14. siarnaq: xgbranker -100FN (alavancagem)                    || vs. nr_home & nr_medellin
+15. helene: xgbranker -200FN (alavancagem)                     || vs. nr_home
+
+
+
+Data: 11/06/2021
+
+
+Jmoon
+round 273 (late):
+
+1.  ganymede: MDA Denoised ward             || vs. lagos & callisto
+2.  callisto: MDI IV  Single                || vs. lagos & ganymede
+3.  europa: São Paulo swap 3 forest         || vs. sao paulo
+4.  io: Fn metric model                     || vs. sao paulo e rio
+5.  himalia: Ols hard eras 30-50            || vs. tolsnr 2 e 3
+6.  amalthea: ridge_dex                     || vs. tolsn12
+7.  elara: xgb Lack of intelligence         || vs. gbmsnr15
+8.  thebe: xgb Classif                      || vs. gbmsnr15
+9.  pasiphae: Xgb & Dex+Ch                  || vs. gbmsnr15
+10. carme:                                  || vs. 
+11. sinope:                                 || vs. 
+12. lysithea:                               || vs. 
+13. metis:                                  || vs. 
+14. ananke:                                 || vs. 
+15. leda:                                   || vs. 
+
+
+
+
+Data: 20/07/2021
+
+
+================================================================================================
+================================================================================================
+================================================================================================
+
+round 280:
+Data: 31/08/2021
+
+SMoon
+1.  titan: w27,                                           (xxx) (xx) || vs. iapetus
+2.  rhea: ols antivegas                                   (268) (ok) || vs. pandora & nr_vegas
+3.  iapetus: -w27                                         (280) (ok) || vs. nr_dubai
+4.  dione: lgbm slider20 vanilla                          (265) (ok) || vs. gbmsnr_15
+5.  tethys: linear_tree                                   (265) (ok) || vs. tolsnr_15 & gbmsnr_15
+6.  enceladus: lgbm +  short FN shap/ebm_reg 		      (267) (ok) || vs. banga & hyperion
+7.  mimas: ridge                                          (265) (ok) || vs. tolsnr_15 & epimetheus
+8.  phoebe: LGBM SFI feature remove                       (xxx) (xx) || vs. johann
+9.  hyperion: lgbm + FN shap/ebm_reg                      (xxx) (xx) || vs. banga & enceladus
+10. janus: Fn pré treino + bb7                            (xxx) (xx) || vs. sydney & bb_test15/ bb7 orig
+11. epimetheus: Ols em dex sem dex7                       (xxx) (xx) || vs. nr_test12
+12. prometheus: xgbr_inf + FN_90SGD                       (280) (ok) || vs. nr_sao_paulo, nr_rio_de_janeiro
+13. pandora: ols vegas                                    (268) (ok) || vs. rhea & nr_vegas
+14. siarnaq: xgbr_inf  Swap FN (Rd)                       (280) (ok) || vs. nr_home & 
+15. helene:  xgbr_inf  Swap FN (SGD)                      (280) (ok) || vs. nr_home & 
+
+
+
+Jmoon
+1.  ganymede: MDA Denoised ward                           (273) (ok) || vs. lagos & callisto
+2.  callisto: MDI IV  Single                              (280) (ok) || vs. lagos & ganymede
+3.  europa: São Paulo swap 3 forest vanilla               (280) (ok) || vs. sao paulo
+4.  io: Fn metric model + FN_90SGD                        (280) (ok) || vs. sao paulo e rio
+5.  himalia: Ols hard eras 30-50                          (273) (ok) || vs. tolsnr 2 e 3
+6.  amalthea: xgb Lack of dex                             (280) (ok) || vs. tolsn12
+7.  elara: xgb Lack of const/wis                          (280) (ok) || vs. gbmsnr15
+8.  thebe: xgb Classif + FN_90SGD                         (280) (ok) || vs. gbmsnr15
+9.  pasiphae: Xgb & Dex+Ch+int                            (280) (ok) || vs. gbmsnr15
+10. carme:                                                (xxx) (xx) || vs. 
+11. sinope:                                               (xxx) (xx) || vs. 
+12. lysithea:                                             (xxx) (xx) || vs. 
+13. metis:                                                (xxx) (xx) || vs. 
+14. ananke:                                               (xxx) (xx) || vs. 
+15. leda:                                                 (xxx) (xx) || vs. 
+
+
+
+
+
+
+
