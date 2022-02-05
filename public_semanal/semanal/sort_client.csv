@@ -1,4 +1,5 @@
 sort
+nr_medellin
 nr_lagos
 nr_stockholm
 nr_havana
@@ -23,7 +24,6 @@ nr_zurich
 nr_tallinn
 nr_bombay
 nr_buenos_aires
-nr_medellin
 nr_johannesburg
 nr_barcelona
 nr_sao_paulo
