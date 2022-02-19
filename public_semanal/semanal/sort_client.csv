@@ -1,10 +1,10 @@
 sort
 nr_singapore
-nr_lagos
+nr_medellin
 nr_stockholm
 nr_havana
 nr_vegas
-nr_rio_de_janeiro
+nr_saigon
 nr_sydney
 nr_dubai
 nr_istanbul
@@ -13,10 +13,10 @@ nr_bangalore
 nr_hanoi
 nr_hong_kong
 nr_kigali
-nr_medellin
+nr_lagos
 nr_san_salvador
 nr_home
-nr_saigon
+nr_rio_de_janeiro
 nr_moscow
 nr_san_francisco
 nr_hamburg
