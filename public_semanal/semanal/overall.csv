@@ -1,3 +1,4 @@
 xgb_ranker_dom_fn
 factor,1.0
-dominance,-1
+dominance,1
+dom_era,-1
