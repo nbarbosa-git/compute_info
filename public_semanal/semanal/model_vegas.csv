@@ -2,3 +2,6 @@ models
 bb__test6/xgb_120,1
 bb__test1/xgb_20,1
 bb__test2/xgb_40,1
+bb__test3/xgb_60,-1
+bb__test4/xgb_80,-1
+bb__test5/xgb_100,-1
