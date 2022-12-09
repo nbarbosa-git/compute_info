@@ -1,12 +1,12 @@
 sort
 nr_copenhagen
+nr_sydney
+nr_havana
 nr_vegas
-nr_barcelona
-nr_lisbon
-nr_san_francisco
-nr_stockholm
-taa_genoa
-taa_rb_leipzig
+taa_basel
+taa_atalanta
+nr_monaco
+nr_guadalajara
 nr_san_salvador
 nr_buenos_aires
 nr_saigon
@@ -15,7 +15,7 @@ taa_necaxa
 taa_boca_jrs
 nr_tallinn
 goldmn_5
-taa_atalanta
+nr_hanoi
 taa_whitecaps
 taa_molde
 nr_home
@@ -25,7 +25,7 @@ goldmn_3
 goldmn_15
 goldmn_2
 taa_river_plate
-nr_sydney
+nr_bangalore
 nr_bombay
 nr_shanghai
 nr_johannesburg
