@@ -1,0 +1,151 @@
+Round 449 Daily:
+Data: 26/03/2023
+
+Notas:
+full keys(80):
+dyn: 39
+L0_vanilla: 7
+swap_map: 11
+L1: 12
+vegas: 8
+best: 3
+
+
+==========================================================================================
+==========================================================================================
+==========================================================================================
+Moon
+keys (30):
+dyn: 21
+swap_map: 6
+L1: 3
+
+
+
+SMoon
+1.  al_sadd:         L1 xgb_val4                     (449) || obs:
+2.  saprissa:        dyn  +aggE fn/fn                (449) || obs:
+3.  al_hilal:        swap_map dyn inv/ok/inv         (449) || obs:
+4.  espanyol:        dyn minus barcelona             (349) || obs:
+5.  mazembe:         swap_map dyn ok/ok/inv          (449) || obs:
+6.  al_ahly:         swap_map lr/lr/lr               (449) || obs:
+7.  malmo:           dyn +agg ok/ok                  (449) || obs:
+8.  fiorentina:      dyn moderado lr only            (349) || obs:
+9.  esperance:       dyn agressivo 1.75              (449) || obs:
+10. lazio:           dyn moderado fn only            (349) || obs:
+
+Jmoon:
+1.  colo_colo:       L1 ex_preds_v4+FN100 old feats  (288) || obs:
+2.  whitecaps:       dyn +agg lr/lr                  (419) || obs:
+3.  pumas:           dyn +agg fn/lr                  (419) || obs:
+4.  zenit:           dyn moscow fn only              (349) || obs:
+5.  cska:            dyn moscow lr only              (349) || obs:
+6.  boca_jrs:        dyn xgb_dom_lr                  (301) || obs:
+7.  al_ittihad:      swap_map inf4/team_lr/inv_swap  (449) || obs:
+8.  brondby:         dyn  +aggE fn/fn                (449) || obs:
+9.  basel:           swap_map inf4/team_lr/inv_swap  (449) || obs:
+10. necaxa:          swap_map dyn factor/era fn/fn   (449) || obs:
+ 
+Umoon 
+1.  urawa_reds:      dyn +agg ok/inv FN1.75          (449) || obs:
+2.  atalanta:        dyn +agg fn/fn                  (419) || obs:
+3.  molde:           dyn old stockholm lr/fn         (301) || obs:
+4.  tigres:          dyn +agg lr/fn                  (419) || obs:
+5.  rb_leipzig:      dyn lr_dom_lr                   (288) || obs:
+6.  rb_salzburg:     dyn lr_dom_fn                   (288) || obs:
+7.  genoa:           dyn_old +aggE ok/ok             (449) || obs:
+8.  shakthar:        dyn conservador 1.75            (349) || obs:
+9.  river_plate:     dyn xgb_dom_fn                  (301) || obs:
+10. racing:          L1 xgb_inifinity4               (282) || obs:
+
+
+
+================================================================
+NR
+
+Keys (50):
+dyn: 18
+L0_vanilla: 7
+swap_map: 5
+L1: 9
+vegas: 8
+best: 3
+
+STRATEGY: ERA/FT
+
+R1
+1.  home:            L1 ranker_inf4                  (288) || obs:
+2.  rio_de_janeiro:  L0_vanilla FN100                (301) || obs:
+3.  sao_paulo:       L1 lr_1_120                     (301) || obs:
+4.  buenos_aires:    L0_vanilla FN40                 (280) || obs:
+5.  medellin:        L0_vanilla FN0                  (301) || obs:
+6.  guadalajara:     swap_map inv lr & fn old style  (349) || obs:
+7.  san_francisco:   LR_1_120 vegas FN v2            (302) || obs:
+8.  bangalore:       L0_vanilla ar1_sign             (280) || obs:
+9.  sydney:          L1 logistic_reg                 (301) || obs:
+10. johannesburg:    L0_vanilla sfi_vanilla          (280) || obs:
+11. lagos:           vegas 2                         (321) || obs:
+12. kigali:          vegas 3                         (321) || obs:
+13. dubai:           dyn lr_dom lr/fn                (321) || obs:
+14. istanbul:        dyn agressivo ok/inv            (349) || obs:
+15. zurich:          fav nr_model 1                  (282) || obs:
+
+R2:
+1.  vegas:           vegas 1                         (301) || obs:
+2.  havana:          L1 xgb_ones_inifinity           (281) || obs:
+3.  san_salvador:    swap_map dyn factor/era ok/ok   (449) || obs:
+4.  bombay:          L0_vanilla strategy_metric      (301) || obs:
+5.  shanghai:        dyn agressivo fn/lr             (349) || obs:
+6.  hong_kong:       dyn agressivo lr/fn             (349) || obs:
+7.  singapore:       L1 lack of dex 0%FN             (301) || obs:
+8.  hanoi:           swap_map swap *0,1 team fn      (349) || obs:
+9.  saigon:          swap_map swap *0,1 team lr      (349) || obs:
+
+
+
+R3
+1.  moscow:          dyn strategy conservador        (301) || obs:
+2.  barcelona:       dyn xgb_dom lr/fn               (301) || obs:
+3.  tallinn:         dyn strategy moderado  ok/ok    (301) || obs:
+4.  hamburg:         dyn strategy agressivo ok/ok    (301) || obs:
+5.  stockholm:       dyn lr/fn                       (301) || obs:
+6.  monaco:          dyn strategy +agg ok/inv        (321) || obs:
+7.  lisbon:          dyn agressivo lr/lr             (301) || obs:
+8.  copenhagen:      dyn agressivo fn/fn             (301) || obs:
+
+
+
+
+R4
+1.  lima:             L1 xgb_exc_60_80 0%FN          (449) || obs:
+2.  santiago:         dyn lr/xgb_1_120 100%FN        (449) || obs:
+3.  quito:            L1 xgb_81_120_val3 0%FN        (449) || obs:
+4.  cancun:           swap_map ok lr & fn old style  (449) || obs:
+5.  miami:            vegas 4                        (449) || obs:
+6.  new_orleans:      vegas 5                        (449) || obs:
+7.  austin:           vegas 6                        (449) || obs:
+8.  blackrock_city:   vegas 7                        (449) || obs:
+9.  san_diego:        vegas 8                        (449) || obs:
+10. kuala_lumpur:     L1 lack of dex 100%FN          (449) || obs:
+11. jakarta:          L1 lack of dex 125%FN          (449) || obs:
+12. geneva:           fav nr_model 2                 (449) || obs:
+13. lugano:           fav nr_model 3                 (449) || obs:
+14. helsinki:         dyn strategy +aggE ok/ok       (449) || obs:
+15. st_petersburg:    dyn strategy +aggE ok/inv      (449) || obs:
+16. oslo:             dyn strategy +agg  ok/ok       (449) || obs:
+17. saint_tropez:     dyn_old +agg ok/inv            (449) || obs:
+18. frankfurt:        dyn_old agressivo ok/ok        (449) || obs:
+
+
+
+
+
+
+
+
+
+
+
+
+
+

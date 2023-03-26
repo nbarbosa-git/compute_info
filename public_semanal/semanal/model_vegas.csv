@@ -3,7 +3,7 @@ bb__test3/xgb_60,1
 bb__test13/xgb_strength,1
 bb__test5/xgb_100,1
 bb__test6/xgb_120,1
+bb__test6/lr_120,1
+bb__test14/xgb_constitution,1
 bb__test4/xgb_80,-1
-bb__test11/xgb_charisma,1
-bb__test4/xgb_80,-1
-bb__test11/lr_charisma,-1
+bb__test7/lr_212,1
