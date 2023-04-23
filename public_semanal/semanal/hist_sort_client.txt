@@ -1,0 +1,2109 @@
+sort 267
+nick_richers
+nrichers
+nr__san_francisco
+nr__sydney
+nr_rio
+nr__guadalajara
+nr__hanoi
+nr__rio
+nr__sao_paulo
+nr__medellin
+nr__bangalore
+nr__shanghai
+nr_johannesburg
+
+=========================
+
+sort 268
+nr__sydney
+nick_richers
+nrichers
+nr__bangalore
+nr_rio
+nr__guadalajara
+nr__san_francisco
+nr__hanoi
+nr__rio
+nr__sao_paulo
+nr__medellin
+nr__shanghai
+nr_johannesburg
+
+
+=========================
+
+sort 269
+nr__sydney
+nick_richers
+nrichers
+nr__bangalore
+nr__guadalajara
+nr__sao_paulo
+nr_rio
+nr__san_francisco
+nr__hanoi
+nr__rio
+nr__medellin
+nr__shanghai
+nr_johannesburg
+
+
+=========================
+
+sort 270
+nr_sydney
+nr_home
+nr_vegas
+nr_bangalore
+nr_guadalajara
+nr_sao_paulo
+nr_rio_de_janeiro
+nr_san_francisco
+nr_hanoi
+nr_buenos_aires
+nr_medellin
+nr_shanghai
+nr_johannesburg
+
+
+
+=========================
+
+sort 271
+01. nr_home (12)
+02. nr_vegas (6)
+03. nr_johannesburg (8)
+04. nr_sao_paulo (3)
+05. nr_bangalore (7)
+06. nr_guadalajara (5)
+07. nr_rio_de_janeiro (13)
+08. nr_san_francisco (2)
+09. nr_hanoi (10)
+10. nr_buenos_aires (9)
+11. nr_medellin (4)
+12. nr_shanghai (1)
+13. nr_sydney (11)
+
+
+=========================
+
+sort 272
+01. nr_sao_paulo (4)
+02. nr_shanghai (1)
+03. nr_vegas (2)
+04. nr_rio_de_janeiro (3)
+05. nr_guadalajara (7)
+06. nr_johannesburg (6)
+07. nr_bangalore (8)
+08. nr_san_francisco (5)
+09. nr_hanoi (9)
+10. nr_buenos_aires (10)
+11. nr_medellin (13)
+12. nr_sydney (12)
+13. nr_home (11)
+
+
+=========================
+
+sort 273
+01. nr_sao_paulo (8)
+02. nr_buenos_aires (10)
+03. nr_shanghai (2)
+04. nr_rio_de_janeiro (6)
+05. nr_johannesburg (9)
+06. nr_guadalajara (3)
+07. nr_vegas (5)
+08. nr_bangalore (4)
+09. nr_san_francisco (1)
+10. nr_hanoi (12)
+11. nr_medellin (14)
+12. nr_sydney (13)
+13. nr_home (11)
+14. nr_lagos (7)
+
+=========================
+
+sort 274
+01. nr_sydney (12)
+02. nr_home (13)
+03. nr_vegas (4)
+04. nr_medellin (14)
+05. nr_lagos (11)
+06. nr_bangalore (9)
+07. nr_san_francisco (2)
+08. nr_johannesburg (6)
+09. nr_guadalajara (7)
+10. nr_buenos_aires (10)
+11. nr_shanghai (1)
+12. nr_sao_paulo (5)
+13. nr_rio_de_janeiro (3)
+14. nr_hanoi (8)
+
+
+=========================
+
+sort 275
+01. nr_sydney (13)
+02. nr_guadalajara (5)
+03. nr_vegas (6)
+04. nr_lagos (11)
+05. nr_san_francisco (2)
+06. nr_home (12)
+07. nr_bangalore (4)
+08. nr_johannesburg (7)
+09. nr_medellin (14)
+10. nr_buenos_aires (10)
+11. nr_shanghai (1)
+12. nr_sao_paulo (8)
+13. nr_rio_de_janeiro (9)
+14. nr_hanoi (3)
+
+
+
+=========================
+
+sort 276
+01. nr_bangalore (1)
+02. nr_johannesburg (4)
+03. nr_lagos (14)
+04. nr_buenos_aires (6)
+05. nr_guadalajara (5)
+06. nr_sao_paulo (10)
+07. nr_vegas (8)
+08. nr_home (12)
+09. nr_shanghai (3)
+10. nr_san_francisco (7)
+11. nr_sydney (13)
+12. nr_medellin (11)
+13. nr_rio_de_janeiro (9)
+14. nr_hanoi (2)
+
+
+=========================
+
+sort 277 (1-4 MMC) (A: 1, B(AB): 1, C(A): 1, D(A): 1)
+A01. nr_bangalore (1)
+A02. nr_johannesburg (7)
+A03. nr_lagos (12)
+A04. nr_home (9)
+B05. nr_shanghai (6)
+B06. nr_buenos_aires (5)
+B07. nr_sao_paulo (13)
+B08. nr_vegas (11)
+C09. nr_guadalajara (3)
+C10. nr_san_francisco (4)
+C11. nr_rio_de_janeiro (14)
+C12. nr_sydney (10)
+D13. nr_medellin (8)
+D14. nr_hanoi (2)
+
+
+
+
+=========================
+
+Abertura: ...
+Fechamento: Pessima gestao MMC, Errou a leitura do round, round linear facil. 
+
+sort 278 (1-4 MMC) (A: 1, B(AB): 1|1, C(A): 1, D(A): 1)
+A01. nr_bangalore (1)
+A02. nr_johannesburg (9)
+A03. nr_shanghai (11)
+A04. nr_hanoi (12)
+B05. nr_vegas (14)
+B06. nr_rio_de_janeiro (10)
+B07. nr_guadalajara (2)
+B08. nr_buenos_aires (5)
+C09. nr_sydney (13)
+C10. nr_san_francisco (8)
+C11. nr_sao_paulo (6)
+C12. nr_medellin (3)
+D13. nr_lagos (7)
+D14. nr_home (4)
+
+
+
+
+=========================
+
+Abertura: ...
+Fechamento: Aposta muito errada em modelos que nao performam acima como johann e hanoi (pre mudanca 284)
+Shanghai e SF, sempre bom ter ao menos 1 no A e outro no B
+Buenos Aires sempre no bolo da meuica B
+Nunca aposta no SP e volta e erra
+Cedo pra dizer se home voltou 
+
+sort 279 (1-4 MMC) (A(A|D): 1|1, B(AB): 2|1, C(A): 1, D(A|B): 0|1)
+A01. nr_bangalore     || A
+A02. nr_johannesburg  || C
+A03. nr_shanghai      || B
+A04. nr_hanoi         || D
+B05. nr_san_francisco || A
+B06. nr_buenos_aires  || B
+B07. nr_vegas         || A
+B08. nr_guadalajara   || C
+C09. nr_rio_de_janeiro|| B
+C10. nr_sao_paulo     || A
+C11. nr_medellin      || C
+C12. nr_sydney        || D
+D13. nr_lagos         || C
+D14. nr_home          || B
+
+
+
+=========================
+
+Abertura: ...
+Fechamento:
+Meu pai que horror
+Pare de usar sydney, vc nao consegue prever esse modelo
+Foque mais no regime do que nas ideias do vegas
+Vc achou que a festa do shanghai tinha acabado, se lascou
+Modelos bb7 arregacaram
+Te perdoo pelo banga
+
+
+sort 280 (1-4 MMC) (4A(A|D): 0|1, 4B(AB): 0|2, 4C(A): 1, 6D(A|B): 3|1)
+A01. nr_bangalore      || C
+A02. nr_dubai          || B
+A03. nr_sydney         || C
+A04. nr_home           || D
+B05. nr_vegas          || B
+B06. nr_hong_kong      || C
+B07. nr_san_salvador   || D
+B08. nr_johannesburg   || B
+C09. nr_san_francisco  || A
+C10. nr_medellin       || D
+C11. nr_lagos          || D
+C12. nr_kigali         || D
+D13. nr_shanghai       || A
+D14. nr_guadalajara    || B
+D15. nr_rio_de_janeiro || A
+D16. nr_sao_paulo      || A
+D17. nr_buenos_aires   || C
+D18. nr_hanoi          || D
+
+
+=========================281
+
+Abertura: ...
+Fechamento:
+Rodada meh na dominancia
+Meh nos meus acertos
+Banga sempre seguro
+Fim da festa SH e SF?
+Johann subindo (inesperado)
+SP sempre na zona B (dominance)
+Dubni mmc forte
+
+
+sort 281 (1-4 MMC) (A(A|D): 1|1, B(AB): 1|1, C(A): 0, D(A|D): 2|4)
+A01. nr_bangalore      || B
+A02. nr_shanghai       || D
+A03. nr_guadalajara    || C
+A04. nr_dubai          || A
+B05. nr_johannesburg   || A
+B06. nr_sao_paulo      || B
+B07. nr_hanoi          || D
+B08. nr_rio_de_janeiro || C
+C09. nr_buenos_aires   || B
+C10. nr_vegas          || B
+C11. nr_hong_kong      || D
+C12. nr_san_salvador   || D
+D13. nr_singapore      || D
+D14. nr_havana         || A
+D15. nr_san_francisco  || C
+D16. nr_medellin       || D
+D17. nr_lagos          || D
+D18. nr_kigali         || D
+D19. nr_sydney         || A
+D20. nr_home           || C
+
+
+
+
+
+=========================282
+
+Abertura:...
+
+
+Fechamento:
+Nenhum modelo tomou burn na rodada
+Aposta boa em bangalore/zurich, sempre fechando bem
+HK e bombay bons resultados
+SF e SH com mmc negativos
+
+
+sort 282 (1-4 MMC) (A(A|D): 2|0, B(AB): 0|1, C(A): 1, D(A|D): 1|0)
+A01. nr_bangalore       || A
+A02. nr_hong_kong       || B
+A03. nr_zurich          || A
+A04. nr_vegas           || C
+B05. nr_sao_paulo       || B
+B06. nr_medellin        || D
+B07. nr_kigali          || D
+B08. nr_buenos_aires    || D
+C09. nr_shanghai        || D
+C10. nr_johannesburg    || A
+C11. nr_home            || D
+C12. nr_bombay          || B
+D13. nr_havana          || C
+D14. nr_lagos           || D
+D15. nr_rio_de_janeiro  || C
+D16. nr_sydney          || A
+D17. nr_guadalajara     || C
+D18. nr_hanoi           || D
+D19. nr_san_salvador    || D
+D20. nr_singapore       || B
+D21. nr_san_francisco   || D
+D22. nr_dubai           || D
+
+
+=========================283
+
+Abertura:
+Previa apresentou mudancas, home e sydney no topo
+Olhando pra 263 a 267, melhor nao apostar no mmc
+Banga e home foram bem me corr nesses rounds.
+Modelos ainda eram diferentes nessa epoca pre 271
+Cautela, use modelos como HK, banga, bombay, use o zurich no mmc
+Vegas eh sempre mediano, tire ele na zona do MMC
+
+
+1o Dia: Se invertesse de ponta cabeça estaria melhor
+
+
+
+sort 283 (1-4 MMC) (A(A|E): 2|1, B(A|B): 0|2, C(A|C): 2|0, D(A|D): 0|3, E(A|E): 0|1)
+A01. nr_bangalore       || A
+A02. nr_hong_kong       || C
+A03. nr_zurich          || A
+A04. nr_dubai           || E
+B05. nr_vegas           || B
+B06. nr_johannesburg    || C
+B07. nr_home            || D
+B08. nr_bombay          || B
+C09. nr_sydney          || A
+C10. nr_guadalajara     || A
+C11. nr_singapore       || D
+D12. nr_medellin        || D
+D13. nr_kigali          || B
+D14. nr_buenos_aires    || D
+D15. nr_havana          || E
+D16. nr_lagos           || C
+D17. nr_san_salvador    || E
+D18. nr_san_francisco   || D
+E19. nr_sao_paulo       || D
+E20. nr_shanghai        || E
+E21. nr_rio_de_janeiro  || D
+E22. nr_hanoi           || B
+
+
+Fechamento:
+Bangalore sempre salvando
+Se lascou com dubai (zerado)
+Guada em A e shaghai em E (acertei SH e SF)
+Rodadas em q todos foram positivos (sydney amassa assim?)
+Kigali acima do lagos (fazer oq)
+havana fraco (qual sera o regime dele)
+
+
+
+=========================284
+
+
+
+Abertura:
+Antes de comecar penso em usar vegas pela diversidade, home e SP pra fugir da exp eh Ch que ta fudida, 
+SF tbm amassando na Dex, Como SS fica tao fudido e SF no topo?
+Hanoi na 284 0_1, se comporta como FN, galra full FN para o B
+
+
+1o Dia: 
+Se invertesse de ponta cabeça estaria melhor (2x)
+Banga te salvou
+Lagos e SS retorno triunfal
+Home voltando(?)
+hong kong na meiuca
+hanoi e saigon, lixo, mas estao com SP e Rio
+
+
+
+
+
+sort 284 (1-4 MMC) (3A(A|D): x|x, 8B(AB): x|x, 6C(A): x, 3D(AB|B): x|x, 4E(AB|B): x|x)
+A01. nr_bangalore       || C
+A02. nr_shanghai        || C
+A03. nr_dubai           || E
+B04. nr_sao_paulo       || E
+B05. nr_san_francisco   || C
+B06. nr_vegas           || C
+B07. nr_medellin        || E
+B08. nr_buenos_aires    || B
+B09. nr_rio_de_janeiro  || D
+B10. nr_hanoi           || D
+B11. nr_saigon          || B
+C12. nr_hong_kong       || C
+C13. nr_zurich          || C
+C14. nr_johannesburg    || B
+C15. nr_guadalajara     || A
+C16. nr_havana          || D
+C17. nr_istanbul        || B
+D18. nr_home            || B
+D19. nr_bombay          || B
+D20. nr_singapore       || E
+E21. nr_sydney          || B
+E22. nr_kigali          || A
+E23. nr_lagos           || B
+E24. nr_san_salvador    || A
+
+
+Fechamento:
+Se invertesse de ponta cabeça estaria melhor
+SO banga te salva
+
+
+=========================285
+
+
+Abertura:
+Deve rolar pqnas modificacoes nos modelos
+cara de spike linear na dominance, cuidado
+apostas seguras, banga, zurich, bombay no mmc
+fn no cluster B
+
+
+1o Dia: 
+
+Fechamento: ... 
+
+
+
+
+sort 285 (1-4 MMC) (4A(A|D): 1|0, 5B(A|B): 0|0, 10C(A|C): 2|5, 7D(A|B): 1|2)
+A01. nr_bangalore       || C
+A02. nr_zurich          || C
+A03. nr_home            || A
+A04. nr_bombay          || B
+B05. nr_sao_paulo       || D
+B06. nr_vegas           || D
+B07. nr_medellin        || D
+B08. nr_buenos_aires    || C
+B09. nr_rio_de_janeiro  || D
+C10. nr_shanghai        || C
+C11. nr_san_francisco   || B
+C12. nr_johannesburg    || C
+C13. nr_guadalajara     || A
+C14. nr_havana          || C
+C15. nr_istanbul        || C
+C16. nr_singapore       || C
+C17. nr_sydney          || D
+C18. nr_kigali          || A
+C19. nr_lagos           || B
+D20. nr_dubai           || B
+D21. nr_hanoi           || C
+D22. nr_saigon          || B
+D23. nr_hong_kong       || C
+D24. nr_san_salvador    || A
+D25. nr_moscow          || D
+D26. nr_tallinn         || D
+
+
+
+=========================286
+
+
+Abertura:
+Festa linear braba
+alguns modelos novos performanndo bem (istanbul/johann)
+outros viraram (havana)
+muito cedo para os dinamicos
+SS perfect fit com vegas
+fiquei na seguranca do banga que sempre funciona
+sera q saigon surpreende?
+dei uma chance ao lagos (mas ele ainda vai ser refeito)
+aposto que a festa do sydney acabou
+GD, SF e SH na zona meeeh, fim de festa?
+
+cara de spike linear na dominance, cuidado
+apostas seguras, banga, zurich, bombay no mmc
+fn no cluster B
+
+
+1o Dia: 
+
+
+
+
+
+sort 286 (1-4 MMC) (6A(A|D): 1|0, 6B(A|B): 1|1, 10C(A|C): 3|3, 6D(A|D): 1|1)
+A01. nr_bangalore      || C
+A02. nr_zurich         || C
+A03. nr_istanbul       || D
+A04. nr_dubai          || B
+A05. nr_bombay         || C
+A06. nr_san_salvador   || A
+B07. nr_johannesburg   || C
+B08. nr_lagos          || C
+B09. nr_buenos_aires   || D
+B10. nr_sao_paulo      || D
+B11. nr_home           || B
+B12. nr_kigali         || A
+C13. nr_vegas          || C
+C14. nr_medellin       || C
+C15. nr_rio_de_janeiro || D
+C16. nr_shanghai       || C
+C17. nr_san_francisco  || A
+C18. nr_guadalajara    || A
+C19. nr_havana         || B
+C20. nr_hanoi          || B
+C21. nr_saigon         || A
+C22. nr_hong_kong      || D
+D23. nr_singapore      || D
+D24. nr_sydney         || C
+D25. nr_moscow         || B
+D26. nr_tallinn        || B
+D27. nr_hamburg        || C
+D28. nr_stockholm      || A
+
+
+Fechamento:
+Mesmo acertado a linear do vegas toda ainda fui mal
+SS foi o melhor de fato
+Saigon voou
+lagos meeeh
+Os shorts de SF e SH machucaram
+
+
+
+Medalhas: 0G, 0S, 6B
+
+
+
+=========================287
+
+
+Abertura:
+Ficou com medo de apostar no SS perdeu
+Charisma ta feio agora cuidado
+bombay bem acima de banga devido a Ch
+
+
+1o Dia: 1o dia: abertura bem fraca, pra tudo, integration=0.004, nao linear negativa
+
+Fechamento: ... 
+
+
+
+sort 287 (1-8 MMC) (6A(A|D): x|x, 6B(AB): x|x, 13C(A|C): x|x, 5D(A|D): x|x)
+A01. nr_bombay
+A02. nr_moscow
+A03. nr_tallinn
+A04. nr_monaco
+A05. nr_singapore
+A06. nr_dubai
+B07. nr_bangalore
+B08. nr_vegas
+B09. nr_hamburg
+B10. nr_medellin
+B11. nr_shanghai
+B12. nr_zurich
+C13. nr_istanbul
+C14. nr_san_salvador
+C15. nr_johannesburgro
+C16. nr_lagos
+C17. nr_buenos_aireso
+C18. nr_home
+C19. nr_kigali
+C20. nr_san_francisco
+C21. nr_guadalajara
+C22. nr_saigon
+C23. nr_hong_kong
+C24. nr_barcelona
+C25. nr_stockholm
+D26. nr_sao_paulo
+D27. nr_rio_de_janeiro
+D28. nr_havana
+D29. nr_hanoi
+D30. nr_sydney
+
+
+
+
+=========================288
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:
+Ficou com medo de apostar no SS perdeu
+Charisma ta feio agora cuidado
+bombay bem acima de banga devido a Ch
+
+
+1o Dia: 1o dia: abertura bem fraca, pra tudo, integration=0.004, nao linear negativa
+
+Fechamento: ... 
+
+
+
+sort 288 (1-8 MMC) (2A(A|D): x|x, 12B(A|B): x|x, 11C(A|C): x|x, 5D(A|D): x|x)
+A01. nr_hamburg
+A02. nr_monaco
+B03. nr_bangalore
+B04. nr_bombay
+B05. nr_hong_kong
+B06. nr_home
+B07. nr_havana
+B08. nr_sydney
+B09. nr_istanbul
+B10. nr_vegas
+B11. nr_kigali
+B12. nr_shanghai
+C13. nr_barcelona
+C14. nr_zurich
+C15. nr_moscow
+C16. nr_tallinn
+C17. nr_singapore
+C18. nr_medellin
+C19. nr_johannesburg
+C20. nr_lagos
+C21. nr_buenos_aires
+C22. nr_guadalajara
+C23. nr_saigon
+C24. nr_stockholm
+C25. nr_hanoi
+D26. nr_dubai
+D27. nr_san_salvador
+D28. nr_san_francisco
+D29. nr_sao_paulo
+D30. nr_rio_de_janeiro
+
+
+
+
+=========================289
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:
+Kigali e havana amassando direto e ai
+deixei banga meio pra tras, arrependo?
+SF e SH na meeh zone
+decepcionaod com a alguns dos dinamicos ate aqui (acho q sem alavancagem no regime linear)
+
+
+1o Dia: 1o dia: abertura bem fraca, pra tudo, integration=0.004, nao linear negativa
+
+Fechamento:
+Bela merda de leutira todos os A na meeh zone
+
+
+
+sort 289 (1-8 MMC) (9A(A|D): 2|1, 5B(A|B): 1|1, 12C(A|C): 5|4, 4D(A|D): 1|1)
+A01. nr_kigali          || C
+A02. nr_havana          || C
+A03. nr_hamburg         || B
+A04. nr_bombay          || C
+A05. nr_istanbul        || C
+A06. nr_barcelona       || C
+A07. nr_saigon          || D
+A08. nr_bangalore       || A
+A09. nr_monaco          || A
+B10. nr_vegas           || D
+B11. nr_zurich          || C
+B12. nr_dubai           || C
+B13. nr_san_salvador    || A
+B14. nr_san_francisco   || B
+C15. nr_hong_kong       || C
+C16. nr_home            || A
+C17. nr_sydney          || D
+C18. nr_shanghai        || C
+C19. nr_moscow          || A
+C20. nr_tallinn         || A
+C21. nr_medellin        || A
+C22. nr_johannesburg    || A
+C23. nr_lagos           || C
+C24. nr_buenos_aires    || B
+C25. nr_guadalajara     || C
+C26. nr_stockholm       || B
+D27. nr_hanoi           || D
+D28. nr_singapore       || C
+D29. nr_sao_paulo       || A
+D30. nr_rio_de_janeiro  || B
+
+
+
+
+=========================290
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:
+TO bebado e com medo so na seguranca
+talvez devesse diversificar mais com SP e SInga
+
+
+1o Dia: ...
+
+Fechamento: ... 
+Medalhas: 0G, 0S, 1B
+
+
+sort 290 (1-8 MMC) (8A(A|D): 2|0, 7B(A|B): 3|2, 11C(A|C): 2|4, 4D(A|D): 1|1)
+A01. nr_bangalore       || A
+A02. nr_havana          || A
+A03. nr_bombay          || B
+A04. nr_barcelona       || B
+A05. nr_saigon          || C
+A06. nr_san_francisco   || C
+A07. nr_hong_kong       || D
+A08. nr_shanghai        || C
+B09. nr_istanbul        || A
+B10. nr_zurich          || A
+B11. nr_buenos_aires    || B
+B12. nr_guadalajara     || C
+B13. nr_singapore       || C
+B14. nr_sao_paulo       || B
+B15. nr_rio_de_janeiro  || A
+C16. nr_kigali          || C
+C17. nr_vegas           || D
+C18. nr_dubai           || C
+C19. nr_san_salvador    || C
+C20. nr_home            || B
+C21. nr_sydney          || D
+C22. nr_moscow          || A
+C23. nr_tallinn         || B
+C24. nr_medellin        || B
+C25. nr_johannesburg    || A
+C26. nr_lagos           || C
+D27. nr_stockholm       || C
+D28. nr_hanoi           || D
+D29. nr_hamburg         || C
+D30. nr_monaco          || A
+
+
+=========================291
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:
+TO bebado e com medo so na seguranca
+talvez devesse diversificar mais com SP e SInga
+
+
+1o Dia: NA
+
+Fechamento:
+Todas as lineares voaram, round facil
+Meu rank foi mto fraco
+
+
+
+Medalhas: 0G, 0S, 0B
+
+sort 291 (1-8 MMC) (3A(A|D): 0|0, 9B(A|B): 0|2, 14C(A|C): 3|6, 4D(A|D): 0|0)
+A01. nr_bangalore       || B
+A02. nr_zurich          || B
+A03. nr_havana          || C
+B04. nr_guadalajara     || B
+B05. nr_tallinn         || D
+B06. nr_buenos_aires    || B
+B07. nr_medellin        || D
+B08. nr_sao_paulo       || C
+B09. nr_barcelona       || C
+B10. nr_saigon          || C
+B11. nr_rio_de_janeiro  || C
+B12. nr_shanghai        || C
+C13. nr_bombay          || A
+C14. nr_san_francisco   || B
+C15. nr_istanbul        || B
+C16. nr_singapore       || C
+C17. nr_san_salvador    || B
+C18. nr_home            || A
+C19. nr_sydney          || C
+C20. nr_moscow          || D
+C21. nr_johannesburg    || A
+C22. nr_lagos           || B
+C23. nr_stockholm       || C
+C24. nr_hanoi           || C
+C25. nr_hamburg         || C
+C26. nr_monaco          || C
+D27. nr_hong_kong       || C
+D28. nr_kigali          || B
+D29. nr_vegas           || D
+D30. nr_dubai           || C
+ 
+
+
+
+=========================292
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+
+
+Abertura: N/A
+
+
+1o Dia: N/A
+
+Fechamento:
+O round foi facil, mas os modelos foram medianos apenas
+Acertei overall, errei feio no vegas
+
+
+Medalhas: 0G, 1S, 4B
+
+
+sort 292 (1-8 MMC) (8A(A|D): 2|1, 4B(A|B): 0|1, 14C(A|C): 6|6, 4D(A|D): 0|0)
+A01. nr_bangalore       || B
+A02. nr_san_francisco   || D
+A03. nr_san_salvador    || B
+A04. nr_havana          || C
+A05. nr_saigon          || C
+A06. nr_johannesburg    || B
+A07. nr_kigali          || A
+A08. nr_monaco          || A
+B09. nr_zurich          || C
+B10. nr_guadalajara     || C
+B11. nr_shanghai        || D
+B12. nr_bombay          || B
+C13. nr_istanbul        || C
+C14. nr_vegas           || D
+C15. nr_dubai           || D
+C16. nr_tallinn         || A
+C17. nr_buenos_aires    || C
+C18. nr_medellin        || A
+C19. nr_barcelona       || A
+C20. nr_home            || A
+C21. nr_moscow          || C
+C22. nr_lagos           || C
+C23. nr_stockholm       || A
+C24. nr_hamburg         || A
+C25. nr_hong_kong       || C
+C26. nr_sao_paulo       || C
+D27. nr_rio_de_janeiro  || C
+D28. nr_singapore       || C
+D29. nr_sydney          || C
+D30. nr_hanoi           || C
+
+
+
+=========================293
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:
+Socorro
+
+
+1o Dia: ...
+
+Medalhas: 0G, 1S, 7B
+Fechamento: ... 
+
+
+
+sort 293 (1-8 MMC) (5A(A|D): 0|1, 7B(A|B): 1|1, 13C(A|C): 3|5, 5D(A|D): 1|1)
+
+A01. nr_bangalore       || B
+A02. nr_havana          || C
+A03. nr_johannesburg    || B
+A04. nr_vegas           || D
+A05. nr_barcelona       || B
+B06. nr_saigon          || C
+B07. nr_monaco          || C
+B08. nr_sao_paulo       || C
+B09. nr_san_salvador    || C
+B10. nr_buenos_aires    || B
+B11. nr_medellin        || A
+B12. nr_rio_de_janeiro  || C
+C13. nr_kigali          || A
+C14. nr_zurich          || B
+C15. nr_bombay          || B
+C16. nr_istanbul        || C
+C17. nr_tallinn         || D
+C18. nr_home            || A
+C19. nr_moscow          || D
+C20. nr_lagos           || C
+C21. nr_stockholm       || C
+C22. nr_hamburg         || C
+C23. nr_singapore       || A
+C24. nr_sydney          || D
+C25. nr_hanoi           || C
+D26. nr_san_francisco   || C
+D27. nr_guadalajara     || B
+D28. nr_shanghai        || C
+D29. nr_dubai           || D
+D30. nr_hong_kong       || A
+
+
+
+=========================294
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:
+Geral voando, mas poucos acima do xgb15
+
+
+1o Dia: ...
+
+Fechamento:
+Medellin melhor modelo do round... nada mais a dizer
+Fui bem no sort dessa vez
+
+
+Medalhas: 0G, 0S, 0B
+
+
+sort 294 (1-8 MMC) (6A(A|D): 3|1, 8B(A|B): 2|3, 13C(A|C): 1|7, 3D(A|D): 0|0)
+A01. nr_bangalore       || B
+A02. nr_medellin        || A
+A03. nr_monaco          || B
+A04. nr_san_salvador    || A
+A05. nr_bombay          || A
+A06. nr_dubai           || D
+B07. nr_havana          || A
+B08. nr_saigon          || C
+B09. nr_buenos_aires    || B
+B10. nr_kigali          || B
+B11. nr_zurich          || C
+B12. nr_tallinn         || B
+B13. nr_home            || A
+B14. nr_san_francisco   || C
+C15. nr_johannesburg    || B
+C16. nr_vegas           || D
+C17. nr_barcelona       || C
+C18. nr_sao_paulo       || D
+C19. nr_istanbul        || C
+C20. nr_moscow          || C
+C21. nr_lagos           || B
+C22. nr_stockholm       || A
+C23. nr_hamburg         || B
+C24. nr_singapore       || C
+C25. nr_sydney          || C
+C26. nr_hanoi           || C
+C27. nr_guadalajara     || C
+D28. nr_rio_de_janeiro  || C
+D29. nr_shanghai        || C
+D30. nr_hong_kong       || C
+
+
+
+
+=========================295
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:
+xgb15 tomou um -6% hj pqp
+
+
+1o Dia: ...
+
+Fechamento: ... 
+Mais um péssimo round
+
+Medalhas: 0G, 0S, 0B
+
+
+sort 294 (1-8 MMC) (7A(A|D): x|x, 7B(A|B): x|x, 9C(A|C): x|x, 7D(A|D): x|x)
+A01. nr_bangalore      || C
+A02. nr_medellin       || B
+A03. nr_monaco         || D
+A04. nr_zurich         || C
+A05. nr_johannesburg   || A
+A06. nr_vegas          || A
+A07. nr_sao_paulo      || C
+B08. nr_moscow         || D
+B09. nr_san_salvador   || D
+B10. nr_bombay         || B
+B11. nr_havana         || A
+B12. nr_buenos_aires   || C
+B13. nr_istanbul       || C
+B14. nr_hamburg        || D
+C15. nr_saigon         || D
+C16. nr_kigali         || C
+C17. nr_tallinn        || C
+C18. nr_home           || B
+C19. nr_san_francisco  || C
+C20. nr_barcelona      || D
+C21. nr_guadalajara    || C
+C22. nr_rio_de_janeiro || C
+C23. nr_shanghai       || A
+D24. nr_dubai          || D
+D25. nr_lagos          || B
+D26. nr_stockholm      || C
+D27. nr_singapore      || A
+D28. nr_sydney         || A
+D29. nr_hanoi          || C
+D30. nr_hong_kong      || A
+
+
+
+
+
+
+=========================296
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:
+295 abriu como a 287 fudendod geral
+
+
+1o Dia: ...
+
+Fechamento: ... 
+Medalhas: 0G, 0S, 0B
+
+
+sort 294 (1-8 MMC) (5A(A|D): x|x, 6B(A|B): x|x, 13C(A|C): x|x, 6D(A|D): x|x)
+A01. nr_bangalore      || C
+A02. nr_hamburg        || D
+A03. nr_zurich         || C
+A04. nr_johannesburg   || B
+A05. nr_vegas          || B
+B06. nr_home           || B
+B07. nr_monaco         || C
+B08. nr_havana         || A
+B09. nr_medellin       || A
+B10. nr_saigon         || D
+B11. nr_kigali         || C
+C12. nr_bombay         || A
+C13. nr_buenos_aires   || A
+C14. nr_istanbul       || D
+C15. nr_tallinn        || B
+C16. nr_san_francisco  || C
+C17. nr_barcelona      || C
+C18. nr_guadalajara    || C
+C19. nr_rio_de_janeiro || C
+C20. nr_shanghai       || C
+C21. nr_dubai          || D
+C22. nr_lagos          || C
+C23. nr_stockholm      || B
+C24. nr_sydney         || B
+D25. nr_sao_paulo      || C
+D26. nr_moscow         || D
+D27. nr_san_salvador   || C
+D28. nr_hanoi          || D
+D29. nr_hong_kong      || A
+D30. nr_singapore      || C
+
+
+
+
+
+=========================297
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:
+296 abriu com xgb15 voando
+vou apostar em modelos sem FN
+
+
+1o Dia: ...
+
+Fechamento: ... 
+Medalhas: 0G, 1S, 3B
+
+
+sort 297 (1-8 MMC) (6A(A|D): 3|0, 6B(A|B): 1|3, 14C(A|C): 2|7, 4D(A|D): 0|1)
+A01. nr_bangalore       || A
+A02. nr_zurich          || B
+A03. nr_home            || C
+A04. nr_medellin        || A
+A05. nr_kigali          || C
+A06. nr_bombay          || A
+B07. nr_hamburg         || C
+B08. nr_johannesburg    || B
+B09. nr_vegas           || B
+B10. nr_monaco          || A
+B11. nr_saigon          || C
+B12. nr_buenos_aires    || B
+C13. nr_havana          || C
+C14. nr_istanbul        || D
+C15. nr_tallinn         || A
+C16. nr_san_francisco   || C
+C17. nr_barcelona       || C
+C18. nr_guadalajara     || C
+C19. nr_dubai           || D
+C20. nr_lagos           || C
+C21. nr_stockholm       || A
+C22. nr_sydney          || B
+C23. nr_sao_paulo       || D
+C24. nr_moscow          || C
+C25. nr_san_salvador    || C
+C26. nr_hanoi           || C
+D27. nr_rio_de_janeiro  || D
+D28. nr_shanghai        || C
+D29. nr_hong_kong       || B
+D30. nr_singapore       || C
+
+
+
+=========================298
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:
+296 abriu com xgb15 voando
+vou apostar em modelos sem FN
+
+
+1o Dia: ...
+
+Fechamento: ... 
+Medalhas: xG, 2S, 7B
+
+
+sort 298 (1-8 MMC) (6A(A|D): 4|0, 5B(A|B): 2|0, 12C(A|C): 0|8, 7D(A|D): 0|4)
+A01. nr_bangalore       || A
+A02. nr_zurich          || A
+A03. nr_home            || A
+A04. nr_medellin        || A
+A05. nr_johannesburg    || B
+A06. nr_havana          || C
+B07. nr_sao_paulo       || D
+B08. nr_buenos_aires    || A
+B09. nr_kigali          || C
+B10. nr_bombay          || A
+B11. nr_vegas           || D
+C12. nr_hamburg         || C
+C13. nr_monaco          || C
+C14. nr_saigon          || C
+C15. nr_istanbul        || C
+C16. nr_tallinn         || B
+C17. nr_san_francisco   || D
+C18. nr_barcelona       || C
+C19. nr_guadalajara     || C
+C20. nr_lagos           || C
+C21. nr_stockholm       || B
+C22. nr_sydney          || B
+C23. nr_moscow          || C
+D24. nr_dubai           || D
+D25. nr_san_salvador    || D
+D26. nr_hanoi           || C
+D27. nr_rio_de_janeiro  || D
+D28. nr_shanghai        || D
+D29. nr_hong_kong       || B
+D30. nr_singapore       || C
+
+
+
+=========================299
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:
+296 abriu com xgb15 voando
+vou apostar em modelos sem FN
+
+
+1o Dia: ...
+
+Fechamento: ... 
+Medalhas: 0G, 5S, 8B
+
+
+sort 298 (1-8 MMC) (5A(A|D): 2|0, 6B(A|B): 3|0, 13C(A|C): 0|7, 6D(A|D): 0|2)
+A01. nr_medellin       || A
+A02. nr_monaco         || C
+A03. nr_johannesburg   || B
+A04. nr_buenos_aires   || B
+A05. nr_bombay         || A
+B06. nr_bangalore      || A
+B07. nr_vegas          || C
+B08. nr_zurich         || A
+B09. nr_home           || A
+B10. nr_hamburg        || C
+B11. nr_san_salvador   || D
+C12. nr_havana         || D
+C13. nr_sao_paulo      || D
+C14. nr_kigali         || B
+C15. nr_saigon         || B
+C16. nr_istanbul       || C
+C17. nr_tallinn        || B
+C18. nr_san_francisco  || C
+C19. nr_barcelona      || C
+C20. nr_guadalajara    || C
+C21. nr_lagos          || C
+C22. nr_stockholm      || B
+C23. nr_sydney         || C
+C24. nr_moscow         || C
+D25. nr_dubai          || D
+D26. nr_rio_de_janeiro || D
+D27. nr_shanghai       || D
+D28. nr_hong_kong      || C
+D29. nr_singapore      || C
+D30. nr_hanoi          || C
+
+
+=========================300
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:
+296 abriu com xgb15 voando
+vou apostar em modelos sem FN
+
+
+1o Dia: ...
+
+Fechamento: ... 
+Medalhas: xG, 1S, xB
+
+
+sort 300 (1-8 MMC) (5A(A|D): 1|1, 6B(A|B): 0|1, 13C(A|C): 4|4, 6D(A|D): 0|0)
+A01. nr_lagos          || A
+A02. nr_stockholm      || C
+A03. nr_havana         || C
+A04. nr_vegas          || C
+A05. nr_rio_de_janeiro || D
+B06. nr_sydney         || D
+B07. nr_dubai          || D
+B08. nr_istanbul       || C
+B09. nr_shanghai       || D
+B10. nr_bangalore      || B
+B11. nr_hanoi          || C
+C12. nr_hong_kong      || C
+C13. nr_kigali         || A
+C14. nr_singapore      || B
+C15. nr_san_salvador   || D
+C16. nr_home           || A
+C17. nr_saigon         || A
+C18. nr_moscow         || C
+C19. nr_san_francisco  || D
+C20. nr_hamburg        || C
+C21. nr_zurich         || A
+C22. nr_tallinn        || B
+C23. nr_bombay         || B
+C24. nr_buenos_aires   || C
+D25. nr_medellin       || B
+D26. nr_johannesburg   || B
+D27. nr_barcelona      || C
+D28. nr_sao_paulo      || C
+D29. nr_monaco         || C
+D30. nr_guadalajara    || C
+
+
+
+=========================301
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:
+296 abriu com xgb15 voando
+vou apostar em modelos sem FN
+
+
+1o Dia: ...
+
+Fechamento: ... 
+Medalhas: xG, xS, xB
+
+
+sort 301 (1-8 MMC) (5A(A|D): x|x, 6B(A|B): x|x, 13C(A|C): x|x, 6D(A|D): x|x)
+A01. nr_lagos
+A02. nr_stockholm
+A03. nr_havana
+A04. nr_vegas
+A05. nr_rio_de_janeiro
+B06. nr_sydney
+B07. nr_dubai
+B08. nr_istanbul
+B09. nr_shanghai
+B10. nr_bangalore
+B11. nr_hanoi
+C12. nr_hong_kong
+C13. nr_kigali
+C14. nr_singapore
+C15. nr_san_salvador
+C16. nr_home
+C17. nr_saigon
+C18. nr_moscow
+C19. nr_san_francisco
+C20. nr_hamburg
+C21. nr_zurich
+C22. nr_tallinn
+C23. nr_bombay
+C24. nr_buenos_aires
+D25. nr_medellin
+D26. nr_johannesburg
+D27. nr_barcelona
+D28. nr_sao_paulo
+D29. nr_monaco
+D30. nr_guadalajara
+
+
+
+
+
+
+
+=========================302
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:
+vou apostar em modelos sem FN
+
+
+1o Dia: ...
+
+Fechamento: ... 
+Medalhas: xG, xS, xB
+
+
+sort 300 (1-8 MMC) (5A(A|D): x|x, 6B(A|B): x|x, 13C(A|C): x|x, 6D(A|D): x|x)
+A01. nr_singapore
+A02. nr_lagos
+A03. nr_stockholm
+A04. nr_havana
+A05. nr_vegas
+B06. nr_rio_de_janeiro
+B07. nr_sydney
+B08. nr_dubai
+B09. nr_istanbul
+B10. nr_shanghai
+B11. nr_bangalore
+C12. nr_hanoi
+C13. nr_hong_kong
+C14. nr_kigali
+C15. nr_medellin
+C16. nr_san_salvador
+C17. nr_home
+C18. nr_saigon
+C19. nr_moscow
+C20. nr_san_francisco
+C21. nr_hamburg
+C22. nr_zurich
+C23. nr_tallinn
+C24. nr_bombay
+D25. nr_buenos_aires
+D26. nr_johannesburg
+D27. nr_barcelona
+D28. nr_sao_paulo
+D29. nr_monaco
+D30. nr_guadalajara
+
+
+
+
+
+=========================303
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:
+
+
+
+1o Dia: ...
+
+Fechamento: ... 
+Medalhas: xG, xS, xB
+
+
+sort 300 (1-8 MMC) (5A(A|D): x|x, 6B(A|B): x|x, 13C(A|C): x|x, 6D(A|D): x|x)
+A01. nr_singapore
+A02. nr_lagos
+A03. nr_stockholm
+A04. nr_havana
+A05. nr_vegas
+B06. nr_rio_de_janeiro
+B07. nr_sydney
+B08. nr_dubai
+B09. nr_istanbul
+B10. nr_shanghai
+B11. nr_bangalore
+C12. nr_hanoi
+C13. nr_hong_kong
+C14. nr_kigali
+C15. nr_medellin
+C16. nr_san_salvador
+C17. nr_home
+C18. nr_saigon
+C19. nr_moscow
+C20. nr_san_francisco
+C21. nr_hamburg
+C22. nr_zurich
+C23. nr_tallinn
+C24. nr_bombay
+D25. nr_buenos_aires
+D26. nr_johannesburg
+D27. nr_barcelona
+D28. nr_sao_paulo
+D29. nr_monaco
+D30. nr_guadalajara
+
+
+
+
+=========================304
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:....
+
+
+1o Dia: ...
+
+Fechamento: ... 
+Medalhas: xG, xS, xB
+
+
+sort (1-8 MMC) (5A(A|D): x|x, 6B(A|B): x|x, 13C(A|C): x|x, 6D(A|D): x|x)
+A01. nr_singapore
+A02. nr_medellin
+A03. nr_stockholm
+A04. nr_havana
+A05. nr_vegas
+B06. nr_saigon
+B07. nr_sydney
+B08. nr_dubai
+B09. nr_istanbul
+B10. nr_shanghai
+B11. nr_bangalore
+C12. nr_hanoi
+C13. nr_hong_kong
+C14. nr_kigali
+C15. nr_lagos
+C16. nr_san_salvador
+C17. nr_home
+C18. nr_rio_de_janeiro
+C19. nr_moscow
+C20. nr_san_francisco
+C21. nr_hamburg
+C22. nr_zurich
+C23. nr_tallinn
+C24. nr_bombay
+D25. nr_buenos_aires
+D26. nr_johannesburg
+D27. nr_barcelona
+D28. nr_sao_paulo
+D29. nr_monaco
+D30. nr_guadalajara
+
+
+
+
+=========================305
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:....
+
+
+1o Dia: ...
+
+Fechamento: ... 
+Medalhas: xG, xS, xB
+
+
+sort (1-8 MMC) (5A(A|D): x|x, 6B(A|B): x|x, 13C(A|C): x|x, 6D(A|D): x|x)
+A01. nr_singapore
+A02. nr_medellin
+A03. nr_stockholm
+A04. nr_havana
+A05. nr_vegas
+B06. nr_saigon
+B07. nr_sydney
+B08. nr_dubai
+B09. nr_istanbul
+B10. nr_shanghai
+B11. nr_bangalore
+C12. nr_hanoi
+C13. nr_hong_kong
+C14. nr_kigali
+C15. nr_lagos
+C16. nr_san_salvador
+C17. nr_home
+C18. nr_rio_de_janeiro
+C19. nr_moscow
+C20. nr_san_francisco
+C21. nr_hamburg
+C22. nr_zurich
+C23. nr_tallinn
+C24. nr_bombay
+D25. nr_buenos_aires
+D26. nr_johannesburg
+D27. nr_barcelona
+D28. nr_sao_paulo
+D29. nr_monaco
+D30. nr_guadalajara
+
+
+
+======================================================
+======================================================
+======================================================
+
+Round 306 Observe 10rdds ver qe intelligence panel
+
+=========================306-310
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:
+
+
+1o Dia: ...
+
+Fechamento: ... 
+Medalhas: xG, xS, xB
+
+
+sort (1-8 MMC) (8A(A|D): x|x, 6B(A|B): x|x, 13C(A|C): x|x, 3D(A|D): x|x)
+A01. nr_barcelona
+A02. nr_johannesburg
+A03. nr_home
+A04. nr_shanghai
+A05. nr_saigon
+A06. nr_stockholm
+A07. nr_tallinn
+A08. nr_hamburg
+B09. nr_san_francisco
+B10. nr_hong_kong
+B11. nr_sydney
+B12. nr_dubai
+B13. nr_rio_de_janeiro
+B14. nr_istanbul
+C15. nr_medellin
+C16. nr_singapore
+C17. nr_havana
+C18. nr_guadalajara
+C19. nr_vegas
+C20. nr_bangalore
+C21. nr_hanoi
+C22. nr_buenos_aires
+C23. nr_monaco
+C24. nr_zurich
+D25. nr_san_salvador
+D26. nr_lagos
+C27. nr_moscow
+D28. nr_kigali
+D29. nr_sao_paulo
+D30. nr_bombay
+
+
+
+=========================311-315
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:
+
+
+1o Dia: ...
+
+Fechamento: ... 
+Medalhas: xG, xS, xB
+
+
+sort (1-8 MMC) (8A(A|D): x|x, 6B(A|B): x|x, 13C(A|C): x|x, 3D(A|D): x|x)
+A01. nr_barcelona
+A02. nr_vegas
+A03. nr_stockholm
+A04. nr_san_francisco
+A05. taa_atalanta
+A06. goldmn_13
+A07. taa_rb_salzburg
+A08. taa_colo_colo
+B09. nr_sydney
+B10. nr_san_salvador
+B11. nr_bombay
+B12. nr_johannesburg
+B13. nr_home
+B14. nr_shanghai
+C15. nr_saigon
+C16. nr_tallinn
+C17. nr_hamburg
+C18. nr_hong_kong
+C19. nr_dubai
+C20. nr_rio_de_janeiro
+C21. nr_istanbul
+C22. nr_medellin
+C23. nr_singapore
+C24. nr_havana
+D25. nr_guadalajara
+D26. nr_bangalore
+C27. nr_hanoi
+D28. nr_buenos_aires
+D29. nr_monaco
+D30. nr_zurich
+
+
+
+
+
+=========================316-320
+A. Stake (8)
+B. Queria mas nao deu
+C. Meeh Zone
+D. Vai se lascar
+
+Abertura:
+
+
+1o Dia: ...
+
+Fechamento: ... 
+Medalhas: xG, xS, xB
+
+
+sort (1-8 MMC) (8A(A|D): x|x, 6B(A|B): x|x, 13C(A|C): x|x, 3D(A|D): x|x)
+A01. nr_vegas
+A02. bronzemn_13
+A03. goldmn_15
+A04. goldmn_3
+A05. nr_johannesburg
+A06. taa_river_plate
+A07. goldmn_2
+A08. goldmn_6
+B09. nr_barcelona
+B10. nr_vegas
+B11. nr_stockholm
+B12. nr_san_francisco
+B13. taa_atalanta
+B14. goldmn_13
+C15. taa_rb_salzburg
+C16. taa_colo_colo
+C17. nr_sydney
+C18. nr_san_salvador
+C19. nr_bombay
+C20. nr_johannesburg
+C21. nr_home
+C22. nr_shanghai
+C23. nr_saigon
+C24. nr_tallinn
+D25. nr_hamburg
+D26. nr_hong_kong
+C27. nr_dubai
+D28. nr_rio_de_janeiro
+D29. nr_istanbul
+D30. nr_medellin
+
+
+
+
+=========================321-326
+
+Abertura:
+
+
+1o Dia: ...
+
+Fechamento: ... 
+Medalhas: xG, xS, xB
+
+
+sort (1-8 MMC) (8A(A|D): x|x, 6B(A|B): x|x, 13C(A|C): x|x, 3D(A|D): x|x)
+A01. goldmn_3
+A02. nr_johannesburg
+A03. goldmn_15
+A04. taa_necaxa
+A05. goldmn_2
+A06. taa_river_plate
+A07. taa_necaxa
+A08. nr_vegas
+B09. nr_barcelona
+B10. goldmn_6
+B11. nr_stockholm
+B12. nr_san_francisco
+B13. taa_atalanta
+B14. goldmn_13
+C15. taa_rb_salzburg
+C16. taa_colo_colo
+C17. nr_sydney
+C18. nr_san_salvador
+C19. nr_bombay
+C20. nr_johannesburg
+C21. nr_home
+C22. nr_shanghai
+C23. nr_saigon
+C24. nr_tallinn
+D25. nr_hamburg
+D26. nr_hong_kong
+C27. nr_dubai
+D28. nr_rio_de_janeiro
+D29. nr_istanbul
+D30. nr_medellin
+
+
+
+
+=========================326-330
+
+Abertura:
+
+
+1o Dia: ...
+
+Fechamento: ... 
+Medalhas: xG, xS, xB
+
+
+sort (1-8 MMC) (8A(A|D): x|x, 6B(A|B): x|x, 13C(A|C): x|x, 3D(A|D): x|x)
+A01. nr_lisbon
+A02. nr_barcelona
+A03. nr_kigali
+A04. nr_singapore
+A05. nr_lisbon
+A06. nr_san_salvador
+A07. taa_atalanta
+A08. taa_rb_leipzig
+B09. taa_boca_jrs
+B10. goldmn_3
+B11. nr_johannesburg
+B12. goldmn_15
+B13. goldmn_2
+B14. taa_river_plate
+C15. nr_vegas
+C16. nr_barcelona
+C17. goldmn_6
+C18. nr_stockholm
+C19. nr_san_francisco
+C20. taa_atalanta
+C21. goldmn_13
+C22. taa_rb_salzburg
+C23. nr_sydney
+C24. nr_bombay
+D25. nr_johannesburg
+D26. nr_home
+C27. nr_shanghai
+D28. nr_saigon
+D29. nr_tallinn
+D30. nr_hamburg
+
+
+=========================331-335
+
+
+A01. nr_san_salvador
+A02. nr_johannesburg
+A03. nr_lisbon
+A04. nr_barcelona
+A05. goldmn_5
+A06. taa_atalanta
+A07. taa_whitecaps
+A08. taa_genoa
+B09. taa_necaxa
+B10. taa_molde
+B11. nr_home
+B12. taa_boca_jrs
+B13. nr_san_francisco
+B14. nr_kigali
+C15. nr_singapore
+C16. taa_rb_leipzig
+C17. goldmn_3
+C18. goldmn_15
+C19. goldmn_2
+C20. taa_river_plate
+C21. nr_vegas
+C22. goldmn_6
+C23. nr_stockholm
+C24. goldmn_13
+D25. taa_rb_salzburg
+D26. nr_sydney
+C27. nr_bombay
+D28. nr_shanghai
+D29. nr_saigon
+D30. nr_tallinn
+
+
+
+=========================336-340
+
+
+A01. nr_san_salvador
+A02. nr_lisbon
+A03. nr_buenos_aires
+A04. goldmn_12
+A05. nr_saigon
+A06. taa_rb_salzburg
+A07. taa_necaxa
+A08. taa_boca_jrs
+B09. nr_barcelona
+B10. nr_tallinn
+B11. goldmn_5
+B12. taa_atalanta
+B13. taa_whitecaps
+B14. taa_genoa
+C15. taa_molde
+C16. nr_home
+C17. nr_san_francisco
+C18. nr_kigali
+C19. nr_singapore
+C20. taa_rb_leipzig
+C21. goldmn_3
+C22. goldmn_15
+C23. goldmn_2
+C24. taa_river_plate
+D25. nr_vegas
+D26. nr_stockholm
+C27. nr_sydney
+D28. nr_bombay
+D29. nr_shanghai
+D30. nr_johannesburg
+
+
+
+
+
+
+=========================349-374
+1-2 Corr+TC
+3-8 Corr Only
+
+
+A01. nr_copenhagen
+A02. nr_vegas
+A03. nr_barcelona
+A04. nr_lisbon
+A05. nr_san_francisco
+A06. nr_stockholm
+A07. taa_genoa
+A08. taa_rb_leipzig
+B09. nr_san_salvador
+B10. nr_buenos_aires
+B11. nr_saigon
+B12. taa_rb_salzburg
+B13. taa_necaxa
+B14. taa_boca_jrs
+C15. nr_tallinn
+C16. goldmn_5
+C17. taa_atalanta
+C18. taa_whitecaps
+C19. taa_molde
+C20. nr_home
+C21. nr_kigali
+C22. nr_singapore
+C23. goldmn_3
+C24. goldmn_15
+D25. goldmn_2
+D26. taa_river_plate
+C27. nr_sydney
+D28. nr_bombay
+D29. nr_shanghai
+D30. nr_johannesburg
+
+
+
+
+=========================374-399
+1-3 Corr+2*TC
+4-6 Corr+1*TC
+7-8 3*TC
+
+
+
+A01. nr_sydney (inverteram 279)
+A02. nr_copenhagen (inverteram 279)
+A03. nr_havana
+A04. nr_vegas
+A05. taa_basel
+A06. taa_atalanta
+A07. nr_monaco
+A08. nr_guadalajara
+B09. nr_san_salvador
+B10. nr_buenos_aires
+B11. nr_saigon
+B12. taa_rb_salzburg
+B13. taa_necaxa
+B14. taa_boca_jrs
+C15. nr_tallinn
+C16. goldmn_5
+C17. nr_hanoi
+C18. taa_whitecaps
+C19. taa_molde
+C20. nr_home
+C21. nr_kigali
+C22. nr_singapore
+C23. goldmn_3
+C24. goldmn_15
+D25. goldmn_2
+D26. taa_river_plate
+C27. nr_bangalore
+D28. nr_bombay
+D29. nr_shanghai
+D30. nr_johannesburg
+
+
+=========================399-424
+1-3 Corr+2*TC
+4-6 Corr+1*TC
+7-8 3*TC
+
+
+OBS mudanca round 404 (outra 414)
+
+A01. nr_monaco
+A02. nr_monaco
+A03. nr_monaco
+A04. nr_monaco
+A05. nr_monaco
+A06. nr_monaco
+A07. nr_monaco
+A08. nr_monaco
+B09. taa_basel
+B10. nr_lagos
+B11. nr_hanoi
+B12. nr_vegas
+B13. nr_hamburg
+B14. nr_buenos_aires
+C15. nr_sydney
+C16. nr_istanbul
+C17. nr_san_salvador
+C18. nr_saigon
+C19. nr_lisbon
+C20. nr_barcelona
+C21. nr_moscow
+C22. nr_tallinn
+C23. nr_copenhagen
+C24. nr_hong_kong
+D25. nr_singapore
+D26. nr_havana
+C27. nr_guadalajara
+D28. nr_sao_paulo
+D29. nr_home
+D30. nr_kigali
+
+
+
+
+
+
+
+=========================424-449
+1-8 Corr+3*TC
+
+
+
+A01. nr_monaco
+A02. nr_monaco
+A03. nr_monaco
+A04. nr_monaco
+A05. nr_monaco
+A06. nr_monaco
+A07. nr_monaco
+A08. nr_monaco
+B09. taa_basel
+B10. nr_lagos
+B11. nr_hanoi
+B12. nr_vegas
+B13. nr_hamburg
+B14. nr_buenos_aires
+C15. nr_sydney
+C16. nr_istanbul
+C17. nr_san_salvador
+C18. nr_saigon
+C19. nr_lisbon
+C20. nr_barcelona
+C21. nr_moscow
+C22. nr_tallinn
+C23. nr_copenhagen
+C24. nr_hong_kong
+D25. nr_singapore
+D26. nr_havana
+C27. nr_guadalajara
+D28. nr_sao_paulo
+D29. nr_home
+D30. nr_kigali
+
+
+
+=========================449-474
+1-8 Corr+3*TC
+
+
+
+A01. nr_monaco
+A02. nr_monaco
+A03. nr_monaco
+A04. nr_monaco
+A05. nr_monaco
+A06. nr_monaco
+A07. nr_monaco
+A08. nr_monaco
+B09. nr_kigali
+B10. nr_lagos
+B11. nr_hanoi
+B12. nr_vegas
+B13. nr_hamburg
+B14. nr_buenos_aires
+C15. nr_sydney
+C16. nr_istanbul
+C17. nr_san_salvador
+C18. nr_saigon
+C19. nr_lisbon
+C20. nr_barcelona
+C21. nr_moscow
+C22. nr_tallinn
+C23. nr_copenhagen
+C24. nr_hong_kong
+D25. nr_singapore
+D26. nr_havana
+C27. nr_guadalajara
+D28. taa_basel
+D29. goldmn_15
+D30. goldmn_16
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

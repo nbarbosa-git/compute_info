@@ -1,0 +1,877 @@
+
+
+====rdd 281
+Abertura: ...
+Fechamento:
+Escolha do inifinity foi ruim
+linear e xxgb 1,2,3 acima do restante durante o dominio nao linear (confuso)
+MMC bb7 pouco acima do LR (round com dominancia confusa)
+inifinity3 abaixo do 15, Leda (inf4) o melhor
+ranker um pouco abaixo
+
+xgb_infinity (meh)
+factor,1.0   (ok)
+
+
+
+
+====rdd 282
+Abertura: ...
+Fechamento:
+Buenos aires mais fraco, nao fede nem cheira
+talvez precise arriscar mais 
+
+xgb_1_120 (ok)
+factor,0.4 (meh)
+
+
+
+===== rdd 283
+Abertura:
+FN: Estou confuso com a subida do Home, voo da galinha linear(?)
+Modelo: 15 nao inventa
+
+1o dia: bb7 party 
+
+Fechamento:
+Medellin e rio terminaram qse iguais
+Round ficou igual pra 0 ou 1 
+
+xgb_1_120 (ok)
+factor,0.0 (ok)
+
+
+
+===== rdd 284
+Abertura:
+FN: Socorro Burn em charisma tud doido
+Modelo: 15 nao inventa (pensei no dione)
+
+1o dia: Linear party
+
+Fechamento: Se lascou 
+
+xgb_1_120 (ok)
+factor,1.0 (errou)
+
+
+===== rdd 285
+Abertura:
+FN: Ainda somos bearish? Acho que é um spike
+Modelo: 15 nao inventa (queria infinity, mas to com 2 vendas)
+
+1o dia: Linear party
+
+Fechamento: 
+Linear Party
+Mas negocio ta feio nas roodadas abertas a frente
+
+xgb_1_120 (8 foi melhor)
+factor,1.0 (errou)
+dominance,-1 (errou)
+
+
+===== rdd 286
+Abertura:
+FN: Linear abriu fforte Last 5 (3 a 2 p/ linear)
+Modelo: xgb_infinity4
+
+1o dia: ...
+
+
+xgb_infinity4
+factor,0.0
+dominance,1
+
+Fechamento:
+FN: Talvez 1.5, mas 1.0 é ok
+Modelo: xgb_infinity4 melhor q o xgb8 e 15
+Dominance: +1 certinho
+
+
+===== rdd 287
+Abertura:
+FN: Mantendo tudo
+Modelo: xgb_infinity4
+
+1o dia: abertura bem fraca, pra tudo, integration=0.004, nao linear negativa
+
+Fechamento: ... 
+
+xgb_infinity4
+factor,0.0
+dominance,1
+
+
+
+===== rdd 288
+Abertura:
+
+xgb_infinity4
+factor,0.0
+dominance,1 (ok - moscow) 
+
+1o dia:
+
+Fechamento:
+tile/MMC:
+ols15   || 68
+bb7(rio)|| 34
+moscow  || 46
+russia  || 40
+germany || 71
+austria || 38
+
+xgb_infinity4
+
+
+
+===== rdd 289
+Abertura:
+Mantendo tudo
+
+xgb_infinity4
+factor,0.0  (ok - xgb15)
+dominance,1 (ok - moscow) 
+
+1o dia: N/A
+
+Fechamento:
+Moscow e Russia foram mal
+hamburg piorou o germany
+
+tile/MMC (abertura rd anterior/fechamento):
+ols15   || xx || 48
+xgb15   || xx || 27
+bb7(rio)|| xx || 23
+moscow  || xx || 42
+russia  || xx || 15
+germany || xx || 60
+austria || xx || 12
+hamburg || xx || 31
+
+
+
+===== rdd 290
+Abertura:
+FN: Mantendo tudo, se manter, virar dom na proxima
+Modelo: xgb_infinity4
+factor,0.0  (ok - xgb15)
+dominance,1 (ok - moscow) 
+
+1o dia: N/A
+
+Fechamento:
+Moscow e Russia foram mal (2x)
+hamburg piorou o germany (2x)
+
+tile/MMC (abertura rd anterior/fechamento):
+ols15   || xx || 60
+xgb15   || xx || 47
+bb7(rio)|| xx || 69
+moscow  || xx || 48
+russia  || xx || 29
+hamburg || xx || 35
+germany || xx || 74
+austria || xx || 46
+
+
+
+===== rdd 291
+Abertura:
+FN: Ta fodaaaa
+Modelo: xgb_infinity4
+Dom: Devo retrocar na proxima
+
+xgb_infinity4
+factor,1.0 (ok)
+dominance,-1 (errou feio)
+
+1o dia: N/A
+
+Fechamento:
+Ideia dominance invertido n funcionou
+
+tile/MMC (abertura rd anterior/fechamento):
+ols15   || xx || 91
+xgb15   || xx || 75
+bb7(rio)|| xx || 32
+moscow  || xx || 2
+russia  || xx || 83
+hamburg || xx || 44
+germany || xx || 95
+austria || xx || 37
+
+
+
+
+===== rdd 292
+Abertura: N/A
+1o Dia: N/A
+
+xgb_infinity4 (ok)
+factor,0.0 (ok)
+dominance,1 (ok)
+
+Fechamento:
+Argentina um pouco abaixo do xgb15
+hamburgo abaixo do germany
+
+tile/MMC (abertura rd anterior/fechamento):
+ols15   || xx || 90
+xgb15   || xx || 47
+bb7(rio)|| xx || 24
+medellin|| xx || 44
+moscow  || xx || 28
+russia  || xx || 04
+hamburg || xx || 89
+germany || xx || 92
+austria || xx || 63
+
+
+
+===== rdd 293
+Abertura: N/A
+
+
+ols15   || 95 || 69
+bb7     || 51 || 56
+moscow  || 13 || 39
+russia  || 24 || 66
+germany || 92 || 79
+austria || 89 || 30
+
+1o dia: N/A
+
+Fechamento:
+Errei a dominancia
+
+xgb_1_120 (ok)
+factor,0.0 (ok)
+dominance,-1 (N)
+
+
+===== rdd 294
+Abertura:
+A ideia do reverse nao funcionou
+
+xgb_1_120 (ok)
+factor,0.0 (ok)
+dominance,1 (ok)
+
+1o dia: ...
+
+Fechamento:
+tile/MMC (abertura rd anterior/fechamento):
+ols15   || 75 || 72
+xgb15   || 70 || 57
+bb7(rio)|| 32 || 04
+moscow  || 10 || 14
+russia  || 96 || 00
+germany || 98 || 72
+austria || 00 || 70
+hamburg || 00 || 38
+
+
+
+===== rdd 295
+Abertura:
+
+
+
+xgb_infinity
+factor,0.0
+dominance,1
+
+1o dia: ...
+
+tile/MMC (abertura rd anterior/fechamento):
+ols15   || 58 || 58
+xgb15   || 63 || 36
+bb7(rio)|| 24 || 28
+moscow  || 82 || 03
+hamburg || 98 || 01
+russia  || 40 || 07
+germany || 94 || 19
+austria || 00 || 98
+
+
+Fechamento:
+Muito confuso
+OLS > XGB
+GER << Austria
+
+
+===== rdd 296
+Abertura:
+Sem mto misterio linear superior
+
+xgb_1_120
+factor,0.0
+dominance,1
+
+1o dia: ...
+
+Fechamento:
+tile/MMC (abertura rd anterior/fechamento):
+ols15   || 85 || 70
+xgb15   || 76 || 54
+bb7(rio)|| 12 || 17
+moscow  || 66 || 05
+hamburg || 99 || 03
+russia  || 09 || 14
+germany || 96 || 43
+austria || 14 || 96
+
+
+
+===== rdd 297
+Abertura:
+295 virou pra FN, 296 abriu LR, KISS
+
+xgb_1_120
+factor,0.0 (ok)
+dominance,1 (ok)
+
+1o dia: ...
+
+Fechamento:
+tile/Corr (abertura rd anterior/fechamento):
+ols15   || xx || 82
+xgb15   || xx || 91
+bb7(rio)|| xx || 24
+moscow  || xx || 52
+hamburg || xx || 66
+russia  || xx || 18
+germany || xx || 81
+austria || xx || 25
+
+
+
+===== rdd 298
+Abertura:
+LR tava la embiaxo, no sabaod subiu, mudei o tile pra corr
+vou manter com DOM linear, acho que o dom FN spike foi na 295 e acabou
+
+xgb_1_120
+factor,0.0 (ok)
+dominance,1(ok)
+
+1o dia: ...
+
+Fechamento:
+tile/CORR (abertura rd anterior/fechamento):
+ols15   || 42 || 86
+xgb15   || 79 || 95
+bb7(rio)|| 31 || 39
+moscow  || 11 || 66
+hamburg || 07 || 57
+russia  || 35 || 36
+germany || 30 || 74
+austria || 54 || 61
+
+
+
+
+===== rdd 299
+Abertura:
+Demora na abertura 298
+
+xgb_1_120
+factor,0.0 (ok)
+dominance,1 (ok)
+
+1o dia: ...
+
+Fechamento:
+tile/CORR (abertura rd anterior/fechamento):
+ols15   || 70 || 85
+xgb15   || 83 || 96
+bb7(rio)|| 17 || 28
+moscow  || 36 || 80
+hamburg || 65 || 76
+russia  || 05 || 27
+germany || 59 || 74
+austria || 30 || 38
+
+
+
+===== rdd 300
+Abertura:
+Parece que voltaremos ao regime antigo 
+Wis comecou a cair
+
+xgb_infinity4
+factor,0.0 (ok)
+dominance,1 (N)
+
+1o dia: ...
+
+Fechamento:
+tile/CORR (abertura rd anterior/fechamento):
+ols15   || 70 || 23
+xgb15   || 73 || 91
+bb7(rio)|| 14 || 23
+moscow  || 78 || 40
+hamburg || 66 || 35
+russia  || 10 || 11
+germany || 77 || 45
+austria || 24 || 99
+
+
+
+
+
+
+===== rdd 301
+Abertura:
+
+
+
+xgb_infinity4
+factor,0.0
+dominance,-1
+
+1o dia: ...
+
+Fechamento:
+tile/CORR (abertura rd anterior/fechamento):
+ols15   || 21 || xx
+xgb15   || 41 || xx
+bb7(rio)|| 83 || xx
+moscow  || 14 || xx
+hamburg || 04 || xx
+russia  || 77 || xx
+germany || 22 || xx
+austria || 98 || xx
+
+
+
+
+===== rdd 302
+Abertura:
+keep it
+
+
+xgb_infinity4
+factor,0.0
+dominance,-1
+
+1o dia: ...
+
+Fechamento:
+tile/CORR (abertura rd anterior/fechamento):
+ols15   || 65 || xx
+xgb15   || 27 || xx
+xfn15   || 75 || xx
+moscow  || 48 || xx
+russia  || 24 || xx
+germany || 14 || xx
+austria || 99 || xx
+uruguay || 92 || xx
+gana    || 01 || xx
+easy    || 05 || xx
+hard    || 56 || xx
+
+
+
+===== rdd 303
+Abertura:
+keep it
+
+
+xgb_1_120
+factor,0.0
+dominance,1
+
+1o dia: ...
+
+Fechamento:
+tile/CORR (abertura rd anterior/fechamento):
+ols15   || 97 || xx
+xgb15   || 63 || xx
+xfn15   || 06 || xx
+moscow  || 01 || xx
+russia  || 30 || xx
+germany || 98 || xx
+austria || 37 || xx
+uruguay || 07 || xx
+gana    || 74 || xx
+easy    || 78 || xx
+hard    || 03 || xx
+
+
+===== rdd 304
+Abertura:
+keep it
+
+
+xgb_1_120
+factor,0.0
+dominance,-1
+
+1o dia: ...
+
+Fechamento:
+tile/CORR (abertura rd anterior/fechamento):
+ols15   || 47 || xx
+xgb15   || 22 || xx
+xfn15   || 75 || xx
+moscow  || 17 || xx
+russia  || 67 || xx
+germany || 04 || xx
+austria || 99 || xx
+uruguay || 92 || xx
+gana    || 74 || xx
+easy    || 00 || xx
+hard    || 50 || xx
+
+
+===== rdd 305
+Abertura:
+keep it
+
+
+xgb_1_120
+factor,0.0
+dominance,-1
+
+1o dia: ...
+
+Fechamento:
+tile/CORR (abertura rd anterior/fechamento):
+ols15   || 33 || xx
+xgb15   || 27 || xx
+xfn15   || 87 || xx
+moscow  || 74 || xx
+russia  || 31 || xx
+germany || 20 || xx
+austria || 95 || xx
+uruguay || 94 || xx
+gana    || 03 || xx
+easy    || 07 || xx
+hard    || 88 || xx
+
+
+
+
+======================================================
+======================================================
+======================================================
+
+Next overall corr/mmc olhe 5rdds e 10 rdds
+mudar strategy 306
+
+
+===== rdd 306-310
+
+Overall 306
+xgb_ranker_infinity4
+factor,1.0
+dominance,-1
+
+
+Overall 306
+xgb_ranker_infinity4
+factor,0.0
+dominance,1
+
+Abertura:
+ols12 21pp
+
+
+
+tile/CORRMMC (5rdds|| 10 rdds):
+
+int16   || 22 || 74
+xgb15   || 31 || 75
+xgb_8   || 06 || 26
+xgb_arg || 54 || 68
+home_i4 || 75 || 87
+ols15   || 15 || 53
+ols16   || 14 || 88
+xfn15   || 55 || 26
+xfn16   || 69 || 45
+moscow  || 48 || 40
+zenit   || 30 || 15
+germany || 01 || 22
+austria || 99 || 99
+river   || 98 || xx
+boca    || 02 || xx
+easy    || 06 || xx
+hard    || 85 || xx
+
+
+
+
+
+
+
+
+======================================================
+======================================================
+======================================================
+
+Next overall corr/mmc olhe 5rdds e 10 rdds
+mudar strategy 306
+
+
+===== rdd 311-315
+
+Overall 311
+xgb_infinity
+factor,1.0
+dominance,-1
+
+
+Overall 313
+swap_example
+factor,1.0
+dominance,-1
+
+
+
+Abertura
+tile/CORR (5rdds|| 10 rdds):
+
+int16   || 62 || 43
+xgb15   || 56 || 40
+xgb_8   || 73 || 37
+xgb_arg || 79 || 65
+home_i4 || 78 || 78
+ols15   || 85 || 60
+ols16   || 94 || 64
+xfn15   || 10 || 11
+xfn16   || 13 || 46
+moscow  || 33 || 21
+zenit   || 64 || 50
+germany || 82 || 18
+austria || 52 || 98
+river   || 71 || 99
+boca    || 77 || 21
+easy    || 79 || 18
+hard    || 14 || 45
+
+
+======================================================
+======================================================
+======================================================
+
+
+
+===== rdd 316-320
+
+
+
+Overall 316
+xgb_ranker_dom_fn
+factor,1.0
+dominance,-1
+
+
+
+Abertura
+RANK (CORR|| TC):
+
+int16   || 3696 || 2402
+xgb15   ||  942 || 4091
+xgb_8   || 2676 || 6490
+xgb_arg || 1436 || 8485
+home_i4 ||  538 || 9652
+ols15   || 1828 || 9048
+ols16   || 2962 || 10121
+xfn15   || 6921 || 6672
+xfn16   || 4731 || 2489
+moscow  || 4794 || 10125
+zenit   || 3673 || 9989
+germany || 3860 || 9472
+austria ||   80 || 1928
+river   ||   64 || 3154
+boca    || 3770 || 8012
+easy    || 6459 || 8594
+hard    || 6807 || 2929
+
+
+
+======================================================
+======================================================
+======================================================
+
+
+
+===== rdd 321-325
+
+xgb_dom_fn
+factor,0.0
+dominance,1
+dom_era,-1
+
+rdd 325
+xgb_dom_fn
+factor,0.0
+dominance,-1
+dom_era,-1
+
+
+======================================================
+======================================================
+======================================================
+
+
+
+===== rdd 326-330
+
+swap_example
+factor,0.0
+dominance,1
+dom_era,1
+
+
+======================================================
+======================================================
+======================================================
+
+
+
+===== rdd 331-335
+
+swap_example
+factor,0.0
+dominance,1
+dom_era,1
+
+
+
+======================================================
+======================================================
+======================================================
+
+
+
+===== rdd 336-340
+
+swap_example
+factor,0.0
+dominance,1
+dom_era,-1
+
+
+
+======================================================
+======================================================
+======================================================
+
+
+
+===== rdd 349-374
+
+xgb_1_120
+factor,0.0
+dominance,1
+dom_era,1
+
+
+======================================================
+======================================================
+======================================================
+
+vanilla_models = [
+
+    'xgb_infinity',
+    'xgb_infinity4',
+    'xgb_ranker_infinity4',
+
+    'xgb_1_120',
+    'xgb_dom_lr',
+    'xgb_dom_fn',
+
+    'lr_1_120',
+    'lr_dom_lr',
+    'lr_dom_fn',
+
+    'xgb_ranker_dom_lr',
+    'xgb_ranker_dom_fn',
+    'swap_example'
+
+
+]
+
+
+
+===== rdd 374-399
+
+xgb_dom_fn
+factor,0.0
+dominance,1
+dom_era,-1
+
+
+===== rdd 399-424
+
+xgb_infinity4
+factor,0.0
+dominance,1
+dom_era,1
+
+mudei 419
+xgb_infinity4
+factor,0.0
+dominance,1
+dom_era,-1
+
+
+
+===== rdd 324-449
+
+xgb_infinity4 (até 439)
+dominance,1   (até 449)
+
+swap_example
+factor,0.0
+dominance,-1
+dom_era,-1
+
+
+
+
+======================================================
+======================================================
+======================================================
+
+vanilla_models = [
+
+    'xgb_infinity',
+    'xgb_infinity4',
+    'xgb_ranker_infinity4',
+
+    'xgb_1_120',
+    'xgb_dom_lr',
+    'xgb_dom_fn',
+
+    'lr_1_120',
+    'lr_dom_lr',
+    'lr_dom_fn',
+
+    'xgb_ranker_dom_lr',
+    'xgb_ranker_dom_fn',
+    'swap_example'
+
+    'xgb_lack_dex',
+    'xgb_exc_60_80'
+]
+
+FACTOR é usado no SWAP MAP
+san_salvador e taa
+
+===== rdd 449-474
+
+xgb_dom_fn
+factor,-1
+dominance,1
+dom_era,-1
+
+
+
+
+
+

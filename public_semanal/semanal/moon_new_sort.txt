@@ -1,0 +1,208 @@
+Round 449 Daily:
+Data: 26/03/2023
+
+Notas:
+full keys(80):
+dyn: 39
+L0_vanilla: 7
+swap_map: 11
+L1: 12
+vegas: 8
+pick: 3
+
+
+==========================================================================================
+==========================================================================================
+==========================================================================================
+DYN MODELS (STRATEGY: ERA/FT)
+
+(+AGG_E)
+genoa:           dyn_old +aggE ok/ok            (449) || obs: GENOA
+
+helsinki:        dyn strategy +aggE ok/ok       (449) || obs:
+st_petersburg:   dyn strategy +aggE ok/inv      (449) || obs: MONACO
+
+saprissa:        dyn  +aggE fn/fn               (449) || obs:
+brondby:         dyn  +aggE fn/lr               (449) || obs:
+
+
+------------------------------------------
+
+(+AGG)
+saint_tropez:    dyn_old +agg ok/inv             (449) || obs: MONACO/GENOA
+
+monaco:          dyn +agg ok/inv                 (321) || obs: MONACO
+urawa_reds:      dyn +agg ok/inv FN1.75          (449) || obs: MONACO
+oslo:            dyn +agg  ok/ok                 (449) || obs:
+malmo:           dyn +agg inv/inv                (449) || obs:
+
+whitecaps:       dyn +agg lr/lr                  (419) || obs: STATIC
+pumas:           dyn +agg fn/lr                  (419) || obs: STATIC
+atalanta:        dyn +agg fn/fn                  (419) || obs: STATIC
+tigres:          dyn +agg lr/fn                  (419) || obs: STATIC
+
+
+------------------------------------------
+
+(AGRESSIVO)
+frankfurt:       dyn_old agressivo ok/ok         (449) || obs: GENOA
+
+istanbul:        dyn agressivo ok/inv            (349) || obs: MONACO
+esperance:       dyn agressivo 1.75              (449) || obs:
+hamburg:         dyn strategy agressivo ok/ok    (301) || obs:
+
+lisbon:          dyn agressivo lr/lr             (301) || obs: STATIC
+copenhagen:      dyn agressivo fn/fn             (301) || obs: STATIC
+shanghai:        dyn agressivo fn/lr             (349) || obs: STATIC
+hong_kong:       dyn agressivo lr/fn             (349) || obs: STATIC
+
+
+------------------------------------------
+
+(L1 STATIC)
+boca_jrs:        dyn xgb_dom_lr                  (301) || obs:
+river_plate:     dyn xgb_dom_fn                  (301) || obs:
+
+rb_leipzig:      dyn lr_dom_lr                   (288) || obs:
+rb_salzburg:     dyn lr_dom_fn                   (288) || obs:
+
+
+------------------------------------------
+
+
+(MODERADO)
+tallinn:         dyn strategy moderado  ok/ok    (301) || obs:
+fiorentina:      dyn moderado lr only            (349) || obs:
+lazio:           dyn moderado fn only            (349) || obs:
+
+barcelona:       dyn xgb_dom lr/fn               (301) || obs:
+espanyol:        dyn minus barcelona             (349) || obs:
+dubai:           dyn lr_dom lr/fn                (321) || obs:
+
+------------------------------------------
+
+
+(CONSERVADOR)
+moscow:          dyn strategy conservador        (301) || obs:
+zenit:           dyn conservador fn only         (349) || obs: STATIC
+cska:            dyn conservador lr only         (349) || obs: STATIC
+shakthar:        dyn conservador 1.75            (349) || obs:
+
+santiago:        dyn lr/xgb_1_120 FN100          (449) || obs:
+stockholm:       dyn lr/fn                       (301) || obs:
+molde:           dyn reg_preds lr/xgb            (301) || obs:
+
+
+
+
+
+
+
+===============================================================
+
+SWAP MAP
+
+(DYN)
+al_ittihad:      swap_map inf4/team_lr/inv_swap  (449) || obs:
+basel:           swap_map inf4/team_lr/inv_swap  (449) || obs:
+
+al_hilal:        swap_map dyn inv/ok/inv         (449) || obs:
+mazembe:         swap_map dyn ok/ok/inv          (449) || obs:
+al_ahly:         swap_map lr/lr/lr               (449) || obs:
+
+necaxa:          swap_map dyn factor/era fn/fn   (449) || obs:
+guadalajara:     swap_map inv lr & fn old style  (349) || obs:
+san_salvador:    swap_map dyn factor/era ok/ok   (449) || obs:
+
+
+------------------------------------------
+
+(BASIC)
+cancun:          swap_map ok lr & fn old style   (449) || obs:
+hanoi:           swap_map swap *0,1 team fn      (349) || obs:
+saigon:          swap_map swap *0,1 team lr      (349) || obs:
+havana:          swap_map xgb_ones_inifinity     (281) || obs:
+
+
+
+
+===============================================================
+
+L0 MODELS
+
+(BASIC FN)
+medellin:        L0_vanilla FN0                  (301) || obs:
+buenos_aires:    L0_vanilla FN40                 (280) || obs:
+rio_de_janeiro:  L0_vanilla FN100                (301) || obs:
+
+------------------------------------------
+
+(METRIC FN)
+bangalore:       L0_vanilla ar1_sign             (280) || obs:
+johannesburg:    L0_vanilla sfi_vanilla          (280) || obs:
+bombay:          L0_vanilla strategy_metric      (301) || obs:
+
+
+===============================================================
+
+
+L1 MODELS
+
+(VAL4)
+home:            L1 ranker_inf4                  (288) || obs:
+racing:          L1 xgb_inifinity4               (282) || obs:
+al_sadd:         L1 xgb_val4                     (449) || obs:
+colo_colo:       L1 ex_preds_v4+FN100 old feats  (288) || obs:
+
+(LINEARES)
+sao_paulo:       L1 lr_1_120                     (301) || obs:
+sydney:          L1 logistic_reg                 (301) || obs:
+
+(EXC)
+lima:            L1 xgb_exc_60_80 FN0            (449) || obs:
+quito:           L1 xgb_81_120_val3 FN0          (449) || obs:
+
+(LACK DEX)
+singapore:       L1 lack of dex FN0              (301) || obs:
+kuala_lumpur:    L1 lack of dex FN100            (449) || obs:
+jakarta:         L1 lack of dex FN125            (449) || obs:
+
+
+
+===============================================================
+
+DRAFT MODELS
+(VEGAS FN)
+san_francisco:   LR_1_120 vegas_FN               (302) || obs:
+
+
+(PICK NR)
+zurich:          fav nr_model 1                  (282) || obs:
+geneva:          fav nr_model 2                  (449) || obs:
+lugano:          fav nr_model 3                  (449) || obs:
+
+
+(PICK MN)
+vegas:           vegas 1                         (301) || obs:
+lagos:           vegas 2                         (321) || obs:
+kigali:          vegas 3                         (321) || obs:
+miami:           vegas 4                         (449) || obs:
+new_orleans:     vegas 5                         (449) || obs:
+austin:          vegas 6                         (449) || obs:
+blackrock_city:  vegas 7                         (449) || obs:
+san_diego:       vegas 8                         (449) || obs:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
