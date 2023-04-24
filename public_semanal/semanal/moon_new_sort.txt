@@ -1,13 +1,13 @@
-Round 449 Daily:
-Data: 26/03/2023
+Round 469 Daily:
+Data: 24/04/2023
 
 Notas:
-full keys(80):
-dyn: 39
+full keys(84):
+dyn: 41
 L0_vanilla: 7
 swap_map: 11
 L1: 12
-vegas: 8
+vegas: 10
 pick: 3
 
 
@@ -17,82 +17,82 @@ pick: 3
 DYN MODELS (STRATEGY: ERA/FT)
 
 (+AGG_E)
-genoa:           dyn_old +aggE ok/ok            (449) || obs: GENOA
+genoa:           dyn_old +aggE ok/ok FN0.50      (449)*|| obs: GENOA
 
-helsinki:        dyn strategy +aggE ok/ok       (449) || obs:
-st_petersburg:   dyn strategy +aggE ok/inv      (449) || obs: MONACO
+helsinki:        dyn +aggE ok/ok                 (449)*|| obs:
+st_petersburg:   dyn +aggE ok/inv                (449)*|| obs: MONACO
+brussels:        dyn +aggE inv/inv(-1)           (469)*|| obs:
 
-saprissa:        dyn  +aggE fn/fn               (449) || obs:
-brondby:         dyn  +aggE fn/lr               (449) || obs:
+saprissa:        dyn +aggE fn/fn                 (449)*|| obs: STATIC
+brondby:         dyn +aggE fn/lr                 (449)*|| obs: STATIC
+lazio:           dyn +aggE fn/fn  KSH_0.3        (469)*|| obs: STATIC
+fiorentina:      dyn +aggE fn/lr  KSH_0.3        (469)*|| obs: STATIC
 
 
 ------------------------------------------
 
 (+AGG)
-saint_tropez:    dyn_old +agg ok/inv             (449) || obs: GENOA
+saint_tropez:    dyn_old +agg ok/inv FN0.50      (449)*|| obs: GENOA
 
-monaco:          dyn +agg ok/inv                 (321) || obs: MONACO
-urawa_reds:      dyn +agg ok/inv FN1.75          (449) || obs: MONACO
-oslo:            dyn +agg  ok/ok                 (449) || obs:
-malmo:           dyn +agg inv/inv                (449) || obs:
+monaco:          dyn +agg ok/inv                 (321)*|| obs: MONACO
+urawa_reds:      dyn +agg ok/inv FN1.25          (449)*|| obs: MONACO
+oslo:            dyn +agg  ok/ok                 (449)*|| obs:
+malmo:           dyn +agg inv/inv                (449)*|| obs:
 
-whitecaps:       dyn +agg lr/lr                  (419) || obs: STATIC
-pumas:           dyn +agg fn/lr                  (419) || obs: STATIC
-atalanta:        dyn +agg fn/fn                  (419) || obs: STATIC
-tigres:          dyn +agg lr/fn                  (419) || obs: STATIC
-
-
-------------------------------------------
-
-(AGRESSIVO)
-frankfurt:       dyn_old agressivo ok/ok         (449) || obs: GENOA
-
-istanbul:        dyn agressivo ok/inv            (349) || obs: MONACO
-esperance:       dyn agressivo 1.75              (449) || obs:
-hamburg:         dyn strategy agressivo ok/ok    (301) || obs:
-
-lisbon:          dyn agressivo lr/lr             (301) || obs: STATIC
-copenhagen:      dyn agressivo fn/fn             (301) || obs: STATIC
-shanghai:        dyn agressivo fn/lr             (349) || obs: STATIC
-hong_kong:       dyn agressivo lr/fn             (349) || obs: STATIC
+whitecaps:       dyn +agg lr/lr                  (419)*|| obs: STATIC
+pumas:           dyn +agg fn/lr                  (419)*|| obs: STATIC
+atalanta:        dyn +agg fn/fn                  (419)*|| obs: STATIC
+tigres:          dyn +agg lr/fn                  (419)*|| obs: STATIC
 
 
 ------------------------------------------
-
-(L1 STATIC)
-boca_jrs:        dyn xgb_dom_lr                  (301) || obs:
-river_plate:     dyn xgb_dom_fn                  (301) || obs:
-
-rb_leipzig:      dyn lr_dom_lr                   (288) || obs:
-rb_salzburg:     dyn lr_dom_fn                   (288) || obs:
-
-
-------------------------------------------
-
 
 (MODERADO)
-tallinn:         dyn strategy moderado  ok/ok    (301) || obs:
-fiorentina:      dyn moderado lr only            (349) || obs:
-lazio:           dyn moderado fn only            (349) || obs:
+hamburg:         dyn moderado ok/ok              (301)*|| obs:
+frankfurt:       dyn moderado ok/ok FN0.50       (449)*|| obs:
+ 
+istanbul:        dyn moderado ok/inv             (349)*|| obs:
+tallinn:         dyn moderado ok/inv KSH_0.3     (301)*|| obs:
+esperance:       dyn moderado ok/inv FN1.25      (449)*|| obs:
+vienna:          dyn moderado inv/inv(-1)        (469)*|| obs:
+ 
+ 
+lisbon:          dyn moderado lr/lr              (301)*|| obs: STATIC
+copenhagen:      dyn moderado fn/fn              (301)*|| obs: STATIC
+shanghai:        dyn moderado fn/lr              (349)*|| obs: STATIC
+hong_kong:       dyn moderado lr/fn              (349)*|| obs: STATIC
 
-barcelona:       dyn xgb_dom lr/fn               (301) || obs:
-espanyol:        dyn minus barcelona             (349) || obs:
-dubai:           dyn lr_dom lr/fn                (321) || obs:
+
 
 ------------------------------------------
 
-
 (CONSERVADOR)
-moscow:          dyn strategy conservador        (301) || obs:
-zenit:           dyn conservador fn only         (349) || obs: STATIC
-cska:            dyn conservador lr only         (349) || obs: STATIC
-shakthar:        dyn conservador 1.75            (349) || obs:
+moscow:          dyn conservador xgb_1_120       (301)*|| obs:
+shakthar:        dyn conservador lr_1_120        (349)*|| obs:
+zenit:           dyn conservador fn only         (349)*|| obs: STATIC
+cska:            dyn conservador lr only         (349)*|| obs: STATIC
+
 
 santiago:        dyn lr/xgb_1_120 FN100          (449) || obs:
 stockholm:       dyn lr/fn                       (301) || obs:
 molde:           dyn reg_preds lr/xgb            (301) || obs:
 
 
+
+------------------------------------------
+
+(Model ONLY)
+
+barcelona:       dyn xgb_dom lr/fn               (301) || obs:
+espanyol:        dyn minus barcelona             (349) || obs:
+dubai:           dyn lr_dom lr/fn                (321) || obs:
+
+
+boca_jrs:        dyn xgb_dom_lr                  (301) || obs:
+river_plate:     dyn xgb_dom_fn                  (301) || obs:
+
+rb_leipzig:      dyn lr_dom_lr                   (288) || obs:
+rb_salzburg:     dyn lr_dom_fn                   (288) || obs:
 
 
 
@@ -140,7 +140,7 @@ rio_de_janeiro:  L0_vanilla FN100                (301) || obs:
 (METRIC FN)
 bangalore:       L0_vanilla ar1_sign             (280) || obs:
 johannesburg:    L0_vanilla sfi_vanilla          (280) || obs:
-bombay:          L0_vanilla strategy_metric      (301) || obs:
+bombay:          L0_vanilla fn_dyn_metric        (301) || obs:
 
 
 ===============================================================
@@ -191,7 +191,8 @@ new_orleans:     vegas 5                         (449) || obs:
 austin:          vegas 6                         (449) || obs:
 blackrock_city:  vegas 7                         (449) || obs:
 san_diego:       vegas 8                         (449) || obs:
-
+vancouver:       vegas 9                         (469) || obs:
+toronto:         vegas 10                        (469) || obs:
 
 
 

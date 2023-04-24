@@ -1034,6 +1034,8 @@ model/fn/sign
 6. austin
 7. blackrock_city
 8. san_diego
+9. toronto
+10. vancouver
 
 
 ====rdd 449-474
@@ -1063,6 +1065,7 @@ bb__test7/xgb_212,1 || bb__test12/xgb_dexterity,-1 (460)
 
 atualizacao 464 (silver vegas) model/fn/sign
 
+fn,sign
 bb__test3/xgb_60,0,1
 bb__test13/xgb_strength,0,1
 bb__test5/xgb_100,0,1
@@ -1071,5 +1074,7 @@ bb__test2/lr_40,0,-1
 bb__test9/xgb_intelligence,0,1
 bb__test4/xgb_80,0,-1
 bb__test12/xgb_dexterity,0,-1
+bb__test3/xgb_60,1,1
+bb__test4/xgb_80,1,-1
 
 
