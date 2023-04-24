@@ -49,6 +49,10 @@ nr_st_petersburg,1,1.5
 nr_oslo,1,2
 nr_saint_tropez,1,2
 nr_frankfurt,1,2
+nr_toronto,1,0
+nr_vancouver,1,0
+nr_vienna,1,0
+nr_brussels,1,0
 sjane_01,1,3
 sjane_02,1,3
 sjane_03,1,3

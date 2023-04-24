@@ -29,7 +29,7 @@ brondby:         dyn  +aggE fn/lr               (449) || obs:
 ------------------------------------------
 
 (+AGG)
-saint_tropez:    dyn_old +agg ok/inv             (449) || obs: MONACO/GENOA
+saint_tropez:    dyn_old +agg ok/inv             (449) || obs: GENOA
 
 monaco:          dyn +agg ok/inv                 (321) || obs: MONACO
 urawa_reds:      dyn +agg ok/inv FN1.75          (449) || obs: MONACO
