@@ -104,7 +104,7 @@ SWAP MAP
 
 (DYN)
 al_ittihad:      swap_map inf4/team_lr/inv_swap  (449) || obs:
-basel:           swap_map inf4/team_lr/inv_swap  (449) || obs:
+basel:           swap_map inf4/team_fn/inv_swap  (449) || obs:
 
 al_hilal:        swap_map dyn inv/ok/inv         (449) || obs:
 mazembe:         swap_map dyn ok/ok/inv          (449) || obs:

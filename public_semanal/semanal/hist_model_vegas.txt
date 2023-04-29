@@ -1078,3 +1078,38 @@ bb__test3/xgb_60,1,1
 bb__test4/xgb_80,1,-1
 
 
+======================================================
+======================================================
+======================================================
+model/fn/sign
+1. vegas (GOLD)
+2. lagos (FEAT)
+3. kigali (FEAT)
+4. miami (GOLD)
+5. new_orleans (GOLD)
+6. austin (GOLD)
+7. blackrock_city (MINUS)
+8. san_diego (MINUS)
+9. toronto (SILVER)
+10. vancouver (SILVER)
+
+
+====rdd 474-499
+
+X. fn,sign
+1. bb__test3/xgb_60,0,1
+2. bb__test13/xgb_strength,0,1
+3. bb__test10/xgb_wisdom,0,1
+4. bb__test6/xgb_120,0,1
+5. bb__test9/xgb_intelligence,0,1
+6. bb__test5/xgb_100,0,1
+7. bb__test4/xgb_80,0,-1
+8. bb__test4/xgb_80,1,-1
+9. bb__test3/xgb_60,1,1
+10.bb__test9/xgb_intelligence,1,1
+
+
+
+
+
+

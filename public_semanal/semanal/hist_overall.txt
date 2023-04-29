@@ -872,6 +872,18 @@ dom_era,-1
 
 
 
+===== rdd 474-499
+
+xgb_exc_60_80
+factor,-1
+dominance,1
+dom_era,-1
+
+
+
+
+
+
 
 
 
