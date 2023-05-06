@@ -2094,8 +2094,15 @@ D29. goldmn_15
 D30. goldmn_16
 
 
-
-
+479
+A01. nr_helsinki
+A02. nr_st_petersburg
+A03. nr_dubai
+A04. nr_monaco
+A05. nr_saint_tropez
+A06. nr_oslo
+A07. nr_lisbon
+A08. nr_sao_paulo
 
 
 

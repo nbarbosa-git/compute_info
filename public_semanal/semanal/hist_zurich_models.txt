@@ -21,9 +21,7 @@ nr_monaco
 nr_saint_tropez
 nr_singapore
 
-
-
-
-
-
-
+rdd479
+nr_helsinki
+nr_st_petersburg
+nr_dubai
