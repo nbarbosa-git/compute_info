@@ -1,12 +1,12 @@
 sort
 nr_helsinki
-nr_st_petersburg
-nr_dubai
-nr_monaco
-nr_saint_tropez
 nr_oslo
+nr_dubai
 nr_lisbon
+nr_saint_tropez
 nr_sao_paulo
+nr_monaco
+nr_st_petersburg
 nr_lagos
 nr_hanoi
 nr_vegas
@@ -21,7 +21,7 @@ nr_barcelona
 nr_moscow
 nr_tallinn
 nr_copenhagen
-nr_hong_kong
+nr_dubai
 nr_singapore
 nr_havana
 nr_guadalajara

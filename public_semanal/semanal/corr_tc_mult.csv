@@ -12,8 +12,8 @@ nr_hong_kong,1,0.5
 nr_bangalore,1,0.5
 nr_bombay,1,0.5
 nr_johannesburg,1,1
-nr_istanbul,1,3
-nr_dubai,1,1.5
+nr_istanbul,1,1
+nr_dubai,1,3
 nr_zurich,1,3
 nr_vegas,1,2
 nr_sao_paulo,1,2
@@ -24,12 +24,12 @@ nr_hanoi,1,0.5
 nr_saigon,1,0.5
 nr_lagos,1,0.5
 nr_kigali,1,0.5
-nr_moscow,1,0.5
+nr_moscow,1,2
 nr_barcelona,1,1
 nr_tallinn,1,1
 nr_hamburg,1,1
 nr_stockholm,1,3
-nr_monaco,1,3
+nr_monaco,1,1
 nr_lisbon,1,2
 nr_copenhagen,1,0.5
 nr_lima,1,1.5
@@ -46,9 +46,9 @@ nr_jakarta,1,0.5
 nr_geneva,1,3
 nr_lugano,1,3
 nr_helsinki,1,3
-nr_st_petersburg,1,3
+nr_st_petersburg,1,1
 nr_oslo,1,2
-nr_saint_tropez,1,2
+nr_saint_tropez,1,1
 nr_frankfurt,1,2
 nr_toronto,1,1
 nr_vancouver,1,0.5

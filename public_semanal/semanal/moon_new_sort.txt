@@ -23,10 +23,14 @@ helsinki:        dyn +aggE ok/ok                 (449)*|| obs:
 st_petersburg:   dyn +aggE ok/inv                (449)*|| obs: MONACO
 brussels:        dyn +aggE inv/inv(-1)           (469)*|| obs:
 
-saprissa:        dyn +aggE fn/fn                 (449)*|| obs: STATIC
-brondby:         dyn +aggE fn/lr                 (449)*|| obs: STATIC
 lazio:           dyn +aggE fn/fn  KSH_0.3        (469)*|| obs: STATIC
 fiorentina:      dyn +aggE fn/lr  KSH_0.3        (469)*|| obs: STATIC
+
+
+saprissa:        dyn +aggE fn/fn                 (449)*|| obs: STATIC
+brondby:         dyn +aggE fn/lr                 (449)*|| obs: STATIC
+whitecaps:       dyn +agg lr/lr                  (419)*|| obs: STATIC
+tigres:          dyn +agg lr/fn                  (419)*|| obs: STATIC
 
 
 ------------------------------------------
@@ -39,10 +43,9 @@ urawa_reds:      dyn +agg ok/inv FN1.25          (449)*|| obs: MONACO
 oslo:            dyn +agg  ok/ok                 (449)*|| obs:
 malmo:           dyn +agg inv/inv                (449)*|| obs:
 
-whitecaps:       dyn +agg lr/lr                  (419)*|| obs: STATIC
+
 pumas:           dyn +agg fn/lr                  (419)*|| obs: STATIC
 atalanta:        dyn +agg fn/fn                  (419)*|| obs: STATIC
-tigres:          dyn +agg lr/fn                  (419)*|| obs: STATIC
 
 
 ------------------------------------------

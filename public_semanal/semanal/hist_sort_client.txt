@@ -2070,29 +2070,33 @@ A05. nr_monaco
 A06. nr_monaco
 A07. nr_monaco
 A08. nr_monaco
-B09. nr_kigali
-B10. nr_lagos
-B11. nr_hanoi
-B12. nr_vegas
-B13. nr_hamburg
-B14. nr_buenos_aires
-C15. nr_sydney
-C16. nr_istanbul
-C17. nr_san_salvador
-C18. nr_saigon
-C19. nr_lisbon
-C20. nr_barcelona
-C21. nr_moscow
-C22. nr_tallinn
-C23. nr_copenhagen
-C24. nr_hong_kong
-D25. nr_singapore
-D26. nr_havana
-C27. nr_guadalajara
+B09. nr_lagos
+B10. nr_hanoi
+B11. nr_vegas
+B12. nr_hamburg
+B13. nr_buenos_aires
+B14. nr_sydney
+C15. nr_istanbul
+C16. nr_san_salvador
+C17. nr_saigon
+C18. nr_lisbon
+C19. nr_barcelona
+C20. nr_moscow
+C21. nr_tallinn
+C22. nr_copenhagen
+C23. nr_hong_kong
+C24. nr_singapore
+D25. nr_havana
+D26. nr_guadalajara
+C27. nr_sao_paulo
 D28. taa_basel
 D29. goldmn_15
 D30. goldmn_16
 
+
+
+=========================449-474
+1-8 Corr+3*TC
 
 479
 A01. nr_helsinki
@@ -2103,10 +2107,42 @@ A05. nr_saint_tropez
 A06. nr_oslo
 A07. nr_lisbon
 A08. nr_sao_paulo
+B09. nr_lagos
+B10. nr_hanoi
+B11. nr_vegas
+B12. nr_hamburg
+B13. nr_buenos_aires
+B14. nr_sydney
+C15. nr_istanbul
+C16. nr_san_salvador
+C17. nr_saigon
+C18. nr_lisbon
+C19. nr_barcelona
+C20. nr_moscow
+C21. nr_tallinn
+C22. nr_copenhagen
+C23. nr_hong_kong
+C24. nr_singapore
+D25. nr_havana
+D26. nr_guadalajara
+C27. nr_sao_paulo
+D28. taa_basel
+D29. goldmn_15
+D30. goldmn_16
 
 
+484
+A01. nr_helsinki
+A02. nr_oslo
+A03. nr_dubai
+A04. nr_lisbon
+A05. nr_saint_tropez
+A06. nr_sao_paulo
+A07. nr_monaco
+A08. nr_st_petersburg
 
 
+C23. nr_dubai
 
 
 
