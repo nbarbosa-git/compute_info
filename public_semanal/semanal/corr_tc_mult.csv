@@ -54,6 +54,7 @@ nr_toronto,1,0.5
 nr_vancouver,1,0.5
 nr_vienna,0,1
 nr_brussels,0,1
+nr_malaga,1,1
 sjane_01,1,2
 sjane_02,1,2
 sjane_03,1,2
@@ -144,6 +145,8 @@ taa_genoa,1,0
 taa_shakthar,1,0
 taa_river_plate,1,0
 taa_racing,1,0
+taa_betis,1,0
+taa_villareal,1,0
 goldmn_1,1,0
 goldmn_2,1,0
 goldmn_3,1,0

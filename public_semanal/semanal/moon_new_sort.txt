@@ -87,13 +87,17 @@ molde:           dyn reg_preds lr/xgb            (301) || obs:
 (Model ONLY)
 
 barcelona:       dyn xgb_dom lr/fn               (301) || obs:
-espanyol:        dyn minus barcelona             (349) || obs:
-dubai:           dyn lr_dom lr/fn                (321) || obs:
-
-
 boca_jrs:        dyn xgb_dom_lr                  (301) || obs:
 river_plate:     dyn xgb_dom_fn                  (301) || obs:
+espanyol:        dyn minus barcelona             (349) || obs:
 
+
+malaga:          dyn xgb_dom lr/fn FN100         (494) || obs:
+betis:           dyn xgb_dom_lr    FN100         (494) || obs:
+villarreal:      dyn xgb_dom_fn    FN100         (494) || obs:
+
+
+dubai:           dyn lr_dom lr/fn                (321) || obs:
 rb_leipzig:      dyn lr_dom_lr                   (288) || obs:
 rb_salzburg:     dyn lr_dom_fn                   (288) || obs:
 
