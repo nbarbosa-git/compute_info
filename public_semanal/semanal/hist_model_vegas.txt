@@ -1105,8 +1105,8 @@ X. fn,sign
 6. austin:         bb__test5/xgb_100,0,1
 7. blackrock_city: bb__test4/xgb_80,0,-1
 8. san_diego:      bb__test4/xgb_80,1,-1
-9. toronto:        bb__test3/xgb_60,1,1
-10.vancouver:      bb__test9/xgb_intelligence,1,1
+9. toronto:        bb__test1/xgb_20,1,1
+10.vancouver:      bb__test10/xgb_wisdom,1,1
 
 
 
