@@ -2095,7 +2095,7 @@ D30. goldmn_16
 
 
 
-=========================449-474
+=========================474-499
 1-8 Corr+3*TC
 
 479
@@ -2145,7 +2145,40 @@ A08. nr_st_petersburg
 C23. nr_dubai
 
 
+=========================499-524
+1-8 Corr+3*TC
 
+479
+A01. nr_helsinki
+A02. nr_oslo
+A03. nr_dubai
+A04. nr_san_francisco
+A05. nr_lima
+A06. nr_sao_paulo
+A07. nr_brussels
+A08. nr_lagos
+B09. nr_st_petersburg
+B10. nr_hanoi
+B11. nr_vegas
+B12. nr_hamburg
+B13. nr_buenos_aires
+B14. nr_sydney
+C15. nr_istanbul
+C16. nr_san_salvador
+C17. nr_dubai
+C18. nr_saint_tropez
+C19. nr_barcelona
+C20. nr_moscow
+C21. nr_tallinn
+C22. nr_copenhagen
+C23. nr_saigon
+C24. nr_singapore
+D25. nr_havana
+D26. nr_guadalajara
+C27. nr_sao_paulo
+D28. taa_basel
+D29. goldmn_15
+D30. goldmn_16
 
 
 

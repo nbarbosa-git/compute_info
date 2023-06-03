@@ -31,3 +31,9 @@ rdd484
 nr_helsinki
 nr_hamburg
 nr_dubai
+
+
+====rdd 499-524
+nr_helsinki
+nr_brussels
+nr_dubai

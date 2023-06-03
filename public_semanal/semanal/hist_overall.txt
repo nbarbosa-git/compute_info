@@ -894,3 +894,51 @@ dom_era,1
 
 
 
+======================================================
+======================================================
+======================================================
+
+vanilla_models = [
+
+    'xgb_infinity',
+    'xgb_infinity4',
+    'xgb_ranker_infinity4',
+
+    'xgb_1_120',
+    'xgb_dom_lr',
+    'xgb_dom_fn',
+
+    'lr_1_120',
+    'lr_dom_lr',
+    'lr_dom_fn',
+
+    'xgb_ranker_dom_lr',
+    'xgb_ranker_dom_fn',
+    'swap_example'
+
+    'xgb_lack_dex',
+    'xgb_exc_60_80'
+]
+
+FACTOR é usado no SWAP MAP
+san_salvador e taa
+
+
+===== rdd 499-524
+
+xgb_exc_60_80
+factor,1
+dominance,1
+dom_era,1
+
+
+
+
+
+
+
+
+
+
+
+
