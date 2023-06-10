@@ -2182,4 +2182,13 @@ D30. goldmn_16
 
 
 
+A01. nr_helsinki
+A02. nr_oslo
+A03. nr_dubai
+A04. nr_san_francisco
+A05. nr_lima
+A06. nr_sao_paulo
+A07. nr_cancun
+A08. nr_lagos
+
 

@@ -1126,4 +1126,19 @@ X. fn,sign
 
 
 
+round 504
+X. fn,sign
+1. vegas:          bb__test7/lr_212,0,1
+2. lagos:          bb__test13/lr_strength,0,1
+3. kigali:         bb__test10/lr_wisdom,0,1
+4. miami:          bb__test6/xgb_120,0,1
+5. new_orleans:    bb__test14/xgb_constitution,0,1
+6. austin:         bb__test5/xgb_100,0,1
+7. blackrock_city: bb__test4/xgb_80,0,-1
+8. san_diego:      bb__test4/xgb_80,1,-1
+9. toronto:        bb__test14/xgb_constitution,1,1
+10.vancouver:      bb__test9/xgb_intelligence,1,1
+
+
+
 
