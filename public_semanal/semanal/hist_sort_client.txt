@@ -2148,7 +2148,7 @@ C23. nr_dubai
 =========================499-524
 1-8 Corr+3*TC
 
-479
+Rdd499
 A01. nr_helsinki
 A02. nr_oslo
 A03. nr_dubai
@@ -2181,7 +2181,7 @@ D29. goldmn_15
 D30. goldmn_16
 
 
-
+Rdd504
 A01. nr_helsinki
 A02. nr_oslo
 A03. nr_dubai
