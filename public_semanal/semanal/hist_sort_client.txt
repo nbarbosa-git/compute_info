@@ -2192,3 +2192,15 @@ A07. nr_cancun
 A08. nr_lagos
 
 
+Rdd514
+A01. nr_lagos
+A02. nr_monaco
+A03. nr_malaga
+A04. nr_san_francisco
+A05. nr_lima
+A06. nr_quito
+A07. nr_cancun
+A08. nr_oslo
+
+C23. nr_quito
+
