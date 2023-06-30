@@ -2204,3 +2204,16 @@ A08. nr_oslo
 
 C23. nr_quito
 
+
+Rdd519
+A01. nr_miami
+A02. nr_lagos
+A03. nr_vienna
+A04. nr_brussels
+A05. nr_san_francisco
+A06. nr_new_orleans
+A07. nr_cancun
+A08. nr_oslo
+
+C23. nr_malaga
+

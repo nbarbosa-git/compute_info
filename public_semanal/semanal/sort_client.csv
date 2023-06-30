@@ -1,10 +1,10 @@
 sort
+nr_miami
 nr_lagos
-nr_monaco
-nr_malaga
+nr_vienna
+nr_brusselso
 nr_san_francisco
-nr_lima
-nr_quito
+nr_new_orleans
 nr_cancun
 nr_oslo
 nr_st_petersburg
@@ -21,7 +21,7 @@ nr_barcelona
 nr_moscow
 nr_tallinn
 nr_copenhagen
-nr_quito
+nr_malaga
 nr_singapore
 nr_havana
 nr_guadalajara

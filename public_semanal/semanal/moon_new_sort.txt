@@ -17,7 +17,7 @@ pick: 3
 DYN MODELS (STRATEGY: ERA/FT)
 
 (+AGG)
-genoa:           dyn_old +aggE ok/ok FN0.50      (449)*|| obs: GENOA
+genoa:           dyn +aggE ok/ok FN0.50          (449)*|| obs: GENOA
 
 helsinki:        dyn +agg ok/ok                  (449)*|| obs:
 st_petersburg:   dyn +agg ok/inv                 (449)*|| obs: MONACO
@@ -36,7 +36,7 @@ tigres:          dyn +agg lr/fn                  (419)*|| obs: STATIC
 ------------------------------------------
 
 (AGG)
-saint_tropez:    dyn_old agg ok/inv FN0.50       (449)*|| obs:
+saint_tropez:    dyn agg ok/inv FN0.50           (449)*|| obs:
 
 monaco:          dyn agg ok/inv                  (321)*|| obs: MONACO
 urawa_reds:      dyn agg ok/inv FN1.25           (449)*|| obs: MONACO
