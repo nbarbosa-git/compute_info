@@ -939,9 +939,9 @@ dom_era,-1
 
 rdd519
 swap_example
-factor,1
+factor,-1
 dominance,1
-dom_era,1
+dom_era,-1
 
 
 
