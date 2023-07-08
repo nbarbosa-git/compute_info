@@ -1,4 +1,4 @@
 strategy_auto
 tc,tcPercentile,mean,40
-agg,tcPercentile,sharpe,80
-aggE,tcPercentile,sharpe,80
+agg,tcPercentile,sortino,80
+aggE,tcPercentile,sortino,80
