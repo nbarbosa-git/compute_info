@@ -1,0 +1,4 @@
+strategy_auto
+tc,mean,40
+agg,sharpe,80
+aggE,sharpe,80
