@@ -31,6 +31,7 @@ saprissa:        dyn +agg fn/fn                  (449)*|| obs: STATIC
 brondby:         dyn +agg fn/lr                  (449)*|| obs: STATIC
 whitecaps:       dyn +agg lr/lr                  (419)*|| obs: STATIC
 tigres:          dyn +agg lr/fn                  (419)*|| obs: STATIC
+arctic:          dyn +agg tcPerc,80,mean         (524)*|| obs: AUTO
 
 
 ------------------------------------------
@@ -64,6 +65,7 @@ lisbon:          dyn moderado lr/lr              (301)*|| obs: STATIC
 copenhagen:      dyn moderado fn/fn              (301)*|| obs: STATIC
 shanghai:        dyn moderado fn/lr              (349)*|| obs: STATIC
 hong_kong:       dyn moderado lr/fn              (349)*|| obs: STATIC
+nr_antarctic:    dyn moderado tcPerc,80,mean     (524)*|| obs: AUTO
 
 
 
