@@ -2217,3 +2217,17 @@ A08. nr_oslo
 
 C23. nr_malaga
 
+
+
+
+Rdd529
+A01. nr_miami
+A02. nr_helsinki
+A03. nr_vienna
+A04. nr_brussels
+A05. nr_lagos
+A06. nr_new_orleans
+A07. nr_cancun
+A08. nr_oslo
+
+C23. nr_singapore
