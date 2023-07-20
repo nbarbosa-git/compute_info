@@ -1,5 +1,5 @@
 strategy_auto
-tc,tcPercentile,sortino,40
+mult_sharpe_80,none,sharpe,80
 mod,tcPercentile,mean,80
 agg,tcPercentile,mean,80
 aggE,tcPercentile,mean,80

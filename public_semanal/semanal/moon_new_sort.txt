@@ -137,7 +137,7 @@ havana:          swap_map xgb_ones_inifinity     (281) || obs:
 
 ===============================================================
 
-L0 MODELS
+L0 MODELS (selecionar um L0, da lista/auto)
 
 (BASIC FN)
 medellin:        L0_vanilla FN0                  (301) || obs:
@@ -149,13 +149,13 @@ rio_de_janeiro:  L0_vanilla FN100                (301) || obs:
 (METRIC FN)
 bangalore:       L0_vanilla ar1_sign             (280) || obs:
 johannesburg:    L0_vanilla sfi_vanilla          (280) || obs:
-bombay:          L0_vanilla fn_dyn_metric        (301) || obs:
+bombay:          L0_vanilla fn_dyn_metric        (301) || obs: from moscow opt
 
 
 ===============================================================
 
 
-L1 MODELS
+L1 MODELS (apenas corr/tc mults)(from all models start)
 
 (VAL4)
 home:            L1 ranker_inf4                  (288) || obs:
@@ -182,20 +182,20 @@ jakarta:         L1 lack of dex FN125            (449) || obs:
 
 DRAFT MODELS
 (VEGAS FN)
-san_francisco:   LR_1_120 vegas_FN               (302) || obs:
+san_francisco:   LR_1_120 vegas_FN               (302) || obs: comb all lr groups
 
 
 (PICK NR)
-zurich:          fav nr_model 1                  (282) || obs:
-geneva:          fav nr_model 2                  (449) || obs:
-lugano:          fav nr_model 3                  (449) || obs:
+zurich:          fav nr_model 1                  (282) || obs: best nr_corr_tc crit1
+geneva:          fav nr_model 2                  (449) || obs: best nr_corr_tc crit2
+lugano:          fav nr_model 3                  (449) || obs: best nr_corr_tc crit3
 
 
 (PICK MN)
-vegas:           vegas 1                         (301) || obs:
-lagos:           vegas 2                         (321) || obs:
-kigali:          vegas 3                         (321) || obs:
-miami:           vegas 4                         (449) || obs:
+vegas:           vegas 1                         (301) || obs: best vegas_corr_tc rule1/crit1
+lagos:           vegas 2                         (321) || obs: best vegas_corr_tc rule1/crit2
+kigali:          vegas 3                         (321) || obs: best vegas_corr_tc rule2/crit1
+miami:           vegas 4                         (449) || obs: best vegas_corr_tc rule2/crit2
 new_orleans:     vegas 5                         (449) || obs:
 austin:          vegas 6                         (449) || obs:
 blackrock_city:  vegas 7                         (449) || obs:
