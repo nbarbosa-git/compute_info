@@ -10,4 +10,9 @@ agg_c1,tcPercentile,mean,80
 agg_c2,tc,sortino,80
 agg_c3,tcPercentile,mean,40
 agg_c4,tcPercentile_minus,mean,40
-mod,tcPercentile,mean,90
+mod_c1,tcPercentile,mean,80
+mod_c2,tc,sortino,80
+mod_c3,tc,sortino,40
+mod_c4,tcPercentile,mean,40
+mod_c5,tcPercentile_minus,mean,40
+mod_c6,tcPercentile,mean,20
