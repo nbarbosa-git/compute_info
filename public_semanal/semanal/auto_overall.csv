@@ -4,6 +4,7 @@ aggE_c1,tcPercentile,mean,80
 aggE_c2,tc,sortino,80
 aggE_c3,tc,sortino,40
 aggE_c4,tcPercentile,mean,40
-aggE_c5,tcPercentile,mean,20
+aggE_c5,tcPercentile,mean,40
+aggE_c6,tcPercentile,mean,20
 mod,tcPercentile,mean,80
 agg,tcPercentile,mean,80
