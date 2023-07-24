@@ -17,36 +17,38 @@ pick: 3
 DYN MODELS (STRATEGY: ERA/FT)
 
 (+AGG)
-genoa:           dyn +aggE ok/ok FN0.50          (449)*|| obs: GENOA
 
-helsinki:        dyn +agg ok/ok                  (449)*|| obs:
-st_petersburg:   dyn +agg ok/inv                 (449)*|| obs: MONACO
-brussels:        dyn +agg inv/inv(-1)            (469)*|| obs:
+arctic:           tcPercentile,mean,80           (524) || obs: aggE_c1
+helsinki:         tc,sortino,80                  (534) || obs: aggE_c2
+genoa:            tc,sortino,80 FN0.50           (534) || obs: aggE_c2
 
-lazio:           dyn +agg fn/fn  KSH_0.3         (469)*|| obs: STATIC
-fiorentina:      dyn +agg fn/lr  KSH_0.3         (469)*|| obs: STATIC
+st_petersburg:    tc,sortino,40                  (534) || obs: aggE_c3
+fiorentina:       tcPercentile,mean,40           (534) || obs: aggE_c4
+brussels:         tcPercentile_minus,40,mean     (534) || obs: aggE_c5
+
+lazio:            tcPercentile,mean,20           (534) || obs: aggE_c6
 
 
-saprissa:        dyn +agg fn/fn                  (449)*|| obs: STATIC
-brondby:         dyn +agg fn/lr                  (449)*|| obs: STATIC
-whitecaps:       dyn +agg lr/lr                  (419)*|| obs: STATIC
-tigres:          dyn +agg lr/fn                  (419)*|| obs: STATIC
-arctic:          dyn +agg tcPerc,80,mean         (524)*|| obs: AUTO
+saprissa:        fn/fn                           (449) || obs: STATIC
+brondby:         fn/lr                           (449) || obs: STATIC
+whitecaps:       lr/lr                           (419) || obs: STATIC
+tigres:          lr/fn                           (419) || obs: STATIC
 
 
 ------------------------------------------
 
 (AGG)
-saint_tropez:    dyn agg ok/inv FN0.50           (449)*|| obs:
-
-monaco:          dyn agg ok/inv                  (321)*|| obs: MONACO
-urawa_reds:      dyn agg ok/inv FN1.25           (449)*|| obs: MONACO
-oslo:            dyn agg  ok/ok                  (449)*|| obs:
-malmo:           dyn agg inv/inv                 (449)*|| obs:
+monaco:          tcPercentile,mean,80            (534) || obs: agg_c1
+saint_tropez:    tc,sortino,80 FN0.50            (534) || obs: agg_c2
+urawa_reds:      tc,sortino,80                   (534) || obs: agg_c2
 
 
-pumas:           dyn agg fn/lr                   (419)*|| obs: STATIC
-atalanta:        dyn agg fn/fn                   (419)*|| obs: STATIC
+oslo:            tcPercentile,mean,40            (534) || obs: agg_c3
+malmo:           tcPercentile_minus,40,mean      (534) || obs: agg_c4
+
+
+pumas:           fn/lr                           (419) || obs: STATIC
+atalanta:        fn/fn                           (419) || obs: STATIC
 
 
 ------------------------------------------
