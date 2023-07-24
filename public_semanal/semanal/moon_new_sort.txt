@@ -53,7 +53,7 @@ atalanta:        fn/fn                           (419) || obs: STATIC
 ------------------------------------------
 
 (MODERADO)
-nr_antarctic:    tcPercentile,mean,80            (524) || obs: mod_c1
+antarctic:       tcPercentile,mean,80            (524) || obs: mod_c1
 hamburg:         tc,sortino,80                   (534) || obs: mod_c2
 frankfurt:       tcPerc,sortino,80 FN0.50        (534) || obs: mod_c2
 
@@ -75,15 +75,15 @@ hong_kong:       lr/fn                           (349) || obs: STATIC
 ------------------------------------------
 
 (CONSERVADOR)
-moscow:          dyn conservador xgb_1_120       (301)*|| obs:
-shakthar:        dyn conservador lr_1_120        (349)*|| obs:
-zenit:           dyn conservador fn only         (349)*|| obs: STATIC
-cska:            dyn conservador lr only         (349)*|| obs: STATIC
+moscow:          tcPercentile,mean,80 xgb_1_120  (534) || obs: cons_c1
+shakthar:        tcPercentile,mean,80 lr_1_120   (534) || obs: cons_c1
+zenit:           xgb_1_120,fn only               (349) || obs: STATIC
+cska:            xgb_1_120 lr only               (349) || obs: STATIC
 
 
-santiago:        dyn lr/xgb_1_120 FN100          (449) || obs:
-stockholm:       dyn lr/fn                       (301) || obs:
-molde:           dyn reg_preds lr/xgb            (301) || obs:
+santiago:        lr/xgb_1_120 FN100              (449) || obs: TO_DO
+stockholm:       lr/fn                           (301) || obs: TO_DO
+molde:           reg_preds lr/xgb                (301) || obs: TO_DO
 
 
 
@@ -91,20 +91,20 @@ molde:           dyn reg_preds lr/xgb            (301) || obs:
 
 (Model ONLY)
 
-barcelona:       dyn xgb_dom lr/fn               (301) || obs:
-boca_jrs:        dyn xgb_dom_lr                  (301) || obs:
-river_plate:     dyn xgb_dom_fn                  (301) || obs:
-espanyol:        dyn minus barcelona             (349) || obs:
+barcelona:       tcPercentile,mean,80 xgb_dom(534) || obs: model_c1
+espanyol:        minus barcelona             (534) || obs: model_c1
+boca_jrs:        xgb_dom_lr                  (301) || obs: STATIC
+river_plate:     xgb_dom_fn                  (301) || obs: STATIC
 
 
-malaga:          dyn xgb_dom lr/fn FN100         (494) || obs:
-betis:           dyn xgb_dom_lr    FN100         (494) || obs:
-villarreal:      dyn xgb_dom_fn    FN100         (494) || obs:
+malaga:          tcPercentile,mean,80 lr_dom (534) || obs: model_c2
+betis:           xgb_dom_lr    FN100         (494) || obs: STATIC
+villarreal:      xgb_dom_fn    FN100         (494) || obs: STATIC
 
 
-dubai:           dyn lr_dom lr/fn                (321) || obs:
-rb_leipzig:      dyn lr_dom_lr                   (288) || obs:
-rb_salzburg:     dyn lr_dom_fn                   (288) || obs:
+dubai:           tcPercentile,mean,80 lr_dom (534) || obs: model_c3
+rb_leipzig:      lr_dom_lr                   (288) || obs: STATIC
+rb_salzburg:     lr_dom_fn                   (288) || obs: STATIC
 
 
 
@@ -161,23 +161,23 @@ bombay:          L0_vanilla fn_dyn_metric        (301) || obs: from moscow opt
 L1 MODELS (apenas corr/tc mults)(from all models start)
 
 (VAL4)
-home:            L1 ranker_inf4                  (288) || obs:
-racing:          L1 xgb_inifinity4               (282) || obs:
-al_sadd:         L1 xgb_val4                     (449) || obs:
-colo_colo:       L1 ex_preds_v4+FN100 old feats  (288) || obs:
+home:            L1 ranker_inf4                  (288) || obs: STATIC
+racing:          L1 xgb_inifinity4               (282) || obs: STATIC
+al_sadd:         L1 xgb_val4                     (449) || obs: STATIC
+colo_colo:       L1 ex_preds_v4+FN100 old feats  (288) || obs: STATIC
 
 (LINEARES)
-sao_paulo:       L1 lr_1_120                     (301) || obs:
-sydney:          L1 logistic_reg                 (301) || obs:
+sao_paulo:       L1 lr_1_120                     (301) || obs: STATIC
+sydney:          L1 logistic_reg                 (301) || obs: STATIC
 
 (EXC)
-lima:            L1 xgb_exc_60_80 FN0            (449) || obs:
-quito:           L1 xgb_81_120_val3 FN0          (449) || obs:
+lima:            L1 xgb_exc_60_80 FN0            (449) || obs: STATIC
+quito:           L1 xgb_81_120_val3 FN0          (449) || obs: STATIC
 
 (LACK DEX)
-singapore:       L1 lack of dex FN0              (301) || obs:
-kuala_lumpur:    L1 lack of dex FN100            (449) || obs:
-jakarta:         L1 lack of dex FN125            (449) || obs:
+singapore:       L1 lack of dex FN0              (301) || obs: STATIC
+kuala_lumpur:    L1 lack of dex FN100            (449) || obs: STATIC
+jakarta:         L1 lack of dex FN125            (449) || obs: STATIC
 
 
 
