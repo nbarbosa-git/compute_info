@@ -39,13 +39,12 @@ tigres:          lr/fn                           (419) || obs: STATIC
 
 (AGG)
 monaco:          tcPercentile,mean,80            (534) || obs: agg_c1
-saint_tropez:    tc,sortino,80 FN0.50            (534) || obs: agg_c2
 urawa_reds:      tc,sortino,80                   (534) || obs: agg_c2
+saint_tropez:    tc,sortino,80 FN0.50            (534) || obs: agg_c2
 
 
 oslo:            tcPercentile,mean,40            (534) || obs: agg_c3
 malmo:           tcPercentile_minus,40,mean      (534) || obs: agg_c4
-
 
 pumas:           fn/lr                           (419) || obs: STATIC
 atalanta:        fn/fn                           (419) || obs: STATIC
@@ -54,20 +53,22 @@ atalanta:        fn/fn                           (419) || obs: STATIC
 ------------------------------------------
 
 (MODERADO)
-hamburg:         dyn moderado ok/ok              (301)*|| obs:
-frankfurt:       dyn moderado ok/ok FN0.50       (449)*|| obs:
- 
-istanbul:        dyn moderado ok/inv             (349)*|| obs:
-tallinn:         dyn moderado ok/inv KSH_0.3     (301)*|| obs:
-esperance:       dyn moderado ok/inv FN1.25      (449)*|| obs:
-vienna:          dyn moderado inv/inv(-1)        (469)*|| obs:
- 
- 
-lisbon:          dyn moderado lr/lr              (301)*|| obs: STATIC
-copenhagen:      dyn moderado fn/fn              (301)*|| obs: STATIC
-shanghai:        dyn moderado fn/lr              (349)*|| obs: STATIC
-hong_kong:       dyn moderado lr/fn              (349)*|| obs: STATIC
-nr_antarctic:    dyn moderado tcPerc,80,mean     (524)*|| obs: AUTO
+nr_antarctic:    tcPercentile,mean,80            (524) || obs: mod_c1
+hamburg:         tc,sortino,80                   (534) || obs: mod_c2
+frankfurt:       tcPerc,sortino,80 FN0.50        (534) || obs: mod_c2
+
+istanbul:        tc,sortino,40                   (534) || obs: mod_c3
+tallinn:         tcPercentile,mean,40            (534) || obs: mod_c4
+vienna:          tcPercentile_minus,40,mean      (534) || obs: mod_c5
+
+esperance:       tcPercentile,mean,20            (534) || obs: mod_c6
+
+
+lisbon:          lr/lr                           (301) || obs: STATIC
+copenhagen:      fn/fn                           (301) || obs: STATIC
+shanghai:        fn/lr                           (349) || obs: STATIC
+hong_kong:       lr/fn                           (349) || obs: STATIC
+
 
 
 
