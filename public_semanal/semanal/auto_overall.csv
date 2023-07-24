@@ -16,3 +16,4 @@ mod_c3,tc,sortino,40
 mod_c4,tcPercentile,mean,40
 mod_c5,tcPercentile_minus,mean,40
 mod_c6,tcPercentile,mean,20
+cons_c1,tcPercentile,mean,80
