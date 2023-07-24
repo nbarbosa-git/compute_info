@@ -9,5 +9,5 @@ aggE_c6,tcPercentile,mean,20
 agg_c1,tcPercentile,mean,80
 agg_c2,tc,sortino,mean,80
 agg_c3,tcPercentile,mean,40
-agg_c4,tcPercentile_minus,40,
+agg_c4,tcPercentile_minus,40
 mod,tcPercentile,mean,90
