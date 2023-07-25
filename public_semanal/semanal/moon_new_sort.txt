@@ -152,7 +152,7 @@ rio_de_janeiro:  L0_vanilla FN100                (301) || obs:
 (METRIC FN)
 bangalore:       L0_vanilla ar1_sign             (280) || obs:
 johannesburg:    L0_vanilla sfi_vanilla          (280) || obs:
-bombay:          L0_vanilla fn_dyn_metric        (301) || obs: from moscow opt
+bombay:          L0_vanilla fn_dyn_metric        (301) || obs: l0_c1
 
 
 ===============================================================
