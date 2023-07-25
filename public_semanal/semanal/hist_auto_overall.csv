@@ -1,5 +1,5 @@
 strategy_auto
-corr_tc_mult,none,sharpe,80
+corr_tc_mult,none,sharpe,60
 aggE_c1,tcPercentile,mean,80
 aggE_c2,tc,sortino,80
 aggE_c3,tc,sortino,40
