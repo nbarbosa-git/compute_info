@@ -1,10 +1,30 @@
+
+Round 534-559
+
 strategy_auto
-corr_tc_mult,none,sharpe,60
+corr_tc_mult,none,sharpe,80
 aggE_c1,tcPercentile,mean,80
 aggE_c2,tc,sortino,80
 aggE_c3,tc,sortino,40
 aggE_c4,tcPercentile,mean,40
 aggE_c5,tcPercentile_minus,mean,40
 aggE_c6,tcPercentile,mean,20
-mod,tcPercentile,mean,80
-agg,tcPercentile,mean,80
+agg_c1,tcPercentile,mean,80
+agg_c2,tc,sortino,80
+agg_c3,tcPercentile,mean,40
+agg_c4,tcPercentile_minus,mean,40
+mod_c1,tcPercentile,mean,80
+mod_c2,tc,sortino,80
+mod_c3,tc,sortino,40
+mod_c4,tcPercentile,mean,40
+mod_c5,tcPercentile_minus,mean,40
+mod_c6,tcPercentile,mean,20
+cons_c1,tcPercentile,mean,80
+model_c1,tcPercentile,mean,80
+model_c2,tcPercentile,mean,80
+model_c3,tcPercentile,mean,80
+l0_c2,tcPercentile,mean,80
+
+
+Round 538
+corr_tc_mult,none,sharpe,40
