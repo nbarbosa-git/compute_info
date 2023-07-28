@@ -20,4 +20,4 @@ cons_c1,tcPercentile,mean,80
 model_c1,tcPercentile,mean,80
 model_c2,tcPercentile,mean,80
 model_c3,tcPercentile,mean,80
-l0_c2,tcPercentile,mean,80
+l0_c2,sharpe,mean,80
