@@ -32,5 +32,5 @@ bronze_c1,tcPercentile,mean,80
 bronze_c2,tc,sortino,40
 feat_c1,tcPercentile,mean,80
 feat_c2,tc,sortino,40
-short_c1,tcPercentile,mean,80
-short_c2,tc_minus,mean,40
+short_c1,tc_minus,mean,40
+short_c2,tc_minus,mean,20
