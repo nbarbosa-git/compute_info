@@ -21,6 +21,6 @@ model_c1,tcPercentile,mean,80
 model_c2,tcPercentile,mean,80
 model_c3,tcPercentile,mean,80
 l0_vanilla,tc,sharpe,80
-zurich_c1,tcPercentile,mean,80
+zurich_c1,tcPercentile,mean,60
 zurich_c2,tcPercentile,mean,20
-zurich_c3,tc_minus,mean,20
+zurich_c3,tc_minus,mean,40
