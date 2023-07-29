@@ -140,7 +140,7 @@ havana:          swap_map xgb_ones_inifinity     (281) || obs:
 
 ===============================================================
 
-L0 MODELS (selecionar um L0, da lista/auto)
+L0 MODELS
 
 (BASIC FN)
 medellin:        L0_vanilla FN0                  (301) || obs:
@@ -152,13 +152,13 @@ rio_de_janeiro:  L0_vanilla FN100                (301) || obs:
 (METRIC FN)
 bangalore:       L0_vanilla ar1_sign             (280) || obs:
 johannesburg:    L0_vanilla sfi_vanilla          (280) || obs:
-bombay:          L0_vanilla fn_dyn_metric        (301) || obs: l0_c1
+bombay:          L0_vanilla fn_dyn_metric        (301) || obs: cons_c2
 
 
 ===============================================================
 
 
-L1 MODELS (apenas corr/tc mults)(from all models start)
+L1 MODELS
 
 (VAL4)
 home:            L1 ranker_inf4                  (288) || obs: STATIC
@@ -185,26 +185,26 @@ jakarta:         L1 lack of dex FN125            (449) || obs: STATIC
 
 DRAFT MODELS
 (VEGAS FN)
-san_francisco:   LR_1_120 vegas_FN               (302) || obs: comb all lr groups
+san_francisco:   LR_1_120 vegas_FN               (302) || obs: 
 
 
 (PICK NR)
-zurich:          fav nr_model 1                  (282) || obs: best nr_corr_tc crit1
-geneva:          fav nr_model 2                  (449) || obs: best nr_corr_tc crit2
-lugano:          fav nr_model 3                  (449) || obs: best nr_corr_tc crit3
+zurich:          zurich_c1                      (282) || obs:
+geneva:          zurich_c2                      (449) || obs:
+lugano:          zurich_c3                      (449) || obs:
 
 
 (PICK MN)
-vegas:           vegas 1                         (301) || obs: best vegas_corr_tc rule1/crit1
-lagos:           vegas 2                         (321) || obs: best vegas_corr_tc rule1/crit2
-kigali:          vegas 3                         (321) || obs: best vegas_corr_tc rule2/crit1
-miami:           vegas 4                         (449) || obs: best vegas_corr_tc rule2/crit2
-new_orleans:     vegas 5                         (449) || obs:
-austin:          vegas 6                         (449) || obs:
-blackrock_city:  vegas 7                         (449) || obs:
-san_diego:       vegas 8                         (449) || obs:
-vancouver:       vegas 9                         (469) || obs:
-toronto:         vegas 10                        (469) || obs:
+vegas:           gold_c1                        (301) || obs: 
+lagos:           feat_c1                        (321) || obs: 
+kigali:          feat_c2                        (321) || obs: 
+miami:           gold_c2                        (449) || obs: 
+new_orleans:     bronze_c1                      (449) || obs:
+austin:          bronze_c2                      (449) || obs:
+blackrock_city:  short_c1                       (449) || obs:
+san_diego:       short_c2                       (449) || obs:
+vancouver:       silver_c1                      (469) || obs:
+toronto:         silver_c2                      (469) || obs:
 
 
 
