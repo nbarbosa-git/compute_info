@@ -36,3 +36,5 @@ feat_c1,tcPercentile,ewm_mean,80
 feat_c2,tc,ewm_sortino,40
 short_c1,tc_minus,ewm_mean,40
 short_c2,tc_minus,mean,20
+featSF_c1,tc_minus,mean,20
+swap_c1,tc_minus,mean,20
