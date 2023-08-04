@@ -1,0 +1,1303 @@
+
+
+Conta: Moon
+
+round 265 (late):
+
+01. titan: w27, 
+2. rhea: i8
+3. iapetus: pair -dex7 -w27
+4. dione: medellin vanilla
+5. tethys: linear_tree
+6. enceladus: OMP
+7. mimas: ridge
+8. phoebe: sydney linear
+9. hyperion: sydney vanilla
+10. janus: sydney FN after
+11. epimetheus: charisma + dex (uki)
+12. prometheus: xgbranker(banga)
+13. pandora: short bb7
+14. siarnaq: xgbranker +100FN (alavancagem)
+15. helene: xgbranker +200FN (alavancagem)
+
+
+Data: 28/05/2021
+
+================================================================================================
+================================================================================================
+================================================================================================
+
+
+
+
+round 267 :
+
+01. titan: w27, 
+2. rhea: anti vegas
+3. iapetus: pair -dex7 -w27
+4. dione: medellin vanilla
+5. tethys: linear_tree
+6. enceladus: OMP
+7. mimas: ridge
+8. phoebe: LGBM SFI selected pipe
+9. hyperion: shap/ebm_reg feature selection
+10. janus: sydney FN after
+11. epimetheus: Ols test 12 sem dex7 
+12. prometheus: xgbranker(bb7)
+13. pandora: short bb7
+14. siarnaq: xgbranker +100FN (alavancagem)
+15. helene: xgbranker +200FN (alavancagem)
+
+
+Data: 06/06/2021
+
+================================================================================================
+================================================================================================
+================================================================================================
+
+
+Smoon
+
+round 268:
+
+1.  titan: w27,                                                || vs. iapetus
+2.  rhea: ols antivegas                                        || vs. pandora & nr_vegas
+3.  iapetus: -dex7 -w27                                        || vs. uki_monitor1
+4.  dione: lgbm slider20 vanilla                               || vs. nr_home & vanilla GBM
+5.  tethys: linear_tree                                        || vs. tolsnr_15 & vanilla GBM
+6.  enceladus: lgbm +  short FN shap/ebm_reg 				   || vs. banga & hyperion
+7.  mimas: ridge                                               || vs. tolsnr_15
+8.  phoebe: LGBM SFI feature remove                            || vs. johann
+9.  hyperion: lgbm + FN shap/ebm_reg                           || vs. banga & enceladus
+10. janus: Fn pré treino + bb7                                 || vs. sydney & bb_test15/ bb7 orig
+11. epimetheus: Ols em dex sem dex7                            || vs. nr_test12
+12. prometheus: xgbranker(FN bb7) (272 FN SP)                  || vs. nr_sao_paulo, nr_rio_de_janeiro
+13. pandora: ols vegas                                         || vs. rhea & nr_vegas
+14. siarnaq: xgbranker -100FN (alavancagem)                    || vs. nr_home & nr_medellin
+15. helene: xgbranker -200FN (alavancagem)                     || vs. nr_home
+
+
+
+Data: 11/06/2021
+
+
+Jmoon
+round 273 (late):
+
+1.  ganymede: MDA Denoised ward             || vs. lagos & callisto
+2.  callisto: MDI IV  Single                || vs. lagos & ganymede
+3.  europa: São Paulo swap 3 forest         || vs. sao paulo
+4.  io: Fn metric model                     || vs. sao paulo e rio
+5.  himalia: Ols hard eras 30-50            || vs. tolsnr 2 e 3
+6.  amalthea: ridge_dex                     || vs. tolsn12
+7.  elara: xgb Lack of intelligence         || vs. gbmsnr15
+8.  thebe: xgb Classif                      || vs. gbmsnr15
+9.  pasiphae: Xgb & Dex+Ch                  || vs. gbmsnr15
+10. carme:                                  || vs. 
+11. sinope:                                 || vs. 
+12. lysithea:                               || vs. 
+13. metis:                                  || vs. 
+14. ananke:                                 || vs. 
+15. leda:                                   || vs. 
+
+
+
+
+Data: 20/07/2021
+
+
+================================================================================================
+================================================================================================
+================================================================================================
+
+round 280:
+Data: 31/08/2021
+
+SMoon
+1.  titan: charisma3 (ar1_sign -.22),                    (280)*|| vs. iapetus, dubai, snr_11
+2.  rhea: ols antivegas                                  (268) || vs. pandora & nr_vegas
+3.  iapetus: -dex7-w27                                   (265) || vs. nr_dubai, titan, snr_10
+4.  dione: lgbm slider20 vanilla                         (265) || vs. gbmsnr_15, europa
+5.  tethys: linear_tree                                  (265) || vs. snr_15, janus
+6.  enceladus: xgb_inf +  short FN shap/ebm_reg          (267) || vs. banga & hyperion
+7.  mimas: ridge                                         (265) || vs. tolsnr_15 & epimetheus
+8.  phoebe: xgb_inf AR1_sign 10% feature remove          (280)*|| vs. banga, lagos
+9.  hyperion: rank_inf + FN MDA Detoned ward             (280)*|| vs. lagos & home
+10. janus: linear_tree + FN San_Fran                     (280)*|| vs. tethys & san_salvador
+11. epimetheus: SGD Vanlla                               (280)*|| vs. mimas, tolsnr_15
+12. prometheus: rank_inf + FN_90SGD                      (280)*|| vs. nr_sao_paulo, nr_rio_de_janeiro
+13. pandora: ols vegas                                   (268) || vs. rhea & nr_vegas
+14. siarnaq: rank_inf  Swap FN (Rd)(=home?)              (280)*|| vs. nr_home 
+15. helene:  rank_inf  Swap FN (SGD)                     (280)*|| vs. nr_home 
+
+
+
+Jmoon
+1.  ganymede: MDA Denoised ward                          (273) || vs. lagos & hyperion
+2.  callisto: XGB 81_100_val3                            (280)*|| vs. gbmsnr_8
+3.  europa: São Paulo swap 3 forest vanilla              (280)*|| vs. gbmsnr_15, dione
+4.  io: Fn metric model + FN_90SGD                       (280)*|| vs. nr_sao_paulo, nr_rio_de_janeiro
+5.  himalia: Ols hard eras 50-70                         (280)*|| vs. tolsnr3,4 e 6
+6.  amalthea: xgb Lack of dex                            (280)*|| vs. snr_12
+7.  elara: xgb Lack of const/wis                         (280)*|| vs. gbmsnr15
+8.  thebe: Logistic Reg. Vanilla                         (280)*|| vs. tolsnr15
+9.  pasiphae: Xgb & Dex+Ch+int                           (280)*|| vs. gbmsnr15
+10. carme: xgb_inf_Class vanilla                         (280)*|| vs. gbmsnr15
+11. sinope: xgb_inf_Class +FN90_SGD                      (280)*|| vs. sao_paulo, rio_de_janeiro, bb7
+12. lysithea: xgb_inf_Class + FN OH (1 e 0)              (280)*|| vs. gbmsnr_9
+13. metis:    xgb_inf_Class + FN OH (.25, e .75)         (280)*|| vs. nr_hanoi
+14. ananke: xgb_val4                                     (282)*|| vs. gbmsnr7
+15. leda:   xgb_inifinity4                               (282)*|| vs. gbmsnr15, gbmsnr8
+
+
+
+
+================================================================================================
+================================================================================================
+================================================================================================
+
+round 285:
+Data: 08/10/2021
+
+Notas:
+Modelos CLass +FN no regime bearish, funfa?
+Observe promethues acima do SP pos europa
+Observe o SGD FN, o Rd eh a mesma coisa
+Epimeteus acima dos outros lineares consistentemente (??)
+Compare Leda com dione e europa
+
+
+SMoon
+1.  titan: charisma3 (w27 na 285)                         (285)#|| vs. iapetus, dubai, snr_11
+2.  rhea: ols antivegas                                   (268) || vs. pandora & nr_vegas
+3.  iapetus: Dominance * (-dex7+w42)                      (285)#|| vs. nr_dubai, titan, snr_10
+4.  dione: lgbm slider20 vanilla                          (265) || vs. gbmsnr_15, europa
+5.  tethys: linear_tree                                   (265) || vs. snr_15, janus
+6.  enceladus: xgb_inf +  short FN shap/ebm_reg           (267) || vs. banga & hyperion
+7.  mimas: ridge                                          (265) || vs. tolsnr_15 & epimetheus
+8.  phoebe: xgb_inf AR1_sign 10% feature remove           (280)*|| vs. banga, lagos
+9.  hyperion: rank_inf + FN MDA Detoned ward              (280)*|| vs. lagos & home
+10. janus: linear_tree + FN San_Fran                      (280)*|| vs. tethys & san_salvador
+11. epimetheus: SGD Vanlla                                (280)*|| vs. mimas, tolsnr_15
+12. prometheus: rank_inf + FN_90SGD                       (280)*|| vs. nr_sao_paulo, nr_rio_de_janeiro
+13. pandora: ols vegas                                    (268) || vs. rhea & nr_vegas
+14. siarnaq: rank_inf  Swap FN (Rd)  (-dom * moscow)      (285)*|| vs. nr_moscow 
+15. helene:  rank_inf  Swap FN (SGD)                      (280)*|| vs. nr_home 
+
+
+
+Jmoon
+1.  ganymede: MDA Denoised ward                           (273) || vs. lagos & hyperion
+2.  callisto: XGB 81_100_val3                             (280)*|| vs. gbmsnr_8
+3.  europa: São Paulo swap 3 forest vanilla               (280)*|| vs. gbmsnr_15, dione
+4.  io: Fn metric model + FN_90SGD                        (280)*|| vs. nr_sao_paulo, nr_rio_de_janeiro
+5.  himalia: Ols hard eras 50-70                          (280)*|| vs. tolsnr3,4 e 6
+6.  amalthea: xgb Lack of dex                             (280)*|| vs. snr_12
+7.  elara: xgb Lack of const/wis                          (280)*|| vs. gbmsnr15
+8.  thebe: Logistic Reg. Vanilla                          (280)*|| vs. tolsnr15
+9.  pasiphae: Xgb & Dex+Ch+int                            (280)*|| vs. gbmsnr15
+10. carme: xgb_inf_Class vanilla                          (280)*|| vs. gbmsnr15
+11. sinope: xgb_inf_Class +FN90_SGD                       (280)*|| vs. sao_paulo, rio_de_janeiro, bb7
+12. lysithea: xgb_inf_Class + FN OH (1 e 0)               (280)*|| vs. gbmsnr_9
+13. metis:    xgb_inf_Class + FN OH (.25, e .75)          (280)*|| vs. nr_hanoi
+14. ananke: xgb_val4                                      (282)*|| vs. gbmsnr7
+15. leda:   xgb_inifinity4                                (282)*|| vs. gbmsnr15, gbmsnr8
+
+
+
+================================================================================================
+================================================================================================
+================================================================================================
+
+Key Swap Models
+
+titan: [UAE]                  
+rhea:  [bahamas]              
+iapetus:  [bahrein]           
+dione:  [ecuador]          
+tethys: [nigeria]      
+enceladus: [bangladesh] 
+mimas: [australia]           
+phoebe: [new_zealand]     
+hyperion: [senegal]   
+janus: [guatemala]       
+epimetheus: [chile]    
+prometheus: [canada]      
+pandora:  [puerto_rico]                  
+siarnaq:  [russia]                
+helene:   [poland]   
+ganymede:  [gana]               
+callisto:  [india]      
+io: [peru]        
+europa: [kazakhstan]  
+himalia:  [cuba]       
+amalthea:  [malasya]  
+elara:  [indonesia]   
+thebe:  [laos]        
+pasiphae:  [nicaragua]   
+carme:  [germany]     
+sinope: [austria]    
+lysithea:  [cambodja]   
+metis:   [ukraine]    
+ananke: [uruguay]                  
+leda:   [argentina]                
+
+================================================================================================
+================================================================================================
+================================================================================================
+
+
+round 288:
+Data: 26/10/2021
+
+Notas:
+Guatemala (linear tree SF) melhor q SS e SF (280-) Não linear anda mal em corr, pois eh....
+Indonesia gostei
+Nicaragua mosntro
+Malasia lack of dex, rei do TC
+
+
+SMoon
+1.  UAE:  Feat w27                                (285)*|| vs. 
+2.  bahamas: ols antivegas                        (268)#|| vs. 
+3.  bahrein: Dominance * (-dex7+w42)              (285)*|| vs. 
+4.  ecuador: lgbm slider20 vanilla                (265)#|| vs. 
+5.  nigeria: xgbr_inf4_pre_swap_mda_detoned_ward  (288) || vs. 
+6.  bangladesh: l0_vanilla+short FN shap/ebm_reg  (267)#|| vs. 
+7.  australia: xgbr_fn_pre                        (288) || vs. 
+8.  new_zealand: xgbr_fn_target_pre               (288) || vs. 
+9.  senegal: rank_inf + FN MDA Detoned ward       (280)*|| vs. 
+10. guatemala: linear_tree + FN San_Fran          (280)*|| vs. 
+11. chile: ex_preds + FN100 old feats             (288) || vs. 
+12. canada: ex_preds + SF                         (288) || vs. 
+13. puerto_rico: ols vegas                        (268)#|| vs. 
+14. russia:  (-dom * moscow)                      (285) || vs. 
+15. poland:  ex_preds + moscow                    (288) || vs. 
+
+
+
+Jmoon
+1.  gana: MDA Denoised ward                       (273)#|| vs. 
+2.  india: ex_preds + bangalore                   (288) || vs. 
+4.  peru: Fn metric model + FN_90SGD              (280)*|| vs. 
+3.  kazakhstan: xgb_inf4 swap_pos_50_regime       (288) || vs. 
+5.  cuba: xgb_inf4 swap 0,1 team fn               (288) || vs. 
+6.  malasya: xgb Lack of dex                      (280)*|| vs. 
+7.  indonesia: xgb Lack of const/wis              (280)*|| vs. 
+8.  laos: Logistic Reg. Vanilla                   (280)*|| vs. 
+9.  nicaragua: xgb_inf4 swap 0,1 team lr          (288) || vs. 
+10. germany: lr_dom_lr                            (288) || vs. 
+11. austria: lr_dom_fn                            (288) || vs. 
+12. cambodja: xgb_inf_Class + FN OH (1 e 0)       (280)*|| vs. 
+13. ukraine:    moscow dummy regime               (288) || vs. 
+14. uruguay: xgb_val4                             (282)*|| vs. 
+15. argentina:   xgb_inifinity4                   (282)*|| vs. 
+
+
+
+
+================================================================================================
+================================================================================================
+================================================================================================
+
+
+round 301:
+Data: 25/01/2022
+
+Notas:
+
+
+
+SMoon
+1.  al_sadd:         feat w27                    (285)*|| old. UAE
+2.  saprissa:        lr guada                    (301) || old. bahamas
+3.  al_hilal:        dominance * (-dex7+w42)     (285)*|| old. bahrein
+4.  espanyol:        barcelona ranker            (301) || old. ecuador
+5.  mazembe:         mda_linear_reg              (301) || old. nigeria
+6.  al_ahly:         minus bombay                (301) || old. bangladesh
+7.  malmo:           tallinn ranker              (301) || old. australia
+8.  fiorentina:      hamburg no ranker           (301) || old. new_zealand
+9.  esperance:       mda_lr_onc                  (301) || old. senegal
+10. lazio:           hamburg fake lr             (301) || old. guatemala
+
+Jmoon:
+1.  colo_colo:       ex_preds + FN100 old feats  (288)*|| old. chile
+2.  whitecaps:       ex_preds + SF               (288)*|| old. canada
+3.  pumas:           minus guada                 (301) || old. puerto_rico
+4.  zenit:           moscow minus                (301) || old. russia
+5.  cska:            moscow ex preds             (301) || old. poland
+6.  boca_jrs:        xgb_dom_lr                  (301) || old. gana
+7.  al_ittihad:      ex_preds + bangalore        (288)*|| old. india
+8.  brondby:         old tallinn                 (301) || old. peru
+9.  basel:           swap_map lr & fn old style  (301) || old. kazakhstan
+10. necaxa:          xgb_inf4 swap 0,1 team fn   (288)*|| old. cuba
+ 
+Umoon 
+1.  urawa_reds:      minus hk                    (301) || old. malaysia
+2.  atalanta:        hamburg -dom feats          (301) || old. indonesia
+3.  molde:           old stockholm lr/fn         (301) || old. laos
+4.  tigres:          xgb_inf4 swap 0,1 team lr   (288)*|| old. nicaragua
+5.  rb_leipzig:      lr_dom_lr                   (288)*|| old. germany
+6.  rb_salzburg:     lr_dom_fn                   (288)*|| old. austria
+7.  genoa:           old hamburg                 (301) || old. cambodja
+8.  shakthar:         moscow dummy                (301) || old. ukraine
+9.  river_plate:     xgb_dom_fn                  (301) || old. uruguay
+10. racing:          xgb_inifinity4              (282)*|| old. argentina
+
+
+
+
+==================================================================
+==================================================================
+==================================================================
+
+
+
+round 301:
+Data: 25/01/2022
+
+Notas:
+
+
+R1
+1.  home:            ranker_inf4                 (288)*|| vs.
+2.  rio_de_janeiro:  L0 vanilla FN100            (301) || vs.
+3.  sao_paulo:       lr_1_120                    (301) || vs.
+4.  buenos_aires:    L0 vanilla FN40             (280)*|| vs.
+5.  medellin:        L0 vanilla FN0              (301) || vs.
+6.  guadalajara:     FN100 int e const           (301) || vs.
+7.  san_francisco:   vegas FN                    (302) || vs.
+8.  bangalore:       ar1_sign                    (280)*|| vs.
+9.  sydney:          logistic_reg                (301) || vs.
+10. johannesburg:    sfi_vanilla                 (280)*|| vs.
+11. lagos:           mda_xgb_denoise             (301) || vs.
+12. kigali:          mda_xgb_iv                  (301) || vs.
+13. dubai:           LR_ch37/FN_st34             (301) || vs.
+14. istanbul:        strategy_sfi_mda            (301) || vs.
+15. zurich:          best sort model             (282)*|| vs.
+
+R2:
+1.  vegas:           xgbmn1::7 by 5 rounds       (301) || vs.
+2.  havana:          xgb_ones_inifinity          (281)*|| vs.
+3.  san_salvador:    swap all feats predict      (301) || vs.
+4.  bombay:          strategy_metric             (301) || vs.
+5.  shanghai:        vegas FN double             (302) || vs.
+6.  hong_kong:       strategy_groups             (301) || vs.
+7.  singapore:       lack of dex                 (301) || vs.
+8.  hanoi:           swap FN feats predict       (301) || vs.
+9.  saigon:          swap LR feats predict       (301) || vs.
+
+
+
+R3
+1.  moscow:          strategy conservador        (301) || vs.
+2.  barcelona:       xgb_dom lr/fn               (301) || vs.  
+3.  tallinn:         strategy moderado           (301) || vs.
+4.  hamburg:         strategy adressivo          (301) || vs.
+5.  stockholm:       lr/fn                       (301) || vs.
+6.  monaco:          strategy muito adressivo    (301) || vs.
+7.  st_easy:         lr hamburg                  (301) || vs.
+8.  st_hard:         fn hamburg                  (301) || vs.
+
+
+==================================================================
+==================================================================
+==================================================================
+
+
+round 321:
+Data: 19/06/2022
+
+Notas:
+
+
+SMoon
+1.  al_sadd:         feat w27                    (285)*|| obs:
+2.  saprissa:        fn_pre old sydney           (323)@|| obs: Game Over
+3.  al_hilal:        vegas 4                     (321)*|| obs:
+4.  espanyol:        barcelona ranker            (301) || obs: Game Over
+5.  mazembe:         vegas 5                     (321)@|| obs:
+6.  al_ahly:         vegas 6                     (321)@|| obs:
+7.  malmo:           tallinn ranker              (301) || obs: Game Over
+8.  fiorentina:      hamburg no ranker           (301) || obs: Game Over (New Hamburg)
+9.  esperance:       best taa zurich             (321)@|| obs:
+10. lazio:           minus dubai (*-1)           (323)@|| obs: Game Over
+
+Jmoon:
+1.  colo_colo:       ex_preds + FN100 old feats  (288)*|| obs:
+2.  whitecaps:       ex_preds + SF               (288)*|| obs: Game Over
+3.  pumas:           minus barcelona (*-1)       (323)@|| obs: Game Over
+4.  zenit:           moscow minus                (301) || obs: Game Over
+5.  cska:            moscow ex preds             (301) || obs: Game Over
+6.  boca_jrs:        xgb_dom_lr                  (301) || obs:
+7.  al_ittihad:      ex_preds + bangalore        (288)*|| obs: Game Over
+8.  brondby:         havana (*-1)                (321)@|| obs: Game Over
+9.  basel:           swap_map lr & fn old style  (321)@|| obs: Game Over (new Guadalajara)
+10. necaxa:          xgb_inf4 swap 0,1 team fn   (288)*|| obs: Game Over (new Hanoi)
+ 
+Umoon 
+1.  urawa_reds:      minus hk                    (301) || obs: Game Over
+2.  atalanta:        hamburg -dom feats          (301) || obs: Game Over (new Istanbul)
+3.  molde:           old stockholm lr/fn         (301) || obs:
+4.  tigres:          xgb_inf4 swap 0,1 team lr   (288)*|| obs: Game Over (new Saigon)
+5.  rb_leipzig:      lr_dom_lr                   (288)*|| obs:
+6.  rb_salzburg:     lr_dom_fn                   (288)*|| obs:
+7.  genoa:           old hamburg                 (301) || obs:
+8.  shakthar:        moscow dummy                (301) || obs:
+9.  river_plate:     xgb_dom_fn                  (301) || obs:
+10. racing:          xgb_inifinity4              (282)*|| obs:
+
+
+
+===========
+
+
+R1
+1.  home:            ranker_inf4                 (288)*|| obs:
+2.  rio_de_janeiro:  L0 vanilla FN100            (301) || obs:
+3.  sao_paulo:       lr_1_120                    (301) || obs:
+4.  buenos_aires:    L0 vanilla FN40             (280)*|| obs:
+5.  medellin:        L0 vanilla FN0              (301) || obs:
+6.  guadalajara:     FN100 vegas + model         (321)@|| obs: Game Over (Basel)
+7.  san_francisco:   vegas FN                    (302) || obs:
+8.  bangalore:       ar1_sign                    (280)*|| obs:
+9.  sydney:          logistic_reg                (301) || obs:
+10. johannesburg:    sfi_vanilla                 (280)*|| obs:
+11. lagos:           vegas 2                     (321)@|| obs:
+12. kigali:          vegas 3                     (321)@|| obs:
+13. dubai:           lr_dom lr/fn                (321)@|| obs:
+14. istanbul:        strategy_sfi_mda            (301) || obs: Game Over (atalanta)
+15. zurich:          best sort model             (282)*|| obs:
+
+R2:
+1.  vegas:           xgbmn1::7 by 5 rounds       (301) || obs:
+2.  havana:          xgb_ones_inifinity          (281)*|| obs:
+3.  san_salvador:    xgb_dom_lr swap 0,1 team lr (321)@|| obs:
+4.  bombay:          strategy_metric             (301) || obs:
+5.  shanghai:        vegas FN double             (302) || obs: Game Over
+6.  hong_kong:       strategy_groups             (301) || obs: Game Over
+7.  singapore:       lack of dex                 (301) || obs:
+8.  hanoi:           xgb_dom_fn swap 0,1 team fn (321)@|| obs: Game Over (Necaxa)
+9.  saigon:          xgb_dom_fn swap 0,1 team lr (321)@|| obs: Game Over (tigres)
+
+
+
+R3:
+1.  moscow:          strategy conservador        (301) || obs:
+2.  barcelona:       xgb_dom lr/fn               (301) || obs:
+3.  tallinn:         strategy moderado           (301) || obs:
+4.  hamburg:         strategy agressivo          (301) || obs: Game Over (fiorentina) Remove ranker
+5.  stockholm:       lr/fn                       (301) || obs:
+6.  monaco:          strategy minus +agg         (321)@|| obs:
+7.  lisbon:          lr hamburg_era              (301) || obs:
+8.  copenhagen:      fn hamburg_era              (301) || obs:
+
+
+==================================================================
+==================================================================
+==================================================================
+
+
+
+round 341(349) Daily:
+Data: 04/11/2022
+
+Notas:
+
+
+SMoon
+1.  al_sadd:         feat w27                    (285)*|| obs:
+2.  saprissa:        hanava w/o replace          (349)$|| obs:
+3.  al_hilal:        vegas 4                     (321)*|| obs:
+4.  espanyol:        minus barcelona             (349)$|| obs:
+5.  mazembe:         vegas 5                     (321)@|| obs:
+6.  al_ahly:         vegas 6                     (321)@|| obs:
+7.  malmo:           minus tallinn               (349)$|| obs:
+8.  fiorentina:      tallinn lr only             (349)$|| obs:
+9.  esperance:       best taa zurich             (321)@|| obs:
+10. lazio:           tallinn fn only             (349)$|| obs:
+
+Jmoon:
+1.  colo_colo:       ex_preds + FN100 old feats  (288)*|| obs:
+2.  whitecaps:       monaco orig/fixed           (349)$|| obs:
+3.  pumas:           monaco (*-1)                (349)$|| obs:
+4.  zenit:           moscow lr only              (349)$|| obs:
+5.  cska:            moscow fn only              (349)$|| obs:
+6.  boca_jrs:        xgb_dom_lr                  (301) || obs:
+7.  al_ittihad:      swap_map lr only            (349)$|| obs:
+8.  brondby:         lisbon no ranker            (349)$|| obs:
+9.  basel:           swap_map fn only            (349)$|| obs:
+10. necaxa:          xgb_inf4 swap 0,1* team fn  (349)$|| obs:
+ 
+Umoon 
+1.  urawa_reds:      inv/inv monaco              (349)$|| obs:
+2.  atalanta:        ok/inv monaco               (349)$|| obs:
+3.  molde:           old stockholm lr/fn         (301) || obs:
+4.  tigres:          lr/fn monaco                (349)$|| obs:
+5.  rb_leipzig:      lr_dom_lr                   (288)*|| obs:
+6.  rb_salzburg:     lr_dom_fn                   (288)*|| obs:
+7.  genoa:           old hamburg                 (301) || obs:
+8.  shakthar:        moscow 1.75                 (349)$|| obs:
+9.  river_plate:     xgb_dom_fn                  (301) || obs:
+10. racing:          xgb_inifinity4              (282)*|| obs:
+
+
+
+===========
+
+
+R1
+1.  home:            ranker_inf4                 (288)*|| obs:
+2.  rio_de_janeiro:  L0 vanilla FN100            (301) || obs:
+3.  sao_paulo:       lr_1_120                    (301) || obs:
+4.  buenos_aires:    L0 vanilla FN40             (280)*|| obs:
+5.  medellin:        L0 vanilla FN0              (301) || obs:
+6.  guadalajara:     swap_map lr & fn old style  (349)$|| obs:
+7.  san_francisco:   vegas FN                    (302) || obs:
+8.  bangalore:       ar1_sign                    (280)*|| obs:
+9.  sydney:          logistic_reg                (301) || obs:
+10. johannesburg:    sfi_vanilla                 (280)*|| obs:
+11. lagos:           vegas 2                     (321)@|| obs:
+12. kigali:          vegas 3                     (321)@|| obs:
+13. dubai:           lr_dom lr/fn                (321)@|| obs:
+14. istanbul:        strategy agg -dom feats     (349)$|| obs:
+15. zurich:          best sort model             (282)*|| obs:
+
+R2:
+1.  vegas:           xgbmn1::7 by 5 rounds       (301) || obs:
+2.  havana:          xgb_ones_inifinity          (281)*|| obs:
+3.  san_salvador:    xgb_dom_lr swap 0,1 team lr (321)@|| obs:
+4.  bombay:          strategy_metric             (301) || obs:
+5.  shanghai:        fn/lr hamburg               (349)$|| obs:
+6.  hong_kong:       lr/fn hamburg               (349)$|| obs:
+7.  singapore:       lack of dex                 (301) || obs:
+8.  hanoi:           xgb_inf4 swap *0,1 team fn  (349)$|| obs:
+9.  saigon:          xgb_inf4 swap *0,1 team lr  (349)$|| obs:
+
+
+
+R3
+1.  moscow:          strategy conservador        (301) || obs:
+2.  barcelona:       xgb_dom lr/fn               (301) || obs:
+3.  tallinn:         strategy moderado           (301) || obs:
+4.  hamburg:         strategy agressivo          (301) || obs:
+5.  stockholm:       lr/fn                       (301) || obs:
+6.  monaco:          strategy minus +agg         (321)@|| obs:
+7.  lisbon:          lr/lr hamburg               (301) || obs:
+8.  copenhagen:      fn/fn hamburg               (301) || obs:
+
+
+==================================================================
+==================================================================
+==================================================================
+
+
+
+
+
+Round 419 Daily:
+Data: 10/02/2023
+
+Notas:
+full keys(62):
+dyn: 31
+L1: 8
+swap_map: 7
+L0_vanilla: 7
+vegas: 6
+best: 2
+feat: 1
+
+
+==========================================================================================
+
+Moon
+keys (30):
+dyn: 20
+swap_map: 3
+L1: 2
+vegas: 3
+best: 1
+feat: 1
+
+
+SMoon
+1.  al_sadd:         feat w27                        (285)*|| obs: x
+2.  saprissa:        dyn  +agg ok/inv LR only        (419)$|| obs: ?
+3.  al_hilal:        vegas 4                         (321)*|| obs: x
+4.  espanyol:        dyn minus barcelona             (349)$|| obs:
+5.  mazembe:         vegas 5                         (321)@|| obs: x
+6.  al_ahly:         vegas 6                         (321)@|| obs: x
+7.  malmo:           dyn +agg ok/ok                  (419)$|| obs: x
+8.  fiorentina:      dyn tallinn lr only             (349)$|| obs: ?
+9.  esperance:       best taa zurich                 (321)@|| obs: x
+10. lazio:           dyn tallinn fn only             (349)$|| obs: ?
+
+Jmoon:
+1.  colo_colo:       L1 ex_preds_v4+FN100 old feats  (288)*|| obs: 
+2.  whitecaps:       dyn +agg lr/lr                  (419)$|| obs:
+3.  pumas:           dyn +agg fn/lr                  (419)$|| obs:
+4.  zenit:           dyn moscow fn only              (349)$|| obs:
+5.  cska:            dyn moscow lr only              (349)$|| obs:
+6.  boca_jrs:        dyn xgb_dom_lr                  (301) || obs:
+7.  al_ittihad:      swap_map lr only                (349)$|| obs: ?
+8.  brondby:         dyn +agg inv/ok                 (419)$|| obs: x
+9.  basel:           swap_map fn only                (349)$|| obs:
+10. necaxa:          swap_map xgb_inf4 0,1* team fn  (349)$|| obs:
+ 
+Umoon 
+1.  urawa_reds:      dyn +agg inv/inv                (419)$|| obs: x
+2.  atalanta:        dyn +agg fn/fn                  (419)$|| obs:
+3.  molde:           dyn old stockholm lr/fn         (301) || obs: ?
+4.  tigres:          dyn +agg lr/fn                  (419)$|| obs:
+5.  rb_leipzig:      dyn lr_dom_lr                   (288)*|| obs:
+6.  rb_salzburg:     dyn lr_dom_fn                   (288)*|| obs:
+7.  genoa:           dyn old hamburg                 (301) || obs: ?
+8.  shakthar:        dyn moscow 1.75                 (349)$|| obs: ?
+9.  river_plate:     dyn xgb_dom_fn                  (301) || obs:
+10. racing:          L1 xgb_inifinity4               (282)*|| obs:
+
+
+
+================================================================
+NR
+
+Keys (32):
+dyn: 12
+L0_vanilla: 7
+swap_map: 4
+L1: 5
+vegas: 3
+best: 1
+
+STRATEGY: ERA/FT
+
+R1
+1.  home:            L1 ranker_inf4                  (288)*|| obs:
+2.  rio_de_janeiro:  L0_vanilla FN100                (301) || obs:
+3.  sao_paulo:       L1 lr_1_120                     (301) || obs:
+4.  buenos_aires:    L0_vanilla FN40                 (280)*|| obs:
+5.  medellin:        L0_vanilla FN0                  (301) || obs:
+6.  guadalajara:     swap_map lr & fn old style      (349)$|| obs:
+7.  san_francisco:   LR_1_120 vegas FN v2            (302) || obs:
+8.  bangalore:       L0_vanilla ar1_sign             (280)*|| obs:
+9.  sydney:          L1 logistic_reg                 (301) || obs:
+10. johannesburg:    L0_vanilla sfi_vanilla          (280)*|| obs:
+11. lagos:           vegas 2                         (321)@|| obs:
+12. kigali:          vegas 3                         (321)@|| obs:
+13. dubai:           dyn lr_dom lr/fn                (321)@|| obs:
+14. istanbul:        dyn agressivo ok/inv            (349)$|| obs:
+15. zurich:          best sort model                 (282)*|| obs:
+
+R2:
+1.  vegas:           xgbmn1::7 by 5 rounds           (301) || obs:
+2.  havana:          L1 xgb_ones_inifinity           (281)*|| obs:
+3.  san_salvador:    swap_map xgb_dom_lr 0,1 team lr (321)@|| obs:
+4.  bombay:          L0_vanilla strategy_metric      (301) || obs:
+5.  shanghai:        dyn agressivo fn/lr             (349)$|| obs:
+6.  hong_kong:       dyn agressivo lr/fn             (349)$|| obs:
+7.  singapore:       L1 lack of dex                  (301) || obs:
+8.  hanoi:           swap_map swap *0,1 team fn      (349)$|| obs:
+9.  saigon:          swap_map swap *0,1 team lr      (349)$|| obs:
+
+
+
+R3
+1.  moscow:          dyn strategy conservador        (301) || obs:
+2.  barcelona:       dyn xgb_dom lr/fn               (301) || obs:
+3.  tallinn:         dyn strategy moderado           (301) || obs:
+4.  hamburg:         dyn strategy agressivo          (301) || obs:
+5.  stockholm:       dyn lr/fn                       (301) || obs:
+6.  monaco:          dyn strategy +agg ok/inv        (321)@|| obs:
+7.  lisbon:          dyn agressivo lr/lr             (301) || obs:
+8.  copenhagen:      dyn agressivo fn/fn             (301) || obs:
+
+
+
+==========================================================================================
+==========================================================================================
+==========================================================================================
+
+
+
+Round 449 Daily:
+Data: 26/03/2023
+
+Notas:
+full keys(80):
+dyn: 39
+L0_vanilla: 7
+swap_map: 11
+L1: 12
+vegas: 8
+best: 3
+
+
+==========================================================================================
+==========================================================================================
+==========================================================================================
+Moon
+keys (30):
+dyn: 21
+swap_map: 6
+L1: 3
+
+
+
+SMoon
+1.  al_sadd:         L1 xgb_val4                     (449) || obs:
+2.  saprissa:        dyn  +aggE fn/fn                (449) || obs:
+3.  al_hilal:        swap_map dyn inv/ok/inv         (449) || obs:
+4.  espanyol:        dyn minus barcelona             (349) || obs:
+5.  mazembe:         swap_map dyn ok/ok/inv          (449) || obs:
+6.  al_ahly:         swap_map lr/lr/lr               (449) || obs:
+7.  malmo:           dyn +agg ok/ok                  (449) || obs:
+8.  fiorentina:      dyn moderado lr only            (349) || obs:
+9.  esperance:       dyn agressivo 1.75              (449) || obs:
+10. lazio:           dyn moderado fn only            (349) || obs:
+
+Jmoon:
+1.  colo_colo:       L1 ex_preds_v4+FN100 old feats  (288) || obs:
+2.  whitecaps:       dyn +agg lr/lr                  (419) || obs:
+3.  pumas:           dyn +agg fn/lr                  (419) || obs:
+4.  zenit:           dyn moscow fn only              (349) || obs:
+5.  cska:            dyn moscow lr only              (349) || obs:
+6.  boca_jrs:        dyn xgb_dom_lr                  (301) || obs:
+7.  al_ittihad:      swap_map inf4/team_lr/inv_swap  (449) || obs:
+8.  brondby:         dyn  +aggE fn/fn                (449) || obs:
+9.  basel:           swap_map inf4/team_lr/inv_swap  (449) || obs:
+10. necaxa:          swap_map dyn factor/era fn/fn   (449) || obs:
+ 
+Umoon 
+1.  urawa_reds:      dyn +agg ok/inv FN1.75          (449) || obs:
+2.  atalanta:        dyn +agg fn/fn                  (419) || obs:
+3.  molde:           dyn old stockholm lr/fn         (301) || obs:
+4.  tigres:          dyn +agg lr/fn                  (419) || obs:
+5.  rb_leipzig:      dyn lr_dom_lr                   (288) || obs:
+6.  rb_salzburg:     dyn lr_dom_fn                   (288) || obs:
+7.  genoa:           dyn_old +aggE ok/ok             (449) || obs:
+8.  shakthar:        dyn conservador 1.75            (349) || obs:
+9.  river_plate:     dyn xgb_dom_fn                  (301) || obs:
+10. racing:          L1 xgb_inifinity4               (282) || obs:
+
+
+
+================================================================
+NR
+
+Keys (50):
+dyn: 18
+L0_vanilla: 7
+swap_map: 5
+L1: 9
+vegas: 8
+best: 3
+
+STRATEGY: ERA/FT
+
+R1
+1.  home:            L1 ranker_inf4                  (288) || obs:
+2.  rio_de_janeiro:  L0_vanilla FN100                (301) || obs:
+3.  sao_paulo:       L1 lr_1_120                     (301) || obs:
+4.  buenos_aires:    L0_vanilla FN40                 (280) || obs:
+5.  medellin:        L0_vanilla FN0                  (301) || obs:
+6.  guadalajara:     swap_map inv lr & fn old style  (349) || obs:
+7.  san_francisco:   LR_1_120 vegas FN v2            (302) || obs:
+8.  bangalore:       L0_vanilla ar1_sign             (280) || obs:
+9.  sydney:          L1 logistic_reg                 (301) || obs:
+10. johannesburg:    L0_vanilla sfi_vanilla          (280) || obs:
+11. lagos:           vegas 2                         (321) || obs:
+12. kigali:          vegas 3                         (321) || obs:
+13. dubai:           dyn lr_dom lr/fn                (321) || obs:
+14. istanbul:        dyn agressivo ok/inv            (349) || obs:
+15. zurich:          fav nr_model 1                  (282) || obs:
+
+R2:
+1.  vegas:           vegas 1                         (301) || obs:
+2.  havana:          L1 xgb_ones_inifinity           (281) || obs:
+3.  san_salvador:    swap_map dyn factor/era ok/ok   (449) || obs:
+4.  bombay:          L0_vanilla strategy_metric      (301) || obs:
+5.  shanghai:        dyn agressivo fn/lr             (349) || obs:
+6.  hong_kong:       dyn agressivo lr/fn             (349) || obs:
+7.  singapore:       L1 lack of dex 0%FN             (301) || obs:
+8.  hanoi:           swap_map swap *0,1 team fn      (349) || obs:
+9.  saigon:          swap_map swap *0,1 team lr      (349) || obs:
+
+
+
+R3
+1.  moscow:          dyn strategy conservador        (301) || obs:
+2.  barcelona:       dyn xgb_dom lr/fn               (301) || obs:
+3.  tallinn:         dyn strategy moderado  ok/ok    (301) || obs:
+4.  hamburg:         dyn strategy agressivo ok/ok    (301) || obs:
+5.  stockholm:       dyn lr/fn                       (301) || obs:
+6.  monaco:          dyn strategy +agg ok/inv        (321) || obs:
+7.  lisbon:          dyn agressivo lr/lr             (301) || obs:
+8.  copenhagen:      dyn agressivo fn/fn             (301) || obs:
+
+
+
+
+R4
+1.  lima:             L1 xgb_exc_60_80 0%FN          (449) || obs:
+2.  santiago:         dyn lr/xgb_1_120 100%FN        (449) || obs:
+3.  quito:            L1 xgb_81_120_val3 0%FN        (449) || obs:
+4.  cancun:           swap_map ok lr & fn old style  (449) || obs:
+5.  miami:            vegas 4                        (449) || obs:
+6.  new_orleans:      vegas 5                        (449) || obs:
+7.  austin:           vegas 6                        (449) || obs:
+8.  blackrock_city:   vegas 7                        (449) || obs:
+9.  san_diego:        vegas 8                        (449) || obs:
+10. kuala_lumpur:     L1 lack of dex 100%FN          (449) || obs:
+11. jakarta:          L1 lack of dex 125%FN          (449) || obs:
+12. geneva:           fav nr_model 2                 (449) || obs:
+13. lugano:           fav nr_model 3                 (449) || obs:
+14. helsinki:         dyn strategy +aggE ok/ok       (449) || obs:
+15. st_petersburg:    dyn strategy +aggE ok/inv      (449) || obs:
+16. oslo:             dyn strategy +agg  ok/ok       (449) || obs:
+17. saint_tropez:     dyn_old +agg ok/inv            (449) || obs:
+18. frankfurt:        dyn_old agressivo ok/ok        (449) || obs:
+
+
+
+==========================================================================================
+==========================================================================================
+==========================================================================================
+
+
+Round 469 Daily:
+Data: 24/04/2023
+
+Notas:
+full keys(84):
+dyn: 41
+L0_vanilla: 7
+swap_map: 11
+L1: 12
+vegas: 10
+pick: 3
+
+
+
+DYN MODELS (STRATEGY: ERA/FT)
+
+(+AGG_E)
+genoa:           dyn_old +aggE ok/ok FN0.50      (449)*|| obs: GENOA
+
+helsinki:        dyn +aggE ok/ok                 (449)*|| obs:
+st_petersburg:   dyn +aggE ok/inv                (449)*|| obs: MONACO
+brussels:        dyn +aggE inv/inv(-1)           (469)*|| obs:
+
+saprissa:        dyn +aggE fn/fn                 (449)*|| obs: STATIC
+brondby:         dyn +aggE fn/lr                 (449)*|| obs: STATIC
+lazio:           dyn +aggE fn/fn  KSH_0.3        (469)*|| obs: STATIC
+fiorentina:      dyn +aggE fn/lr  KSH_0.3        (469)*|| obs: STATIC
+
+
+------------------------------------------
+
+(+AGG)
+saint_tropez:    dyn_old +agg ok/inv FN0.50      (449)*|| obs: GENOA
+
+monaco:          dyn +agg ok/inv                 (321)*|| obs: MONACO
+urawa_reds:      dyn +agg ok/inv FN1.25          (449)*|| obs: MONACO
+oslo:            dyn +agg  ok/ok                 (449)*|| obs:
+malmo:           dyn +agg inv/inv                (449)*|| obs:
+
+whitecaps:       dyn +agg lr/lr                  (419)*|| obs: STATIC
+pumas:           dyn +agg fn/lr                  (419)*|| obs: STATIC
+atalanta:        dyn +agg fn/fn                  (419)*|| obs: STATIC
+tigres:          dyn +agg lr/fn                  (419)*|| obs: STATIC
+
+
+------------------------------------------
+
+(MODERADO)
+hamburg:         dyn moderado ok/ok              (301)*|| obs:
+frankfurt:       dyn moderado ok/ok FN0.50       (449)*|| obs:
+ 
+istanbul:        dyn moderado ok/inv             (349)*|| obs:
+tallinn:         dyn moderado ok/inv KSH_0.3     (301)*|| obs:
+esperance:       dyn moderado ok/inv FN1.25      (449)*|| obs:
+vienna:          dyn moderado inv/inv(-1)        (469)*|| obs:
+ 
+ 
+lisbon:          dyn moderado lr/lr              (301)*|| obs: STATIC
+copenhagen:      dyn moderado fn/fn              (301)*|| obs: STATIC
+shanghai:        dyn moderado fn/lr              (349)*|| obs: STATIC
+hong_kong:       dyn moderado lr/fn              (349)*|| obs: STATIC
+
+
+
+------------------------------------------
+
+(CONSERVADOR)
+moscow:          dyn conservador xgb_1_120       (301)*|| obs:
+shakthar:        dyn conservador lr_1_120        (349)*|| obs:
+zenit:           dyn conservador fn only         (349)*|| obs: STATIC
+cska:            dyn conservador lr only         (349)*|| obs: STATIC
+
+
+santiago:        dyn lr/xgb_1_120 FN100          (449) || obs:
+stockholm:       dyn lr/fn                       (301) || obs:
+molde:           dyn reg_preds lr/xgb            (301) || obs:
+
+
+
+------------------------------------------
+
+(Model ONLY)
+
+barcelona:       dyn xgb_dom lr/fn               (301) || obs:
+espanyol:        dyn minus barcelona             (349) || obs:
+dubai:           dyn lr_dom lr/fn                (321) || obs:
+
+
+boca_jrs:        dyn xgb_dom_lr                  (301) || obs:
+river_plate:     dyn xgb_dom_fn                  (301) || obs:
+
+rb_leipzig:      dyn lr_dom_lr                   (288) || obs:
+rb_salzburg:     dyn lr_dom_fn                   (288) || obs:
+
+
+
+
+
+===============================================================
+
+SWAP MAP
+
+(DYN)
+al_ittihad:      swap_map inf4/team_lr/inv_swap  (449) || obs:
+basel:           swap_map inf4/team_fn/inv_swap  (449) || obs:
+
+al_hilal:        swap_map dyn inv/ok/inv         (449) || obs:
+mazembe:         swap_map dyn ok/ok/inv          (449) || obs:
+al_ahly:         swap_map lr/lr/lr               (449) || obs:
+
+necaxa:          swap_map dyn factor/era fn/fn   (449) || obs:
+guadalajara:     swap_map inv lr & fn old style  (349) || obs:
+san_salvador:    swap_map dyn factor/era ok/ok   (449) || obs:
+
+
+------------------------------------------
+
+(BASIC)
+cancun:          swap_map ok lr & fn old style   (449) || obs:
+hanoi:           swap_map swap *0,1 team fn      (349) || obs:
+saigon:          swap_map swap *0,1 team lr      (349) || obs:
+havana:          swap_map xgb_ones_inifinity     (281) || obs:
+
+
+
+
+===============================================================
+
+L0 MODELS
+
+(BASIC FN)
+medellin:        L0_vanilla FN0                  (301) || obs:
+buenos_aires:    L0_vanilla FN40                 (280) || obs:
+rio_de_janeiro:  L0_vanilla FN100                (301) || obs:
+
+------------------------------------------
+
+(METRIC FN)
+bangalore:       L0_vanilla ar1_sign             (280) || obs:
+johannesburg:    L0_vanilla sfi_vanilla          (280) || obs:
+bombay:          L0_vanilla fn_dyn_metric        (301) || obs:
+
+
+===============================================================
+
+
+L1 MODELS
+
+(VAL4)
+home:            L1 ranker_inf4                  (288) || obs:
+racing:          L1 xgb_inifinity4               (282) || obs:
+al_sadd:         L1 xgb_val4                     (449) || obs:
+colo_colo:       L1 ex_preds_v4+FN100 old feats  (288) || obs:
+
+(LINEARES)
+sao_paulo:       L1 lr_1_120                     (301) || obs:
+sydney:          L1 logistic_reg                 (301) || obs:
+
+(EXC)
+lima:            L1 xgb_exc_60_80 FN0            (449) || obs:
+quito:           L1 xgb_81_120_val3 FN0          (449) || obs:
+
+(LACK DEX)
+singapore:       L1 lack of dex FN0              (301) || obs:
+kuala_lumpur:    L1 lack of dex FN100            (449) || obs:
+jakarta:         L1 lack of dex FN125            (449) || obs:
+
+
+
+===============================================================
+
+DRAFT MODELS
+(VEGAS FN)
+san_francisco:   LR_1_120 vegas_FN               (302) || obs:
+
+
+(PICK NR)
+zurich:          fav nr_model 1                  (282) || obs:
+geneva:          fav nr_model 2                  (449) || obs:
+lugano:          fav nr_model 3                  (449) || obs:
+
+
+(PICK MN)
+vegas:           vegas 1                         (301) || obs:
+lagos:           vegas 2                         (321) || obs:
+kigali:          vegas 3                         (321) || obs:
+miami:           vegas 4                         (449) || obs:
+new_orleans:     vegas 5                         (449) || obs:
+austin:          vegas 6                         (449) || obs:
+blackrock_city:  vegas 7                         (449) || obs:
+san_diego:       vegas 8                         (449) || obs:
+vancouver:       vegas 9                         (469) || obs:
+toronto:         vegas 10                        (469) || obs:
+
+
+
+
+
+
+
+
+
+
+Round 469 Daily:
+Data: 24/04/2023
+
+Notas:
+full keys(84):
+dyn: 41
+L0_vanilla: 7
+swap_map: 11
+L1: 12
+vegas: 10
+pick: 3
+
+
+==========================================================================================
+==========================================================================================
+==========================================================================================
+DYN MODELS (STRATEGY: ERA/FT)
+
+(+AGG)
+genoa:           dyn +aggE ok/ok FN0.50          (449)*|| obs: GENOA
+
+helsinki:        dyn +agg ok/ok                  (449)*|| obs:
+st_petersburg:   dyn +agg ok/inv                 (449)*|| obs: MONACO
+brussels:        dyn +agg inv/inv(-1)            (469)*|| obs:
+
+lazio:           dyn +agg fn/fn  KSH_0.3         (469)*|| obs: STATIC
+fiorentina:      dyn +agg fn/lr  KSH_0.3         (469)*|| obs: STATIC
+
+
+saprissa:        dyn +agg fn/fn                  (449)*|| obs: STATIC
+brondby:         dyn +agg fn/lr                  (449)*|| obs: STATIC
+whitecaps:       dyn +agg lr/lr                  (419)*|| obs: STATIC
+tigres:          dyn +agg lr/fn                  (419)*|| obs: STATIC
+arctic:          dyn +agg tcPerc,80,mean         (524)*|| obs: AUTO
+
+
+------------------------------------------
+
+(AGG)
+saint_tropez:    dyn agg ok/inv FN0.50           (449)*|| obs:
+
+monaco:          dyn agg ok/inv                  (321)*|| obs: MONACO
+urawa_reds:      dyn agg ok/inv FN1.25           (449)*|| obs: MONACO
+oslo:            dyn agg  ok/ok                  (449)*|| obs:
+malmo:           dyn agg inv/inv                 (449)*|| obs:
+
+
+pumas:           dyn agg fn/lr                   (419)*|| obs: STATIC
+atalanta:        dyn agg fn/fn                   (419)*|| obs: STATIC
+
+
+------------------------------------------
+
+(MODERADO)
+hamburg:         dyn moderado ok/ok              (301)*|| obs:
+frankfurt:       dyn moderado ok/ok FN0.50       (449)*|| obs:
+ 
+istanbul:        dyn moderado ok/inv             (349)*|| obs:
+tallinn:         dyn moderado ok/inv KSH_0.3     (301)*|| obs:
+esperance:       dyn moderado ok/inv FN1.25      (449)*|| obs:
+vienna:          dyn moderado inv/inv(-1)        (469)*|| obs:
+ 
+ 
+lisbon:          dyn moderado lr/lr              (301)*|| obs: STATIC
+copenhagen:      dyn moderado fn/fn              (301)*|| obs: STATIC
+shanghai:        dyn moderado fn/lr              (349)*|| obs: STATIC
+hong_kong:       dyn moderado lr/fn              (349)*|| obs: STATIC
+nr_antarctic:    dyn moderado tcPerc,80,mean     (524)*|| obs: AUTO
+
+
+
+------------------------------------------
+
+(CONSERVADOR)
+moscow:          dyn conservador xgb_1_120       (301)*|| obs:
+shakthar:        dyn conservador lr_1_120        (349)*|| obs:
+zenit:           dyn conservador fn only         (349)*|| obs: STATIC
+cska:            dyn conservador lr only         (349)*|| obs: STATIC
+
+
+santiago:        dyn lr/xgb_1_120 FN100          (449) || obs:
+stockholm:       dyn lr/fn                       (301) || obs:
+molde:           dyn reg_preds lr/xgb            (301) || obs:
+
+
+
+------------------------------------------
+
+(Model ONLY)
+
+barcelona:       dyn xgb_dom lr/fn               (301) || obs:
+boca_jrs:        dyn xgb_dom_lr                  (301) || obs:
+river_plate:     dyn xgb_dom_fn                  (301) || obs:
+espanyol:        dyn minus barcelona             (349) || obs:
+
+
+malaga:          dyn xgb_dom lr/fn FN100         (494) || obs:
+betis:           dyn xgb_dom_lr    FN100         (494) || obs:
+villarreal:      dyn xgb_dom_fn    FN100         (494) || obs:
+
+
+dubai:           dyn lr_dom lr/fn                (321) || obs:
+rb_leipzig:      dyn lr_dom_lr                   (288) || obs:
+rb_salzburg:     dyn lr_dom_fn                   (288) || obs:
+
+
+
+
+
+===============================================================
+
+SWAP MAP
+
+(DYN)
+al_ittihad:      swap_map inf4/team_lr/inv_swap  (449) || obs:
+basel:           swap_map inf4/team_fn/inv_swap  (449) || obs:
+
+al_hilal:        swap_map dyn inv/ok/inv         (449) || obs:
+mazembe:         swap_map dyn ok/ok/inv          (449) || obs:
+al_ahly:         swap_map lr/lr/lr               (449) || obs:
+
+necaxa:          swap_map dyn factor/era fn/fn   (449) || obs:
+guadalajara:     swap_map inv lr & fn old style  (349) || obs:
+san_salvador:    swap_map dyn factor/era ok/ok   (449) || obs:
+
+
+------------------------------------------
+
+(BASIC)
+cancun:          swap_map ok lr & fn old style   (449) || obs:
+hanoi:           swap_map swap *0,1 team fn      (349) || obs:
+saigon:          swap_map swap *0,1 team lr      (349) || obs:
+havana:          swap_map xgb_ones_inifinity     (281) || obs:
+
+
+
+
+===============================================================
+
+L0 MODELS 
+
+(BASIC FN)
+medellin:        L0_vanilla FN0                  (301) || obs:
+buenos_aires:    L0_vanilla FN40                 (280) || obs:
+rio_de_janeiro:  L0_vanilla FN100                (301) || obs:
+
+------------------------------------------
+
+(METRIC FN)
+bangalore:       L0_vanilla ar1_sign             (280) || obs:
+johannesburg:    L0_vanilla sfi_vanilla          (280) || obs:
+bombay:          L0_vanilla fn_dyn_metric        (301) || obs:
+
+
+===============================================================
+
+
+L1 MODELS
+
+(VAL4)
+home:            L1 ranker_inf4                  (288) || obs:
+racing:          L1 xgb_inifinity4               (282) || obs:
+al_sadd:         L1 xgb_val4                     (449) || obs:
+colo_colo:       L1 ex_preds_v4+FN100 old feats  (288) || obs:
+
+(LINEARES)
+sao_paulo:       L1 lr_1_120                     (301) || obs:
+sydney:          L1 logistic_reg                 (301) || obs:
+
+(EXC)
+lima:            L1 xgb_exc_60_80 FN0            (449) || obs:
+quito:           L1 xgb_81_120_val3 FN0          (449) || obs:
+
+(LACK DEX)
+singapore:       L1 lack of dex FN0              (301) || obs:
+kuala_lumpur:    L1 lack of dex FN100            (449) || obs:
+jakarta:         L1 lack of dex FN125            (449) || obs:
+
+
+
+===============================================================
+
+DRAFT MODELS
+(VEGAS FN)
+san_francisco:   LR_1_120 vegas_FN               (302) || obs:
+
+
+(PICK NR)
+zurich:          fav nr_model 1                  (282) || obs:
+geneva:          fav nr_model 2                  (449) || obs:
+lugano:          fav nr_model 3                  (449) || obs:
+
+
+(PICK MN)
+vegas:           vegas 1                         (301) || obs:
+lagos:           vegas 2                         (321) || obs:
+kigali:          vegas 3                         (321) || obs:
+miami:           vegas 4                         (449) || obs:
+new_orleans:     vegas 5                         (449) || obs:
+austin:          vegas 6                         (449) || obs:
+blackrock_city:  vegas 7                         (449) || obs:
+san_diego:       vegas 8                         (449) || obs:
+vancouver:       vegas 9                         (469) || obs:
+toronto:         vegas 10                        (469) || obs:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

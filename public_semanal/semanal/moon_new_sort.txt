@@ -1,0 +1,220 @@
+Round 469 Daily:
+Data: 24/04/2023
+
+Notas:
+full keys(84):
+dyn: 41
+L0_vanilla: 7
+swap_map: 11
+L1: 12
+vegas: 10
+pick: 3
+
+
+==========================================================================================
+==========================================================================================
+==========================================================================================
+DYN MODELS (STRATEGY: ERA/FT)
+
+(+AGG)
+
+arctic:           tcPercentile,mean,80           (524) || obs: aggE_c1
+helsinki:         tc,sortino,80                  (534) || obs: aggE_c2
+genoa:            tc,sortino,80 FN0.50           (534) || obs: aggE_c2
+
+st_petersburg:    tc,sortino,40                  (534) || obs: aggE_c3
+fiorentina:       tcPercentile,mean,40           (534) || obs: aggE_c4
+brussels:         tcPercentile_minus,40,mean     (534) || obs: aggE_c5
+
+lazio:            tcPercentile,mean,20           (534) || obs: aggE_c6
+
+
+saprissa:        fn/fn                           (449) || obs: STATIC
+brondby:         fn/lr                           (449) || obs: STATIC
+whitecaps:       lr/lr                           (419) || obs: STATIC
+tigres:          lr/fn                           (419) || obs: STATIC
+
+
+------------------------------------------
+
+(AGG)
+monaco:          tcPercentile,mean,80            (534) || obs: agg_c1
+urawa_reds:      tc,sortino,80                   (534) || obs: agg_c2
+saint_tropez:    tc,sortino,80 FN0.50            (534) || obs: agg_c2
+
+
+oslo:            tcPercentile,mean,40            (534) || obs: agg_c3
+malmo:           tcPercentile_minus,40,mean      (534) || obs: agg_c4
+
+pumas:           fn/lr                           (419) || obs: STATIC
+atalanta:        fn/fn                           (419) || obs: STATIC
+
+
+------------------------------------------
+
+(MODERADO)
+antarctic:       tcPercentile,mean,80            (524) || obs: mod_c1
+hamburg:         tc,sortino,80                   (534) || obs: mod_c2
+frankfurt:       tcPerc,sortino,80 FN0.50        (534) || obs: mod_c2
+
+istanbul:        tc,sortino,40                   (534) || obs: mod_c3
+tallinn:         tcPercentile,mean,40            (534) || obs: mod_c4
+vienna:          tcPercentile_minus,40,mean      (534) || obs: mod_c5
+
+esperance:       tcPercentile,mean,20            (534) || obs: mod_c6
+
+
+lisbon:          lr/lr                           (301) || obs: STATIC
+copenhagen:      fn/fn                           (301) || obs: STATIC
+shanghai:        fn/lr                           (349) || obs: STATIC
+hong_kong:       lr/fn                           (349) || obs: STATIC
+
+
+
+
+------------------------------------------
+
+(CONSERVADOR)
+moscow:          tcPercentile,mean,80 xgb_1_120  (534) || obs: cons_c1
+shakthar:        tcPercentile,mean,80 lr_1_120   (534) || obs: cons_c1
+zenit:           xgb_1_120,fn only               (349) || obs: STATIC
+cska:            xgb_1_120 lr only               (349) || obs: STATIC
+
+
+santiago:        lr/xgb_1_120 FN100              (449) || obs: TO_DO
+stockholm:       lr/fn                           (301) || obs: TO_DO
+molde:           reg_preds lr/xgb                (301) || obs: TO_DO
+
+
+
+------------------------------------------
+
+(Model ONLY)
+
+barcelona:       tcPercentile,mean,80 xgb_dom(534) || obs: model_c1
+espanyol:        minus barcelona             (534) || obs: model_c1
+boca_jrs:        xgb_dom_lr                  (301) || obs: STATIC
+river_plate:     xgb_dom_fn                  (301) || obs: STATIC
+
+
+malaga:          tcPercentile,mean,80 lr_dom (534) || obs: model_c2
+betis:           xgb_dom_lr    FN100         (494) || obs: STATIC
+villarreal:      xgb_dom_fn    FN100         (494) || obs: STATIC
+
+
+dubai:           tcPercentile,mean,80 lr_dom (534) || obs: model_c3
+rb_leipzig:      lr_dom_lr                   (288) || obs: STATIC
+rb_salzburg:     lr_dom_fn                   (288) || obs: STATIC
+
+
+
+
+
+===============================================================
+
+SWAP MAP
+
+(DYN)
+al_ittihad:      swap_map inf4/team_lr/inv_swap  (449) || obs:
+basel:           swap_map inf4/team_fn/inv_swap  (449) || obs:
+
+al_hilal:        swap_map dyn inv/ok/inv         (449) || obs:
+mazembe:         swap_map dyn ok/ok/inv          (449) || obs:
+al_ahly:         swap_map lr/lr/lr               (449) || obs:
+
+necaxa:          swap_map dyn factor/era fn/fn   (449) || obs:
+guadalajara:     swap_map inv lr & fn old style  (349) || obs:
+san_salvador:    swap_map dyn factor/era ok/ok   (449) || obs:
+
+
+------------------------------------------
+
+(BASIC)
+cancun:          swap_map ok lr & fn old style   (449) || obs:
+hanoi:           swap_map swap *0,1 team fn      (349) || obs:
+saigon:          swap_map swap *0,1 team lr      (349) || obs:
+havana:          swap_map xgb_ones_inifinity     (281) || obs:
+
+
+
+===============================================================
+
+L0 MODELS
+
+(BASIC FN)
+medellin:        L0_vanilla FN0                  (301) || obs:
+buenos_aires:    L0_vanilla FN40                 (280) || obs:
+rio_de_janeiro:  L0_vanilla FN100                (301) || obs:
+
+------------------------------------------
+
+(METRIC FN)
+bangalore:       L0_vanilla ar1_sign             (280) || obs:
+johannesburg:    L0_vanilla sfi_vanilla          (280) || obs:
+bombay:          L0_vanilla fn_dyn_metric        (301) || obs: cons_c2
+
+
+===============================================================
+
+
+L1 MODELS
+
+(VAL4)
+home:            L1 ranker_inf4                  (288) || obs: STATIC
+racing:          L1 xgb_inifinity4               (282) || obs: STATIC
+al_sadd:         L1 xgb_val4                     (449) || obs: STATIC
+colo_colo:       L1 ex_preds_v4+FN100 old feats  (288) || obs: STATIC
+
+(LINEARES)
+sao_paulo:       L1 lr_1_120                     (301) || obs: STATIC
+sydney:          L1 logistic_reg                 (301) || obs: STATIC
+
+(EXC)
+lima:            L1 xgb_exc_60_80 FN0            (449) || obs: STATIC
+quito:           L1 xgb_81_120_val3 FN0          (449) || obs: STATIC
+
+(LACK DEX)
+singapore:       L1 lack of dex FN0              (301) || obs: STATIC
+kuala_lumpur:    L1 lack of dex FN100            (449) || obs: STATIC
+jakarta:         L1 lack of dex FN125            (449) || obs: STATIC
+
+
+
+===============================================================
+
+DRAFT MODELS
+(VEGAS FN)
+san_francisco:   LR_1_120 vegas_FN               (302) || obs: 
+
+
+(PICK NR)
+zurich:          zurich_c1                      (282) || obs:
+geneva:          zurich_c2                      (449) || obs:
+lugano:          zurich_c3                      (449) || obs:
+
+
+(PICK MN)
+vegas:           gold_c1                        (301) || obs: 
+lagos:           feat_c1                        (321) || obs: 
+kigali:          feat_c2                        (321) || obs: 
+miami:           gold_c2                        (449) || obs: 
+new_orleans:     bronze_c1                      (449) || obs:
+austin:          bronze_c2                      (449) || obs:
+blackrock_city:  short_c1                       (449) || obs:
+san_diego:       short_c2                       (449) || obs:
+vancouver:       silver_c1                      (469) || obs:
+toronto:         silver_c2                      (469) || obs:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
