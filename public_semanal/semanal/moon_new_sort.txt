@@ -182,7 +182,7 @@ jakarta:         L1 lack of dex FN125            (449) || obs: STATIC
 
 ===============================================================
 
-DRAFT MODELS
+DRAFT MODELS AUTO 539
 (VEGAS FN)
 san_francisco:   LR_1_120 vegas_FN               (302) || obs: 
 

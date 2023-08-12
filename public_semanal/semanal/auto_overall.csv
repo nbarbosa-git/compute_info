@@ -1,6 +1,6 @@
 strategy_auto
-corr_tc_mult,none,ewm_sortino,40
-client_c1,payoutC1TC3,ewm_sharpe,20
+corr_tc_mult,none,ewm_sortino,60
+client_c1,payoutC1TC3,ewm_sharpe,60
 aggE_c1,tcPercentile,ewm_mean,80
 aggE_c2,payoutC1TC3,ewm_sharpe,80
 aggE_c3,payoutC1TC3,ewm_sharpe,40
