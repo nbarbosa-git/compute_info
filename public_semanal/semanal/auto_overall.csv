@@ -19,6 +19,7 @@ mod_c5,tcPercentile_minus,ewm_mean,40
 mod_c6,tcPercentile,mean,20
 cons_c1,tcPercentile,ewm_mean,80
 cons_c2,tc,ewm_sharpe,80
+cons_c3,payoutC1TC3,ewm_sortino,80
 model_c1,tcPercentile,ewm_mean,80
 model_c2,tcPercentile,ewm_mean,80
 model_c3,tcPercentile,ewm_mean,80

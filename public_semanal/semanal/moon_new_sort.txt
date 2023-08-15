@@ -91,21 +91,21 @@ molde:           reg_preds lr/xgb                (301) || obs: TO_DO
 
 (Model ONLY)
 
-barcelona:       tcPercentile,mean,80 xgb_dom(534) || obs: model_c1
-espanyol:        minus barcelona             (534) || obs: model_c1
-boca_jrs:        xgb_dom_lr                  (301) || obs: STATIC
-river_plate:     xgb_dom_fn                  (301) || obs: STATIC
-
-
-malaga:          tcPercentile,mean,80 lr_dom (534) || obs: model_c2
-betis:           xgb_dom_lr    FN100         (494) || obs: STATIC
-villarreal:      xgb_dom_fn    FN100         (494) || obs: STATIC
-
-
-dubai:           tcPercentile,mean,80 lr_dom (534) || obs: model_c3
-rb_leipzig:      lr_dom_lr                   (288) || obs: STATIC
-rb_salzburg:     lr_dom_fn                   (288) || obs: STATIC
-
+barcelona:       tcPercentile,mean,80 xgb_dom    (534) || obs: model_c1
+espanyol:        minus barcelona                 (534) || obs: model_c1
+boca_jrs:        xgb_dom_lr                      (301) || obs: STATIC
+river_plate:     xgb_dom_fn                      (301) || obs: STATIC
+    
+    
+malaga:          tcPercentile,mean,80 lr_dom     (534) || obs: model_c2
+betis:           xgb_dom_lr    FN100             (494) || obs: STATIC
+villarreal:      xgb_dom_fn    FN100             (494) || obs: STATIC
+    
+    
+dubai:           tcPercentile,mean,80 lr_dom     (534) || obs: model_c3
+rb_leipzig:      lr_dom_lr                       (288) || obs: STATIC
+rb_salzburg:     lr_dom_fn                       (288) || obs: STATIC
+    
 
 
 
@@ -113,29 +113,29 @@ rb_salzburg:     lr_dom_fn                   (288) || obs: STATIC
 ===============================================================
 
 SWAP MAP
-
 (DYN)
-al_ittihad:      swap_map inf4/team_lr/inv_swap  (449) || obs:
-basel:           swap_map inf4/team_fn/inv_swap  (449) || obs:
 
-al_hilal:        swap_map dyn inv/ok/inv         (449) || obs:
-mazembe:         swap_map dyn ok/ok/inv          (449) || obs:
-al_ahly:         swap_map lr/lr/lr               (449) || obs:
-
-necaxa:          swap_map dyn factor/era fn/fn   (449) || obs:
-guadalajara:     swap_map inv lr & fn old style  (349) || obs:
-san_salvador:    swap_map dyn factor/era ok/ok   (449) || obs:
+san_salvador:    dyn factor/era ok/ok           (449) || obs: barcelona, (saigon, hanoi, al_ittihad, basel)
+al_hilal:        dyn inv/ok/inv                 (449) || obs: barcelona, (old style, guada vs cancun)
+mazembe:         dyn ok/ok/inv                  (449) || obs: minus (saigon, hanoi, al_ittihad, basel)
 
 
 ------------------------------------------
 
-(BASIC)
-cancun:          swap_map ok lr & fn old style   (449) || obs:
-hanoi:           swap_map swap *0,1 team fn      (349) || obs:
-saigon:          swap_map swap *0,1 team lr      (349) || obs:
-havana:          swap_map xgb_ones_inifinity     (281) || obs:
+(STATIC)
+al_ahly:         lr/lr/lr                       (449) || obs:
+necaxa:          fn/fn/fn                       (449) || obs:
 
+guadalajara:     inv lr & fn old style          (349) || obs:
+cancun:          ok  lr & fn old style          (449) || obs:
 
+saigon:          swap *0,1 team lr              (349) || obs:
+hanoi:           swap *0,1 team fn              (349) || obs:
+
+al_ittihad:      swap_inv *0,1 team lr          (449) || obs:
+basel:           swap_inv *0,1 team fn          (349) || obs:
+
+havana:          xgb_ones_inifinity             (281) || obs:
 
 ===============================================================
 
