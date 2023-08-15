@@ -2,13 +2,6 @@ Round 469 Daily:
 Data: 24/04/2023
 
 Notas:
-full keys(84):
-dyn: 41
-L0_vanilla: 7
-swap_map: 11
-L1: 12
-vegas: 10
-pick: 3
 
 
 ==========================================================================================
@@ -25,6 +18,7 @@ genoa:            tc,sortino,80 FN0.50           (534) || obs: aggE_c2
 st_petersburg:    tc,sortino,40                  (534) || obs: aggE_c3
 fiorentina:       tcPercentile,mean,40           (534) || obs: aggE_c4
 brussels:         tcPercentile_minus,40,mean     (534) || obs: aggE_c5
+stockholm:        tcPercentile_minus,80,mean     (550) || obs: aggE_c7
 
 lazio:            tcPercentile,mean,20           (534) || obs: aggE_c6
 
@@ -44,7 +38,7 @@ saint_tropez:    tc,sortino,80 FN0.50            (534) || obs: agg_c2
 
 
 oslo:            tcPercentile,mean,40            (534) || obs: agg_c3
-malmo:           tcPercentile_minus,40,mean      (534) || obs: agg_c4
+
 
 pumas:           fn/lr                           (419) || obs: STATIC
 atalanta:        fn/fn                           (419) || obs: STATIC
@@ -60,6 +54,7 @@ frankfurt:       tcPerc,sortino,80 FN0.50        (534) || obs: mod_c2
 istanbul:        tc,sortino,40                   (534) || obs: mod_c3
 tallinn:         tcPercentile,mean,40            (534) || obs: mod_c4
 vienna:          tcPercentile_minus,40,mean      (534) || obs: mod_c5
+malmo:           tcPercentile_minus,80,mean      (550) || obs: mod_c7
 
 esperance:       tcPercentile,mean,20            (534) || obs: mod_c6
 
@@ -81,9 +76,8 @@ zenit:           xgb_1_120,fn only               (349) || obs: STATIC
 cska:            xgb_1_120 lr only               (349) || obs: STATIC
 
 
-santiago:        lr/xgb_1_120 FN100              (449) || obs: TO_DO
-stockholm:       lr/fn                           (301) || obs: TO_DO
-molde:           reg_preds lr/xgb                (301) || obs: TO_DO
+santiago:        lr/xgb_1_120 FN100              (449) || obs: cons_c3
+
 
 
 
@@ -115,9 +109,9 @@ rb_salzburg:     lr_dom_fn                       (288) || obs: STATIC
 SWAP MAP
 (DYN)
 
-san_salvador:    dyn factor/era ok/ok           (449) || obs: swap_c1&c2
-al_hilal:        dyn inv/ok/inv                 (449) || obs: swap_c1&c3
-mazembe:         dyn ok/ok/inv                  (449) || obs: swap_c3&c4
+san_salvador:    dyn factor/era ok/ok           (550) || obs: swap_c1&c2
+al_hilal:        dyn inv/ok/inv                 (550) || obs: swap_c1&c3
+mazembe:         dyn ok/ok/inv                  (550) || obs: swap_c3&c4
 
 
 ------------------------------------------
