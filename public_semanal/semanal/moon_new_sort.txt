@@ -115,27 +115,27 @@ rb_salzburg:     lr_dom_fn                       (288) || obs: STATIC
 SWAP MAP
 (DYN)
 
-san_salvador:    dyn factor/era ok/ok           (449) || obs: barcelona, (saigon, hanoi, al_ittihad, basel)
-al_hilal:        dyn inv/ok/inv                 (449) || obs: barcelona, (old style, guada vs cancun)
-mazembe:         dyn ok/ok/inv                  (449) || obs: minus (saigon, hanoi, al_ittihad, basel)
+san_salvador:    dyn factor/era ok/ok           (449) || obs: swap_c1/c2 barcelona, (saigon, hanoi, al_ittihad, basel)
+al_hilal:        dyn inv/ok/inv                 (449) || obs: swap_c1/c3 dubai, (saigon, hanoi, al_ittihad, basel)
+mazembe:         dyn ok/ok/inv                  (449) || obs: swap_c1/c4 barcelona, (old style, guada vs cancun)
 
 
 ------------------------------------------
 
 (STATIC)
-al_ahly:         lr/lr/lr                       (449) || obs:
-necaxa:          fn/fn/fn                       (449) || obs:
+al_ahly:         lr/lr/lr                       (449) || obs: STATIC
+necaxa:          fn/fn/fn                       (449) || obs: STATIC
 
-guadalajara:     inv lr & fn old style          (349) || obs:
-cancun:          ok  lr & fn old style          (449) || obs:
+guadalajara:     inv lr & fn old style          (349) || obs: STATIC
+cancun:          ok  lr & fn old style          (449) || obs: STATIC
 
-saigon:          swap *0,1 team lr              (349) || obs:
-hanoi:           swap *0,1 team fn              (349) || obs:
+saigon:          swap *0,1 team lr              (349) || obs: STATIC
+hanoi:           swap *0,1 team fn              (349) || obs: STATIC
 
-al_ittihad:      swap_inv *0,1 team lr          (449) || obs:
-basel:           swap_inv *0,1 team fn          (349) || obs:
+al_ittihad:      swap_inv *0,1 team lr          (449) || obs: STATIC
+basel:           swap_inv *0,1 team fn          (349) || obs: STATIC
 
-havana:          xgb_ones_inifinity             (281) || obs:
+havana:          xgb_ones_inifinity             (281) || obs: STATIC
 
 ===============================================================
 
