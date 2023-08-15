@@ -115,9 +115,9 @@ rb_salzburg:     lr_dom_fn                       (288) || obs: STATIC
 SWAP MAP
 (DYN)
 
-san_salvador:    dyn factor/era ok/ok           (449) || obs: swap_c1/c2 barcelona, (saigon, hanoi, al_ittihad, basel)
-al_hilal:        dyn inv/ok/inv                 (449) || obs: swap_c1/c3 dubai, (saigon, hanoi, al_ittihad, basel)
-mazembe:         dyn ok/ok/inv                  (449) || obs: swap_c1/c4 barcelona, (old style, guada vs cancun)
+san_salvador:    dyn factor/era ok/ok           (449) || obs: swap_c1&c2
+al_hilal:        dyn inv/ok/inv                 (449) || obs: swap_c1&c3
+mazembe:         dyn ok/ok/inv                  (449) || obs: swap_c3&c4
 
 
 ------------------------------------------
