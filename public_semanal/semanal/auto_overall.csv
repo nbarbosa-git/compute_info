@@ -41,4 +41,4 @@ featSF_c1,tc,slope,20
 swap_c1,tc,ewm_mean,60
 swap_c2,tcPercentile,ewm_mean,80
 swap_c3,tcPercentile,ewm_mean,80
-swap_c4,tcPercentile,ewm_mean,80
+swap_c4,tc,ewm_mean,60
