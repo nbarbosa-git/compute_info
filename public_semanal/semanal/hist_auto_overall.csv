@@ -84,6 +84,7 @@ aggE_c3,payoutC1TC3,ewm_sharpe,40
 aggE_c4,tcPercentile,ewm_mean,40
 aggE_c5,tcPercentile_minus,ewm_mean,40
 aggE_c6,tcPercentile,mean,20
+aggE_c7,tcPercentile_minus,ewm_mean,80
 agg_c1,tcPercentile,ewm_mean,80
 agg_c2,payoutC1TC3,ewm_sharpe,80
 agg_c3,tcPercentile,ewm_mean,40
@@ -94,8 +95,10 @@ mod_c3,tc,ewm_sharpe,40
 mod_c4,tcPercentile,ewm_mean,40
 mod_c5,tcPercentile_minus,ewm_mean,40
 mod_c6,tcPercentile,mean,20
+mod_c7,tcPercentile_minus,ewm_mean,80
 cons_c1,tcPercentile,ewm_mean,80
 cons_c2,tc,ewm_sharpe,80
+cons_c3,payoutC1TC3,ewm_sortino,80
 model_c1,tcPercentile,ewm_mean,80
 model_c2,tcPercentile,ewm_mean,80
 model_c3,tcPercentile,ewm_mean,80
@@ -114,6 +117,9 @@ feat_c2,tc,ewm_sortino,40
 short_c1,tc_minus,ewm_mean,40
 short_c2,tc_minus,mean,20
 featSF_c1,tc,slope,20
-swap_c1,tc_minus,mean,20
+swap_c1,tc,ewm_mean,60
+swap_c2,tcPercentile,ewm_mean,80
+swap_c3,tcPercentile,ewm_mean,80
+swap_c4,tc,ewm_mean,60
 
 
